@@ -15,7 +15,7 @@
   <h1 align="center">MSc internship repository - Tomer Sardjoe</h1>
 
   <p align="center">
-    <i>Guanidine as the sole nitrogen source enables growth in _Alphaproteobacteria_ </i>
+    <i>Guanidine as the sole nitrogen source enables growth in Alphaproteobacteria </i>
     <br />
     <a href=""><strong>Read the manuscript » (pending publication)</strong></a>
     <br />
