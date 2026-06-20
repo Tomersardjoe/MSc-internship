@@ -1,0 +1,1138 @@
+IQ-TREE multicore version 2.2.0 COVID-edition for Linux 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    LAPTOP-48ARFRIL (AVX2, FMA3, 6 GB RAM)
+Command: iqtree2 -s ribo_tree.faa -m LG+R9 -bb 1000 -alrt 1000 -nt 12
+Seed:    742315 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jun 11 11:53:55 2026
+Kernel:  AVX+FMA - 12 threads (12 CPU cores detected)
+
+Reading alignment file ribo_tree.faa ... Fasta format detected
+Reading fasta file: done in 0.00727627 secs using 52.84% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0156381 secs using 687.4% CPU
+WARNING: 114 sites contain only gaps or ambiguous characters.
+Alignment has 245 sequences with 2596 columns, 2383 distinct patterns
+1959 parsimony-informative, 260 singleton sites, 377 constant sites
+                                                                                                                                                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00811126 secs using 1187% CPU
+   1  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomonadales_Hyphomonadaceae_Hirschia_Hirschia_baltica_ATCC_49814                                   12.90%    passed     98.36%
+   2  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomonadales_Hyphomonadaceae_Henriciella_Henriciella_marina_DSM_19595                               12.48%    passed     99.98%
+   3  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomonadales_Hyphomonadaceae_Hyphomonas_Hyphomonas_neptunium_ATCC_15444                             12.48%    passed     99.50%
+   4  Bacteria_Pseudomonadota_Alphaproteobacteria_Maricaulales_Maricaulaceae_Maricaulis_Maricaulis_maris_MCS10                                          12.44%    passed     92.83%
+   5  Bacteria_Pseudomonadota_Alphaproteobacteria_Maricaulales_Maricaulaceae_Oceanicaulis_Oceanicaulis_sp._HTCC2633                                     12.40%    passed     77.88%
+   6  Bacteria_Pseudomonadota_Alphaproteobacteria_Maricaulales_Maricaulaceae_Woodsholea_Woodsholea_maritima_DSM_17123                                   12.48%    passed     88.70%
+   7  Bacteria_Pseudomonadota_Alphaproteobacteria_Maricaulales_Robiginitomaculaceae_Hellea_Hellea_balneolensis_DSM_19091                                12.71%    passed     87.20%
+   8  Bacteria_Pseudomonadota_Alphaproteobacteria_Maricaulales_Robiginitomaculaceae_Robiginitomaculum_Robiginitomaculum_antarcticum_DSM_21748           12.48%    passed     68.59%
+   9  Bacteria_Pseudomonadota_Alphaproteobacteria_Parvularculales_Parvularculaceae_Parvularcula_Parvularcula_bermudensis_HTCC2503                       11.94%    passed     93.69%
+  10  Bacteria_Pseudomonadota_Alphaproteobacteria_Caulobacterales_Caulobacteraceae_Brevundimonas_Brevundimonas_subvibrioides_ATCC_15264                 12.60%    passed     99.13%
+  11  Bacteria_Pseudomonadota_Alphaproteobacteria_Caulobacterales_Caulobacteraceae_Caulobacter_Caulobacter_segnis_ATCC_21756                            12.44%    passed     97.57%
+  12  Bacteria_Pseudomonadota_Alphaproteobacteria_Caulobacterales_Caulobacteraceae_Phenylobacterium_Phenylobacterium_zucineum_HLK1                      11.75%    passed     99.67%
+  13  Bacteria_Pseudomonadota_Alphaproteobacteria_Caulobacterales_Caulobacteraceae_Asticcacaulis_Asticcacaulis_excentricus_CB_48                        12.67%    passed     97.73%
+  14  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Devosiaceae_Cucumibacter_Cucumibacter_marinus_DSM_18995                              12.71%    passed     98.95%
+  15  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Devosiaceae_Maritalea_Maritalea_myrionectae_DSM_19524                                12.83%    passed     92.58%
+  16  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Devosiaceae_Pelagibacterium_Pelagibacterium_halotolerans_B2                          12.52%    passed     99.57%
+  17  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Devosiaceae_Devosia_Devosia_sp._17-2-E-8                                             13.25%    passed     76.71%
+  18  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Pleomorphomonadaceae_Pleomorphomonas_Pleomorphomonas_oryzae_DSM_16300                12.67%    passed     91.67%
+  19  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Kaistiaceae_Bauldia_Bauldia_litoralis                                                13.06%    passed     99.95%
+  20  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Kaistiaceae_Kaistia_Kaistia_adipata_DSM_17808                                        12.79%    passed     99.96%
+  21  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Amorphaceae_Amorphus_Amorphus_coralli_DSM_19760                                      12.56%    passed     94.01%
+  22  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Tepidamorphaceae_Lutibaculum_Lutibaculum_baratangense_AMV1                           12.98%    passed     91.22%
+  23  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Afifellaceae_Afifella_Afifella_pfennigii_DSM_17143                                   12.79%    passed     90.81%
+  24  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Pseudovibrio_Pseudovibrio_exalbescens_DSM_16456                          12.67%    passed     96.65%
+  25  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Pseudovibrio_Pseudovibrio_sp._FO-BEG1                                    13.41%    passed     99.90%
+  26  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Stappia_Stappia_stellulata_DSM_5886                                      12.71%    passed     98.13%
+  27  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Pannonibacter_Pannonibacter_phragmitetus_DSM_14782                       12.75%    passed     98.87%
+  28  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_sp._TrichSKD4                                        12.63%    passed     99.25%
+  29  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_aggregatum_IAM_12614                                 30.62%    passed     84.39%
+  30  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._CP4                                              29.35%    passed     93.21%
+  31  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_aggregatum                                           29.35%    passed     93.21%
+  32  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF191b                                         29.74%    passed     92.41%
+  33  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF191a                                         29.74%    passed     92.41%
+  34  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF187b                                         29.74%    passed     92.41%
+  35  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF35                                           29.74%    passed     90.94%
+  36  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_album                                                29.35%    passed     95.79%
+  37  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF82                                           29.39%    passed     98.86%
+  38  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_algicola                                             30.66%    passed     99.60%
+  39  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_sp._R5                                               30.93%    passed     99.84%
+  40  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._VG12                                             33.20%    passed     98.93%
+  41  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_marinum_DSM_17023                                    26.66%    passed     99.04%
+  42  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_sp._JB4-4                                            23.61%    passed     99.64%
+  43  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Breoghania_Breoghania_sp._L-A4                                           30.55%    passed     99.62%
+  44  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Pleomorphomonadaceae_Hartmannibacter_Hartmannibacter_diazotrophicus                  29.35%    passed     81.46%
+  45  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Chelativorans_Chelativorans_sp._ZYF759                            12.83%    passed     99.98%
+  46  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Nitratireductor_Nitratireductor_aquibiodomus_NL21_JCM_21793       12.83%    passed     99.92%
+  47  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Aliihoeflea_Aliihoeflea_sp._2WW                                   13.25%    passed     99.93%
+  48  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_australicum_WSM2073                   12.90%    passed     99.44%
+  49  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Aminobacter_Aminobacter_sp._Y103A                                 12.83%    passed     99.86%
+  50  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Pseudaminobacter_Pseudaminobacter_salicylatoxidans_KCT001         12.87%    passed    100.00%
+  51  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Aquamicrobium_Aquamicrobium_defluvii_W13Z1                        12.94%    passed     99.97%
+  52  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Phyllobacterium_Phyllobacterium_sp._YR620                         12.75%    passed     99.90%
+  53  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Brucellaceae_Brucella_Brucella_abortus_A13334                                        13.98%    passed     99.62%
+  54  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Brucellaceae_Brucella_Brucella_anthropi_ATCC_49188                                   12.71%    passed     99.70%
+  55  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Brucellaceae_Pseudochrobactrum_Pseudochrobactrum_sp._XF203                           12.79%    passed     99.95%
+  56  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Hoeflea_Hoeflea_phototrophica_DFL-43                                    13.91%    passed     99.21%
+  57  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Aurantimonadaceae_Martelella_Martelella_mediterranea_DSM_17316                       12.67%    passed     99.71%
+  58  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Rhizobium_Rhizobium_leguminosarum_bv._trifolii_CB782                    12.60%    passed     99.99%
+  59  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Neorhizobium_Neorhizobium_galegae                                       12.67%    passed     99.99%
+  60  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Ensifer_Ensifer_adhaerens_OV14                                          18.10%    passed     99.89%
+  61  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Ensifer_meliloti_WSM1022                                  12.63%    passed     99.98%
+  62  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Shinella_Shinella_sp._DD12                                              12.67%    passed     99.93%
+  63  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Bartonellaceae_Bartonella_Bartonella_clarridgeiae_73                                 12.75%    passed     13.42%
+  64  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Aurantimonadaceae_Fulvimarina_Fulvimarinana_pelagi_HTCC2506                          12.71%    passed     99.37%
+  65  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Aurantimonadaceae_Aurantimonas_Aurantimonas_manganoxydans_SI85-9A1                   12.79%    passed     99.68%
+  66  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Aurantimonadaceae_Aureimonas_Aureimonas_ureilytica_DSM_18598_NBRC_106430             13.25%    passed     99.99%
+  67  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_NGR234                               30.12%    passed     84.69%
+  68  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_CCBAU_25509                          30.12%    passed     80.83%
+  69  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_SMH12                                30.12%    passed     80.83%
+  70  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_CCBAU_83666                                 30.08%    passed     79.29%
+  71  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_alkalisoli_YIC4027                          30.08%    passed     82.90%
+  72  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_NXT3                                 27.73%    passed     46.29%
+  73  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_numidicum_CIP_109850                        27.73%    passed     58.84%
+  74  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_GR64                                 33.63%    passed     32.77%
+  75  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_numidicum_LMG_27395                         29.12%    passed     84.77%
+  76  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Georhizobium_Georhizobium_profundi                                      28.54%    passed     86.35%
+  77  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Georhizobium_Georhizobium_sp._MAB10                                     28.54%    passed     84.88%
+  78  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._AA22                              27.73%    passed     72.00%
+  79  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_onobrychidis                          27.73%    passed     69.67%
+  80  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_mediterraneum                         27.73%    passed     71.16%
+  81  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._WSM4842                           27.73%    passed     68.44%
+  82  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._WSM4821                           27.73%    passed     71.62%
+  83  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._AR10                              27.73%    passed     53.61%
+  84  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._M1E.F.Ca.ET.045.02.1.1            27.70%    passed     82.11%
+  85  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._WSM4904                           27.70%    passed     82.85%
+  86  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._WSM4906                           27.70%    passed     82.98%
+  87  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_muleiense                             28.62%    passed     84.69%
+  88  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_amorphae_CCNWGS0123                   29.35%    passed     90.65%
+  89  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._M9A.F.Ca.ET.002.03.1.2            26.93%    passed     78.42%
+  90  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Ensifer_Ensifer_aridi                                                   31.90%    passed     86.36%
+  91  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Lentilitoribacter_Lentilitoribacter_sp._JB5-8                           29.35%    passed     67.51%
+  92  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Ahrensiaceae_Oceaniradius_Oceaniradius_stylonematis                                  30.08%    passed     97.21%
+  93  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Ahrensiaceae_Ahrensia_Ahrensia_sp._13_GOM-1096m                                      12.87%    passed     97.80%
+  94  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_japonicum_SEMIA_5079                  13.64%    passed     99.99%
+  95  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Rhodopseudomonas_Rhodopseudomonas_palustris_BisB18                  12.75%    passed     98.98%
+  96  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Nitrobacter_Nitrobacter_hamburgensis_X14                            12.71%    passed     97.63%
+  97  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Afipia_Afipia_carboxidovorans_OM5                                   12.75%    passed     98.54%
+  98  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Afipia_Afipia_sp._TerB                                              12.71%    passed     98.80%
+  99  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_sp._BTAi1                             28.74%    passed     93.32%
+ 100  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_sp._ORS_278                           28.74%    passed     95.70%
+ 101  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_oligotrophicum                        28.74%    passed     92.78%
+ 102  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_sp._ORS_285                           29.82%    passed     99.24%
+ 103  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_ontarionense                          32.32%    passed     99.01%
+ 104  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Rhodovulum_Rhodovulum_sp._PH10                                          12.83%    passed     81.68%
+ 105  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Salinarimonadaceae_Salinarimonas_Salinarimonas_rosea_DSM_21201                       12.63%    passed     98.76%
+ 106  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylobacteriaceae_Methylorubrum_Methylorubrum_extorquens_PA1                       12.79%    passed     95.45%
+ 107  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylobacteriaceae_Microvirga_Microvirga_sp._VF16                                   12.63%    passed     99.84%
+ 108  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Chelatococcaceae_Chelatococcus_Chelatococcus_sp._YT9                                 12.21%    passed     99.16%
+ 109  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Beijerinckiaceae_Methyloferula_Methyloferula_stellata_AR4                            12.56%    passed     93.53%
+ 110  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Beijerinckiaceae_Beijerinckia_Beijerinckia_indica_subsp._indica_ATCC_9039            12.60%    passed     94.12%
+ 111  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Beijerinckiaceae_Methylocella_Methylocella_silvestris_BL2                            12.48%    passed     98.91%
+ 112  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Beijerinckiaceae_Methylocapsa_Methylocapsa_acidiphila_B2                             12.67%    passed     96.96%
+ 113  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylocystaceae_Methylosinus_Methylosinus_trichosporium_OB3b                        12.60%    passed     71.98%
+ 114  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylocystaceae_Methylocystis_Methylocystis_sp._WRRC1                               12.25%    passed     88.02%
+ 115  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Xanthobacteraceae_Ancylobacter_Ancylobacter_novellus_DSM_506                         12.79%    passed     87.08%
+ 116  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Xanthobacteraceae_Ancylobacter_Ancylobacter_novellus                                 28.51%    passed     89.52%
+ 117  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Xanthobacteraceae_Ancylobacter_Ancylobacter_sp._WKF20                                23.92%    passed     55.14%
+ 118  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Xanthobacteraceae_Azorhizobium_Azorhizobium_caulinodans_ORS_571                      12.06%    passed     98.76%
+ 119  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Xanthobacteraceae_Starkeya_Starkeya_sp._ORNL1                                        27.43%    passed     26.16%
+ 120  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylopilaceae_Methylopila_Methylopila_sp._Yamaguchi                                12.79%    passed     98.07%
+ 121  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylopilaceae_Chenggangzhangella_Chenggangzhangella_methanolivorans                34.98%    passed     97.24%
+ 122  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Hyphomicrobiaceae_Rhodomicrobium_Rhodomicrobium_vannielii_ATCC_17100                 12.33%    passed     99.98%
+ 123  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Parvibaculaceae_Parvibaculum_Parvibaculum_lavamentivorans_DS-1                       12.75%    passed     96.66%
+ 124  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Hyphomicrobiaceae_Hyphomicrobium_Hyphomicrobium_nitrativorans_NL23                   23.38%    passed     81.40%
+ 125  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Oceanibaculaceae_Oceanibaculum_Oceanibaculum_indicum_P24                             12.79%    passed     96.76%
+ 126  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassobaculaceae_Thalassobaculum_Thalassobaculum_salexigens_DSM_19539              12.90%    passed     95.90%
+ 127  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassobaculaceae_Nisaea_Nisaea_denitrificans_DSM_18348                             12.83%    passed     99.89%
+ 128  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Novispirillaceae_Novispirillum_Novispirillum_itersonii_subsp._itersonii              12.60%    passed     98.51%
+ 129  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Rhodospirillaceae_Rhodospirillum_Rhodospirillum_rubrum                               13.21%    passed     99.69%
+ 130  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Novispirillaceae_Caenispirillum_Caenispirillum_salinarum_AK4                         14.06%    passed     95.98%
+ 131  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Magnetospirillaceae_Paramagnetospirillum_Paramagnetospirillum_magneticum_AMB_1       12.75%    passed     99.70%
+ 132  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Azospirillaceae_Skermanella_Skermanella_stibiiresistens_SB22                         12.79%    passed     98.17%
+ 133  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Azospirillaceae_Nitrospirillum_Nitrospirillum_viridazoti_CBAmc                       13.14%    passed     98.97%
+ 134  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Azospirillaceae_Niveispirillum_Niveispirillum_irakense_DSM_11586                     12.79%    passed     99.74%
+ 135  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Rhodospirillaceae_Inquilinus_Inquilinus_limosus_DSM_16000                            12.75%    passed     88.38%
+ 136  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Dongiaceae_Dongia_Dongia_sp._URHE0060                                                12.63%    passed     99.24%
+ 137  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Rhodovibrionaceae_Fodinicurvata_Fodinicurvata_sediminis_DSM_21159                    12.79%    passed     45.64%
+ 138  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Kiloniellaceae_Kiloniella_Kiloniella_laminariae_DSM_19542                            12.48%    passed     97.64%
+ 139  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_profundimaris_WP0211                   12.83%    passed     86.35%
+ 140  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_lohafexi                               28.12%    passed     68.55%
+ 141  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_xiamenensis                            30.01%    passed     68.27%
+ 142  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_sp._B30-1                              30.01%    passed     68.27%
+ 143  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_lucentensis                            26.73%    passed     84.79%
+ 144  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_sp._SN3W                               26.69%    passed     75.75%
+ 145  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Terasakiellaceae_Terasakiella_Terasakiella_pusilla_DSM_6293                          12.79%    passed     99.97%
+ 146  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Rhodospirillaceae_Denitrobaculum_Denitrobaculum_tricleocarpae                        30.08%    passed     93.12%
+ 147  Bacteria_Pseudomonadota_Alphaproteobacteria_Geminicoccales_Geminicoccaceae_Tistrella_Tistrella_mobilis_KA081020-065                               13.17%    passed     35.29%
+ 148  Bacteria_Pseudomonadota_Alphaproteobacteria_Sneathiellales_Sneathiellaceae_Sneathiella_Sneathiella_glossodoripedis_JCM_23214                      19.38%    passed     96.78%
+ 149  Bacteria_Pseudomonadota_Alphaproteobacteria_Kordiimonadales_Kordiimonadaceae_Kordiimonas_Kordiimonas_gwangyangensis                               12.67%    passed     99.86%
+ 150  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Reyranellaceae_Reyranella_Reyranella_massiliensis_521                                12.60%    passed     94.10%
+ 151  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Elioraeaceae_Elioraea_Elioraea_tepidiphila_DSM_17972                                  12.75%    passed     22.19%
+ 152  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Roseomonadaceae_Rubritepida_Rubritepida_flocculans_DSM_14296                          12.48%    passed     35.38%
+ 153  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Roseomonadaceae_Belnapia_Belnapia_moabensis_DSM_16746                                 12.52%    passed     57.36%
+ 154  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Roseomonadaceae_Roseomonas_Roseomonas_mucosa_ATCC_BAA-692                             12.48%    passed     91.62%
+ 155  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acidocellaceae_Acidiphilium_Acidiphilium_multivorum_AIU301                            13.29%    passed     83.55%
+ 156  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acidocellaceae_Acidocella_Acidocella_facilis_ATCC_35904                               12.75%    passed     96.96%
+ 157  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Commensalibacter_Commensalibacter_papalotli                          12.87%    passed     95.70%
+ 158  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Saccharibacter_Saccharibacter_floricola_DSM_15669                    12.75%    passed     88.66%
+ 159  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Gluconobacter_Gluconobacter_oxydans_621H                             12.87%    passed     85.25%
+ 160  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Kozakia_Kozakia_baliensis_NRIC_0488                                  12.83%    passed     83.79%
+ 161  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Asaia_Asaia_platycodi_JCM_25414                                      21.46%    passed     63.10%
+ 162  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Gluconacetobacter_Gluconacetobacter_diazotrophicus_PA1_5             12.87%    passed     72.67%
+ 163  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Komagataeibacter_Komagataeibacter_medellinensis_NBRC_3288            12.87%    passed     74.13%
+ 164  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Acetobacter_Acetobacter_pasteurianus_386B                            12.83%    passed     96.48%
+ 165  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Granulibacter_Granulibacter_bethesdensis_CGDNIH1                     12.94%    passed     48.73%
+ 166  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Rhodovibrionaceae_Rhodovibrio_Rhodovibrio_salinarum_DSM_9154                         12.60%    passed     17.04%
+ 167  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Sandarakinorhabdus_Sandarakinorhabdus_sp._DWP1-3-1                 12.37%    passed     90.08%
+ 168  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Zymomonas_Zymomonas_mobilis_subsp._mobilis_str._CP4_NRRL_B-14023   11.67%    passed     83.69%
+ 169  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Rhizorhabdaceae_Rhizorhabdus_Rhizorhabdus_wittichii_RW1                              16.14%    passed     76.05%
+ 170  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Blastomonas_Blastomonas_sp._UPD001                                 12.48%    passed     86.63%
+ 171  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Novosphingobium_Novosphingobium_sp._ZW_T3_23                       12.87%    passed     93.55%
+ 172  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Citromicrobium_Citromicrobium_sp._JLT1363                          13.06%    passed     98.53%
+ 173  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Erythrobacteraceae_Erythrobacter_Erythrobacter_litoralis_HTCC2594                    12.67%    passed     92.85%
+ 174  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Erythrobacteraceae_Altererythrobacter_Altererythrobacter_ishigakiensis               12.71%    passed     89.77%
+ 175  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Erythrobacteraceae_Porphyrobacter_Porphyrobacter_sp._YT40                            12.79%    passed     63.82%
+ 176  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Sphingobium_Sphingobium_indicum_UT26S                              12.56%    passed     47.53%
+ 177  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingopyxidaceae_Sphingopyxis_Sphingopyxis_alaskensis_RB2256                        12.52%    passed     75.68%
+ 178  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Novosphingobium_Novosphingobium_indicum                            28.43%    passed     97.86%
+ 179  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Neomegalonemataceae_Neomegalonema_Neomegalonema_perideroedes_DSM_15528                12.79%    passed     51.52%
+ 180  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Pseudorhodobacter_Pseudorhodobacter_ferrugineus_DSM_5888                12.67%    passed     66.01%
+ 181  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Rhodobacter_Rhodobacter_capsulatus_SB_1003                              12.75%    passed     96.65%
+ 182  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Thioclava_Thioclava_pacifica_DSM_10166                                  12.67%    passed     99.74%
+ 183  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Haematobacter_Haematobacter_missouriensis                               12.71%    passed     99.96%
+ 184  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Paracoccus_Paracoccus_denitrificans_PD1222                              12.48%    passed     99.99%
+ 185  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Gemmobacter_Gemmobacter_nectariphilus_DSM_15620                         12.48%    passed     99.48%
+ 186  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Oceaniovalibus_Oceaniovalibus_guishaninsula_JLT2003                  12.71%    passed     95.47%
+ 187  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseobacteraceae_Palleronia_rufa_MOLA_401                            12.56%    passed     91.76%
+ 188  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Dinoroseobacter_Dinoroseobacter_shibae_DFL_12_DSM_16493              12.44%    passed     98.11%
+ 189  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Maritimibacter_Maritimibacter_sp._HL-12                                 12.52%    passed     96.70%
+ 190  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseobacter_Roseobacter_litoralis_Och_149                            12.48%    passed     92.62%
+ 191  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Sulfitobacter_Sulfitobacter_sp._NAS-14.1                                12.44%    passed     93.64%
+ 192  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Sulfitobacter_Sulfitobacter_indolifex_HEL-45                         12.37%    passed     82.83%
+ 193  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Sedimentitalea_Sedimentitalea_sp._XS_ASV28                              12.48%    passed     97.06%
+ 194  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Phaeobacter_Phaeobacter_inhibens_2.10                                12.40%    passed     96.04%
+ 195  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Pseudodonghicola_Pseudodonghicola_xiamenensis_DSM_18339                 12.56%    passed     99.96%
+ 196  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Ruegeria_Ruegeria_pomeroyi_DSS-3                                     12.63%    passed     98.73%
+ 197  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Nereida_Nereida_ignava_DSM_16309                                     12.52%    passed     96.73%
+ 198  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Sediminimonas_Sediminimonas_qiaohouensis_DSM_21189                   12.60%    passed     97.24%
+ 199  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Actibacterium_Actibacterium_mucosum_KCTC_23349                       20.15%    passed     93.16%
+ 200  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Litoreibacter_Litoreibacter_arenae_DSM_19593                         12.52%    passed     97.35%
+ 201  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Albidovulum_Defluviimonas_sp._20V17                                     12.60%    passed     97.17%
+ 202  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Wenxinia_Wenxinia_marina_DSM_24838                                   12.56%    passed     99.06%
+ 203  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Oceanicola_Oceanicola_granulosus_HTCC2516                            12.40%    passed     98.52%
+ 204  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Celeribacter_Celeribacter_sp._ULVN23_4                                  13.10%    passed     99.75%
+ 205  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Salipiger_Salipiger_mucosus_DSM_16094                                   12.56%    passed     98.65%
+ 206  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Citreicella_Citreicella_sp._SE45                                        12.60%    passed     99.85%
+ 207  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Salipiger_Salipiger_bermudensis_HTCC2601                             14.45%    passed     98.52%
+ 208  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Roseobacter_Thalassiobium_sp._R2A62                                     12.56%    passed     95.92%
+ 209  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Octadecabacter_Octadecabacter_arcticus_238                           12.56%    passed     92.59%
+ 210  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Jannaschia_Jannaschia_CCS1                                              12.56%    passed     92.63%
+ 211  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Yoonia_Yoonia_vestfoldensis_SKA53                                       16.18%    passed     87.67%
+ 212  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Planktomarina_Planktomarina_temperata_RCA23                             13.60%    passed     98.97%
+ 213  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Ketogulonicigenium_Ketogulonicigenium_vulgare_WSH-001                16.56%    passed     99.39%
+ 214  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Rubellimicrobium_Rubellimicrobium_thermophilum_DSM_16684             12.48%    passed     63.04%
+ 215  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Sagittula_Sagittula_stellata_E-37                                       21.34%    passed     85.97%
+ 216  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Sagittula_Sagittula_stellata_E-37                                    21.34%    passed     85.97%
+ 217  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Tateyamaria_Tateyamaria_omphalii                                     29.55%    passed     66.48%
+ 218  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Tateyamaria_Tateyamaria_pelophila_DSM_17270                             29.55%    passed     88.35%
+ 219  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseobacter_Roseobacter_ponti                                        30.55%    passed     73.01%
+ 220  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseobacter_Roseobacter_sp._A03A-229                                 23.81%    passed     87.28%
+ 221  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Litoreibacter_Litoreibacter_meonggei_DSM_29466                          29.01%    passed     73.10%
+ 222  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseivivax_Roseivivax_sp._THAF197b                                   30.12%    passed     94.41%
+ 223  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseivivax_Roseivivax_sp._THAF40                                     30.12%    passed     94.41%
+ 224  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Limimaricola_Limimaricola_variabilis                                    29.04%    passed     99.43%
+ 225  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Yoonia_Yoonia_rhodophyticola                                            29.01%    passed     84.62%
+ 226  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Yoonia_Yoonia_phaeophyticola                                            27.66%    passed     97.48%
+ 227  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Pseudooceanicola_Pseudooceanicola_algae                                 26.77%    passed     86.10%
+ 228  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Marinibacterium_Marinibacterium_sp._SX1                                 31.47%    passed     64.46%
+ 229  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Mameliella_Mameliella_sp.                                            38.94%    passed     80.65%
+ 230  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Algicella_Algicella_marina                                              29.20%    passed     90.76%
+ 231  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Thioclava_Thioclava_electrotropha_Elox9                                 26.08%    passed     85.30%
+ 232  Bacteria_Pseudomonadota_Alphaproteobacteria_Geminicoccales_Geminicoccaceae_Geminicoccus_Geminicoccus_roseus_DSM_18922                             12.75%    passed     51.33%
+ 233  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Magnetospira_Magnetospira_sp._QH-2                                 26.58%    passed     87.65%
+ 234  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Amorphaceae_Acuticoccus_Acuticoccus_sp._I52.16.1                                     35.40%    passed     99.95%
+ 235  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Pararhizobium_Pararhizobium_sp._IMCC21322                               29.43%    passed     99.97%
+ 236  Bacteria_Pseudomonadota_Alphaproteobacteria_Minwuiales_Minwuiaceae_Minwuia_Minwuia_sp._IMCC3009                                                   25.81%    passed     14.63%
+ 237  Bacteria_Pseudomonadota_Alphaproteobacteria_Minwuiales_Minwuiaceae_Minwuia_Minwuia_sp._IMCC3060                                                   25.81%    passed     14.63%
+ 238  Bacteria_Pseudomonadota_Alphaproteobacteria_Magnetococcales_Magnetococcaceae_Magnetococcus_Magnetococcus_marinus_MC-1                             13.06%    passed     41.19%
+ 239  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Rickettsiaceae_Orientia_Orientia_tsutsugamushi_str._Boryong                             12.56%    failed      0.00%
+ 240  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Rickettsiaceae_Rickettsia_Rickettsia_conorii_str._Malish_7                              13.64%    failed      0.00%
+ 241  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Anaplasmataceae_Wolbachia_Wolbachia_endosymbiont_of_Drosophila_melanogaster             13.71%    failed      0.00%
+ 242  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Anaplasmataceae_Anaplasma_Anaplasma_marginale_str._St._Maries                           14.02%    failed      0.00%
+ 243  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Anaplasmataceae_Ehrlichia_Ehrlichia_chaffeensis_Osceola                                 28.31%    failed      0.00%
+ 244  Bacteria_Pseudomonadota_Alphaproteobacteria_Holosporales_Holosporaceae_Holospora_Holospora_undulata_HU1                                           12.94%    failed      0.00%
+ 245  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Anaplasmataceae_Neorickettsia_Neorickettsia_sennetsu_Miyayama                           15.52%    failed      0.00%
+****  TOTAL                                                                                                                                             18.31%  7 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_aggregatum is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._CP4 but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF191a is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF191b but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_SMH12 is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_CCBAU_25509 but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_sp._B30-1 is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_xiamenensis but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Sagittula_Sagittula_stellata_E-37 is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Sagittula_Sagittula_stellata_E-37 but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseivivax_Roseivivax_sp._THAF40 is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseivivax_Roseivivax_sp._THAF197b but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Minwuiales_Minwuiaceae_Minwuia_Minwuia_sp._IMCC3060 is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Minwuiales_Minwuiaceae_Minwuia_Minwuia_sp._IMCC3009 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00218572 secs using 1078% CPU
+Identifying sites to remove: done in 0.0104684 secs using 879.1% CPU
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF187b (identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF191b) is ignored but added at the end
+Alignment was printed to ribo_tree.faa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to ribo_tree.faa.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.272 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 742315)...
+
+NOTE: 824 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -287634.359
+2. Current log-likelihood: -284570.936
+3. Current log-likelihood: -284502.932
+4. Current log-likelihood: -284487.591
+5. Current log-likelihood: -284480.379
+6. Current log-likelihood: -284474.358
+7. Current log-likelihood: -284468.861
+8. Current log-likelihood: -284463.663
+9. Current log-likelihood: -284458.402
+10. Current log-likelihood: -284453.246
+11. Current log-likelihood: -284448.716
+12. Current log-likelihood: -284445.115
+13. Current log-likelihood: -284442.128
+14. Current log-likelihood: -284439.725
+15. Current log-likelihood: -284437.666
+16. Current log-likelihood: -284435.794
+17. Current log-likelihood: -284434.045
+18. Current log-likelihood: -284432.397
+19. Current log-likelihood: -284430.841
+20. Current log-likelihood: -284429.381
+21. Current log-likelihood: -284427.990
+22. Current log-likelihood: -284426.671
+23. Current log-likelihood: -284425.424
+24. Current log-likelihood: -284424.251
+25. Current log-likelihood: -284423.157
+26. Current log-likelihood: -284422.115
+27. Current log-likelihood: -284421.122
+28. Current log-likelihood: -284420.189
+29. Current log-likelihood: -284419.310
+30. Current log-likelihood: -284418.461
+31. Current log-likelihood: -284417.667
+32. Current log-likelihood: -284416.913
+33. Current log-likelihood: -284416.193
+34. Current log-likelihood: -284415.513
+35. Current log-likelihood: -284414.861
+36. Current log-likelihood: -284414.238
+37. Current log-likelihood: -284413.646
+38. Current log-likelihood: -284413.079
+39. Current log-likelihood: -284412.539
+40. Current log-likelihood: -284412.158
+41. Current log-likelihood: -284411.786
+42. Current log-likelihood: -284411.417
+43. Current log-likelihood: -284411.056
+44. Current log-likelihood: -284410.716
+45. Current log-likelihood: -284410.381
+46. Current log-likelihood: -284410.053
+47. Current log-likelihood: -284409.734
+48. Current log-likelihood: -284409.430
+49. Current log-likelihood: -284409.255
+50. Current log-likelihood: -284408.972
+51. Current log-likelihood: -284408.792
+52. Current log-likelihood: -284408.510
+53. Current log-likelihood: -284408.340
+54. Current log-likelihood: -284408.190
+55. Current log-likelihood: -284408.040
+56. Current log-likelihood: -284407.890
+57. Current log-likelihood: -284407.725
+58. Current log-likelihood: -284407.566
+59. Current log-likelihood: -284407.425
+60. Current log-likelihood: -284407.266
+61. Current log-likelihood: -284407.115
+62. Current log-likelihood: -284406.970
+63. Current log-likelihood: -284406.829
+64. Current log-likelihood: -284406.693
+65. Current log-likelihood: -284406.537
+66. Current log-likelihood: -284406.383
+67. Current log-likelihood: -284406.248
+68. Current log-likelihood: -284406.103
+69. Current log-likelihood: -284405.957
+70. Current log-likelihood: -284405.803
+71. Current log-likelihood: -284405.649
+72. Current log-likelihood: -284405.506
+73. Current log-likelihood: -284405.357
+74. Current log-likelihood: -284405.187
+75. Current log-likelihood: -284405.025
+76. Current log-likelihood: -284404.869
+77. Current log-likelihood: -284404.684
+78. Current log-likelihood: -284404.498
+79. Current log-likelihood: -284404.314
+80. Current log-likelihood: -284404.110
+81. Current log-likelihood: -284403.913
+82. Current log-likelihood: -284403.705
+83. Current log-likelihood: -284403.485
+84. Current log-likelihood: -284403.246
+85. Current log-likelihood: -284403.008
+86. Current log-likelihood: -284402.777
+87. Current log-likelihood: -284402.530
+88. Current log-likelihood: -284402.295
+89. Current log-likelihood: -284402.062
+90. Current log-likelihood: -284401.852
+91. Current log-likelihood: -284401.651
+92. Current log-likelihood: -284401.453
+93. Current log-likelihood: -284401.266
+94. Current log-likelihood: -284401.080
+95. Current log-likelihood: -284400.895
+96. Current log-likelihood: -284400.731
+97. Current log-likelihood: -284400.558
+98. Current log-likelihood: -284400.374
+99. Current log-likelihood: -284400.207
+Optimal log-likelihood: -284400.207
+Site proportion and rates:  (0.188,0.037) (0.134,0.173) (0.147,0.394) (0.096,0.695) (0.129,0.980) (0.129,1.510) (0.091,2.283) (0.069,3.307) (0.018,5.105)
+Parameters optimization took 99 rounds (1173.790 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 2.25865 secs using 1194% CPU
+Computing ML distances took 2.266866 sec (of wall-clock time) 27.063153 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00341242 secs using 67.9% CPU
+Constructing RapidNJ tree: done in 1.01638 secs
+Computing RapidNJ tree took 1.024039 sec (of wall-clock time) 0.039568 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -286535.618
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 35.903 second
+Computing log-likelihood of 98 initial trees ... 100.925 seconds
+Current best score: -284290.491
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 24.0506 secs using 1197% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -283857.954
+Optimizing NNI: done in 24.3114 secs using 1197% CPU
+Optimizing NNI: done in 18.746 secs using 1197% CPU
+Optimizing NNI: done in 37.1222 secs using 1197% CPU
+Optimizing NNI: done in 39.8528 secs using 1197% CPU
+Optimizing NNI: done in 18.3756 secs using 1197% CPU
+Optimizing NNI: done in 23.4998 secs using 1197% CPU
+Optimizing NNI: done in 35.7793 secs using 1197% CPU
+Optimizing NNI: done in 37.7088 secs using 1197% CPU
+Optimizing NNI: done in 23.4194 secs using 1197% CPU
+Iteration 10 / LogL: -283952.473 / Time: 0h:34m:15s
+Optimizing NNI: done in 36.9623 secs using 1198% CPU
+Optimizing NNI: done in 47.4736 secs using 1195% CPU
+Optimizing NNI: done in 49.6065 secs using 1196% CPU
+Optimizing NNI: done in 25.8046 secs using 1193% CPU
+Optimizing NNI: done in 20.5505 secs using 1195% CPU
+Optimizing NNI: done in 27.7637 secs using 1197% CPU
+Optimizing NNI: done in 28.6055 secs using 1197% CPU
+Optimizing NNI: done in 28.0203 secs using 1197% CPU
+Optimizing NNI: done in 26.8314 secs using 1197% CPU
+Optimizing NNI: done in 37.9517 secs using 1197% CPU
+Iteration 20 / LogL: -284065.702 / Time: 0h:39m:46s
+Finish initializing candidate tree set (20)
+Current best tree score: -283857.954 / CPU time: 1181.265
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 28.194 secs using 1197% CPU
+Optimizing NNI: done in 23.0298 secs using 1197% CPU
+Optimizing NNI: done in 30.6612 secs using 1198% CPU
+Optimizing NNI: done in 20.7705 secs using 1197% CPU
+Optimizing NNI: done in 18.7684 secs using 1197% CPU
+Optimizing NNI: done in 13.0673 secs using 1197% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -283854.487
+Optimizing NNI: done in 24.5325 secs using 1197% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -283848.504
+Optimizing NNI: done in 23.5024 secs using 1197% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -283706.173
+Optimizing NNI: done in 27.1249 secs using 1196% CPU
+Optimizing NNI: done in 30.1897 secs using 1196% CPU
+Iteration 30 / LogL: -283706.948 / Time: 0h:45m:41s (2h:34m:23s left)
+Optimizing NNI: done in 29.8955 secs using 1197% CPU
+Optimizing NNI: done in 27.3579 secs using 1197% CPU
+Optimizing NNI: done in 22.9904 secs using 1197% CPU
+Optimizing NNI: done in 21.7884 secs using 1196% CPU
+Optimizing NNI: done in 31.5686 secs using 1197% CPU
+Optimizing NNI: done in 34.2888 secs using 1196% CPU
+
+******************************************************
+CHECKPOINT: Resuming analysis from ribo_tree.faa.ckp.gz
+
+IQ-TREE multicore version 2.2.0 COVID-edition for Linux 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    LAPTOP-48ARFRIL (AVX2, FMA3, 6 GB RAM)
+Command: iqtree2 -s ribo_tree.faa -m LG+R9 -bb 1000 -alrt 1000 -nt 12
+Seed:    551650 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jun 11 13:21:52 2026
+Kernel:  AVX+FMA - 12 threads (12 CPU cores detected)
+
+Reading alignment file ribo_tree.faa ... Fasta format detected
+Reading fasta file: done in 0.00682194 secs using 89.36% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0206397 secs using 454.3% CPU
+WARNING: 114 sites contain only gaps or ambiguous characters.
+Alignment has 245 sequences with 2596 columns, 2383 distinct patterns
+1959 parsimony-informative, 260 singleton sites, 377 constant sites
+                                                                                                                                                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000447652 secs using 1399% CPU
+   1  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomonadales_Hyphomonadaceae_Hirschia_Hirschia_baltica_ATCC_49814                                   12.90%    passed     98.36%
+   2  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomonadales_Hyphomonadaceae_Henriciella_Henriciella_marina_DSM_19595                               12.48%    passed     99.98%
+   3  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomonadales_Hyphomonadaceae_Hyphomonas_Hyphomonas_neptunium_ATCC_15444                             12.48%    passed     99.50%
+   4  Bacteria_Pseudomonadota_Alphaproteobacteria_Maricaulales_Maricaulaceae_Maricaulis_Maricaulis_maris_MCS10                                          12.44%    passed     92.83%
+   5  Bacteria_Pseudomonadota_Alphaproteobacteria_Maricaulales_Maricaulaceae_Oceanicaulis_Oceanicaulis_sp._HTCC2633                                     12.40%    passed     77.88%
+   6  Bacteria_Pseudomonadota_Alphaproteobacteria_Maricaulales_Maricaulaceae_Woodsholea_Woodsholea_maritima_DSM_17123                                   12.48%    passed     88.70%
+   7  Bacteria_Pseudomonadota_Alphaproteobacteria_Maricaulales_Robiginitomaculaceae_Hellea_Hellea_balneolensis_DSM_19091                                12.71%    passed     87.20%
+   8  Bacteria_Pseudomonadota_Alphaproteobacteria_Maricaulales_Robiginitomaculaceae_Robiginitomaculum_Robiginitomaculum_antarcticum_DSM_21748           12.48%    passed     68.59%
+   9  Bacteria_Pseudomonadota_Alphaproteobacteria_Parvularculales_Parvularculaceae_Parvularcula_Parvularcula_bermudensis_HTCC2503                       11.94%    passed     93.69%
+  10  Bacteria_Pseudomonadota_Alphaproteobacteria_Caulobacterales_Caulobacteraceae_Brevundimonas_Brevundimonas_subvibrioides_ATCC_15264                 12.60%    passed     99.13%
+  11  Bacteria_Pseudomonadota_Alphaproteobacteria_Caulobacterales_Caulobacteraceae_Caulobacter_Caulobacter_segnis_ATCC_21756                            12.44%    passed     97.57%
+  12  Bacteria_Pseudomonadota_Alphaproteobacteria_Caulobacterales_Caulobacteraceae_Phenylobacterium_Phenylobacterium_zucineum_HLK1                      11.75%    passed     99.67%
+  13  Bacteria_Pseudomonadota_Alphaproteobacteria_Caulobacterales_Caulobacteraceae_Asticcacaulis_Asticcacaulis_excentricus_CB_48                        12.67%    passed     97.73%
+  14  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Devosiaceae_Cucumibacter_Cucumibacter_marinus_DSM_18995                              12.71%    passed     98.95%
+  15  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Devosiaceae_Maritalea_Maritalea_myrionectae_DSM_19524                                12.83%    passed     92.58%
+  16  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Devosiaceae_Pelagibacterium_Pelagibacterium_halotolerans_B2                          12.52%    passed     99.57%
+  17  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Devosiaceae_Devosia_Devosia_sp._17-2-E-8                                             13.25%    passed     76.71%
+  18  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Pleomorphomonadaceae_Pleomorphomonas_Pleomorphomonas_oryzae_DSM_16300                12.67%    passed     91.67%
+  19  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Kaistiaceae_Bauldia_Bauldia_litoralis                                                13.06%    passed     99.95%
+  20  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Kaistiaceae_Kaistia_Kaistia_adipata_DSM_17808                                        12.79%    passed     99.96%
+  21  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Amorphaceae_Amorphus_Amorphus_coralli_DSM_19760                                      12.56%    passed     94.01%
+  22  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Tepidamorphaceae_Lutibaculum_Lutibaculum_baratangense_AMV1                           12.98%    passed     91.22%
+  23  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Afifellaceae_Afifella_Afifella_pfennigii_DSM_17143                                   12.79%    passed     90.81%
+  24  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Pseudovibrio_Pseudovibrio_exalbescens_DSM_16456                          12.67%    passed     96.65%
+  25  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Pseudovibrio_Pseudovibrio_sp._FO-BEG1                                    13.41%    passed     99.90%
+  26  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Stappia_Stappia_stellulata_DSM_5886                                      12.71%    passed     98.13%
+  27  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Pannonibacter_Pannonibacter_phragmitetus_DSM_14782                       12.75%    passed     98.87%
+  28  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_sp._TrichSKD4                                        12.63%    passed     99.25%
+  29  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_aggregatum_IAM_12614                                 30.62%    passed     84.39%
+  30  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._CP4                                              29.35%    passed     93.21%
+  31  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_aggregatum                                           29.35%    passed     93.21%
+  32  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF191b                                         29.74%    passed     92.41%
+  33  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF191a                                         29.74%    passed     92.41%
+  34  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF187b                                         29.74%    passed     92.41%
+  35  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF35                                           29.74%    passed     90.94%
+  36  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_album                                                29.35%    passed     95.79%
+  37  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF82                                           29.39%    passed     98.86%
+  38  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_algicola                                             30.66%    passed     99.60%
+  39  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_sp._R5                                               30.93%    passed     99.84%
+  40  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._VG12                                             33.20%    passed     98.93%
+  41  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_marinum_DSM_17023                                    26.66%    passed     99.04%
+  42  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_sp._JB4-4                                            23.61%    passed     99.64%
+  43  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Breoghania_Breoghania_sp._L-A4                                           30.55%    passed     99.62%
+  44  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Pleomorphomonadaceae_Hartmannibacter_Hartmannibacter_diazotrophicus                  29.35%    passed     81.46%
+  45  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Chelativorans_Chelativorans_sp._ZYF759                            12.83%    passed     99.98%
+  46  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Nitratireductor_Nitratireductor_aquibiodomus_NL21_JCM_21793       12.83%    passed     99.92%
+  47  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Aliihoeflea_Aliihoeflea_sp._2WW                                   13.25%    passed     99.93%
+  48  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_australicum_WSM2073                   12.90%    passed     99.44%
+  49  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Aminobacter_Aminobacter_sp._Y103A                                 12.83%    passed     99.86%
+  50  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Pseudaminobacter_Pseudaminobacter_salicylatoxidans_KCT001         12.87%    passed    100.00%
+  51  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Aquamicrobium_Aquamicrobium_defluvii_W13Z1                        12.94%    passed     99.97%
+  52  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Phyllobacterium_Phyllobacterium_sp._YR620                         12.75%    passed     99.90%
+  53  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Brucellaceae_Brucella_Brucella_abortus_A13334                                        13.98%    passed     99.62%
+  54  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Brucellaceae_Brucella_Brucella_anthropi_ATCC_49188                                   12.71%    passed     99.70%
+  55  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Brucellaceae_Pseudochrobactrum_Pseudochrobactrum_sp._XF203                           12.79%    passed     99.95%
+  56  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Hoeflea_Hoeflea_phototrophica_DFL-43                                    13.91%    passed     99.21%
+  57  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Aurantimonadaceae_Martelella_Martelella_mediterranea_DSM_17316                       12.67%    passed     99.71%
+  58  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Rhizobium_Rhizobium_leguminosarum_bv._trifolii_CB782                    12.60%    passed     99.99%
+  59  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Neorhizobium_Neorhizobium_galegae                                       12.67%    passed     99.99%
+  60  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Ensifer_Ensifer_adhaerens_OV14                                          18.10%    passed     99.89%
+  61  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Ensifer_meliloti_WSM1022                                  12.63%    passed     99.98%
+  62  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Shinella_Shinella_sp._DD12                                              12.67%    passed     99.93%
+  63  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Bartonellaceae_Bartonella_Bartonella_clarridgeiae_73                                 12.75%    passed     13.42%
+  64  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Aurantimonadaceae_Fulvimarina_Fulvimarinana_pelagi_HTCC2506                          12.71%    passed     99.37%
+  65  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Aurantimonadaceae_Aurantimonas_Aurantimonas_manganoxydans_SI85-9A1                   12.79%    passed     99.68%
+  66  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Aurantimonadaceae_Aureimonas_Aureimonas_ureilytica_DSM_18598_NBRC_106430             13.25%    passed     99.99%
+  67  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_NGR234                               30.12%    passed     84.69%
+  68  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_CCBAU_25509                          30.12%    passed     80.83%
+  69  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_SMH12                                30.12%    passed     80.83%
+  70  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_CCBAU_83666                                 30.08%    passed     79.29%
+  71  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_alkalisoli_YIC4027                          30.08%    passed     82.90%
+  72  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_NXT3                                 27.73%    passed     46.29%
+  73  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_numidicum_CIP_109850                        27.73%    passed     58.84%
+  74  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_GR64                                 33.63%    passed     32.77%
+  75  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_numidicum_LMG_27395                         29.12%    passed     84.77%
+  76  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Georhizobium_Georhizobium_profundi                                      28.54%    passed     86.35%
+  77  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Georhizobium_Georhizobium_sp._MAB10                                     28.54%    passed     84.88%
+  78  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._AA22                              27.73%    passed     72.00%
+  79  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_onobrychidis                          27.73%    passed     69.67%
+  80  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_mediterraneum                         27.73%    passed     71.16%
+  81  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._WSM4842                           27.73%    passed     68.44%
+  82  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._WSM4821                           27.73%    passed     71.62%
+  83  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._AR10                              27.73%    passed     53.61%
+  84  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._M1E.F.Ca.ET.045.02.1.1            27.70%    passed     82.11%
+  85  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._WSM4904                           27.70%    passed     82.85%
+  86  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._WSM4906                           27.70%    passed     82.98%
+  87  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_muleiense                             28.62%    passed     84.69%
+  88  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_amorphae_CCNWGS0123                   29.35%    passed     90.65%
+  89  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Phyllobacteriaceae_Mesorhizobium_Mesorhizobium_sp._M9A.F.Ca.ET.002.03.1.2            26.93%    passed     78.42%
+  90  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Ensifer_Ensifer_aridi                                                   31.90%    passed     86.36%
+  91  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Lentilitoribacter_Lentilitoribacter_sp._JB5-8                           29.35%    passed     67.51%
+  92  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Ahrensiaceae_Oceaniradius_Oceaniradius_stylonematis                                  30.08%    passed     97.21%
+  93  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Ahrensiaceae_Ahrensia_Ahrensia_sp._13_GOM-1096m                                      12.87%    passed     97.80%
+  94  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_japonicum_SEMIA_5079                  13.64%    passed     99.99%
+  95  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Rhodopseudomonas_Rhodopseudomonas_palustris_BisB18                  12.75%    passed     98.98%
+  96  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Nitrobacter_Nitrobacter_hamburgensis_X14                            12.71%    passed     97.63%
+  97  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Afipia_Afipia_carboxidovorans_OM5                                   12.75%    passed     98.54%
+  98  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Afipia_Afipia_sp._TerB                                              12.71%    passed     98.80%
+  99  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_sp._BTAi1                             28.74%    passed     93.32%
+ 100  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_sp._ORS_278                           28.74%    passed     95.70%
+ 101  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_oligotrophicum                        28.74%    passed     92.78%
+ 102  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_sp._ORS_285                           29.82%    passed     99.24%
+ 103  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Nitrobacteraceae_Bradyrhizobium_Bradyrhizobium_ontarionense                          32.32%    passed     99.01%
+ 104  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Rhodovulum_Rhodovulum_sp._PH10                                          12.83%    passed     81.68%
+ 105  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Salinarimonadaceae_Salinarimonas_Salinarimonas_rosea_DSM_21201                       12.63%    passed     98.76%
+ 106  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylobacteriaceae_Methylorubrum_Methylorubrum_extorquens_PA1                       12.79%    passed     95.45%
+ 107  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylobacteriaceae_Microvirga_Microvirga_sp._VF16                                   12.63%    passed     99.84%
+ 108  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Chelatococcaceae_Chelatococcus_Chelatococcus_sp._YT9                                 12.21%    passed     99.16%
+ 109  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Beijerinckiaceae_Methyloferula_Methyloferula_stellata_AR4                            12.56%    passed     93.53%
+ 110  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Beijerinckiaceae_Beijerinckia_Beijerinckia_indica_subsp._indica_ATCC_9039            12.60%    passed     94.12%
+ 111  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Beijerinckiaceae_Methylocella_Methylocella_silvestris_BL2                            12.48%    passed     98.91%
+ 112  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Beijerinckiaceae_Methylocapsa_Methylocapsa_acidiphila_B2                             12.67%    passed     96.96%
+ 113  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylocystaceae_Methylosinus_Methylosinus_trichosporium_OB3b                        12.60%    passed     71.98%
+ 114  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylocystaceae_Methylocystis_Methylocystis_sp._WRRC1                               12.25%    passed     88.02%
+ 115  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Xanthobacteraceae_Ancylobacter_Ancylobacter_novellus_DSM_506                         12.79%    passed     87.08%
+ 116  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Xanthobacteraceae_Ancylobacter_Ancylobacter_novellus                                 28.51%    passed     89.52%
+ 117  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Xanthobacteraceae_Ancylobacter_Ancylobacter_sp._WKF20                                23.92%    passed     55.14%
+ 118  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Xanthobacteraceae_Azorhizobium_Azorhizobium_caulinodans_ORS_571                      12.06%    passed     98.76%
+ 119  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Xanthobacteraceae_Starkeya_Starkeya_sp._ORNL1                                        27.43%    passed     26.16%
+ 120  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylopilaceae_Methylopila_Methylopila_sp._Yamaguchi                                12.79%    passed     98.07%
+ 121  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Methylopilaceae_Chenggangzhangella_Chenggangzhangella_methanolivorans                34.98%    passed     97.24%
+ 122  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Hyphomicrobiaceae_Rhodomicrobium_Rhodomicrobium_vannielii_ATCC_17100                 12.33%    passed     99.98%
+ 123  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Parvibaculaceae_Parvibaculum_Parvibaculum_lavamentivorans_DS-1                       12.75%    passed     96.66%
+ 124  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Hyphomicrobiaceae_Hyphomicrobium_Hyphomicrobium_nitrativorans_NL23                   23.38%    passed     81.40%
+ 125  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Oceanibaculaceae_Oceanibaculum_Oceanibaculum_indicum_P24                             12.79%    passed     96.76%
+ 126  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassobaculaceae_Thalassobaculum_Thalassobaculum_salexigens_DSM_19539              12.90%    passed     95.90%
+ 127  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassobaculaceae_Nisaea_Nisaea_denitrificans_DSM_18348                             12.83%    passed     99.89%
+ 128  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Novispirillaceae_Novispirillum_Novispirillum_itersonii_subsp._itersonii              12.60%    passed     98.51%
+ 129  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Rhodospirillaceae_Rhodospirillum_Rhodospirillum_rubrum                               13.21%    passed     99.69%
+ 130  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Novispirillaceae_Caenispirillum_Caenispirillum_salinarum_AK4                         14.06%    passed     95.98%
+ 131  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Magnetospirillaceae_Paramagnetospirillum_Paramagnetospirillum_magneticum_AMB_1       12.75%    passed     99.70%
+ 132  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Azospirillaceae_Skermanella_Skermanella_stibiiresistens_SB22                         12.79%    passed     98.17%
+ 133  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Azospirillaceae_Nitrospirillum_Nitrospirillum_viridazoti_CBAmc                       13.14%    passed     98.97%
+ 134  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Azospirillaceae_Niveispirillum_Niveispirillum_irakense_DSM_11586                     12.79%    passed     99.74%
+ 135  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Rhodospirillaceae_Inquilinus_Inquilinus_limosus_DSM_16000                            12.75%    passed     88.38%
+ 136  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Dongiaceae_Dongia_Dongia_sp._URHE0060                                                12.63%    passed     99.24%
+ 137  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Rhodovibrionaceae_Fodinicurvata_Fodinicurvata_sediminis_DSM_21159                    12.79%    passed     45.64%
+ 138  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Kiloniellaceae_Kiloniella_Kiloniella_laminariae_DSM_19542                            12.48%    passed     97.64%
+ 139  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_profundimaris_WP0211                   12.83%    passed     86.35%
+ 140  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_lohafexi                               28.12%    passed     68.55%
+ 141  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_xiamenensis                            30.01%    passed     68.27%
+ 142  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_sp._B30-1                              30.01%    passed     68.27%
+ 143  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_lucentensis                            26.73%    passed     84.79%
+ 144  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_sp._SN3W                               26.69%    passed     75.75%
+ 145  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Terasakiellaceae_Terasakiella_Terasakiella_pusilla_DSM_6293                          12.79%    passed     99.97%
+ 146  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Rhodospirillaceae_Denitrobaculum_Denitrobaculum_tricleocarpae                        30.08%    passed     93.12%
+ 147  Bacteria_Pseudomonadota_Alphaproteobacteria_Geminicoccales_Geminicoccaceae_Tistrella_Tistrella_mobilis_KA081020-065                               13.17%    passed     35.29%
+ 148  Bacteria_Pseudomonadota_Alphaproteobacteria_Sneathiellales_Sneathiellaceae_Sneathiella_Sneathiella_glossodoripedis_JCM_23214                      19.38%    passed     96.78%
+ 149  Bacteria_Pseudomonadota_Alphaproteobacteria_Kordiimonadales_Kordiimonadaceae_Kordiimonas_Kordiimonas_gwangyangensis                               12.67%    passed     99.86%
+ 150  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Reyranellaceae_Reyranella_Reyranella_massiliensis_521                                12.60%    passed     94.10%
+ 151  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Elioraeaceae_Elioraea_Elioraea_tepidiphila_DSM_17972                                  12.75%    passed     22.19%
+ 152  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Roseomonadaceae_Rubritepida_Rubritepida_flocculans_DSM_14296                          12.48%    passed     35.38%
+ 153  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Roseomonadaceae_Belnapia_Belnapia_moabensis_DSM_16746                                 12.52%    passed     57.36%
+ 154  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Roseomonadaceae_Roseomonas_Roseomonas_mucosa_ATCC_BAA-692                             12.48%    passed     91.62%
+ 155  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acidocellaceae_Acidiphilium_Acidiphilium_multivorum_AIU301                            13.29%    passed     83.55%
+ 156  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acidocellaceae_Acidocella_Acidocella_facilis_ATCC_35904                               12.75%    passed     96.96%
+ 157  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Commensalibacter_Commensalibacter_papalotli                          12.87%    passed     95.70%
+ 158  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Saccharibacter_Saccharibacter_floricola_DSM_15669                    12.75%    passed     88.66%
+ 159  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Gluconobacter_Gluconobacter_oxydans_621H                             12.87%    passed     85.25%
+ 160  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Kozakia_Kozakia_baliensis_NRIC_0488                                  12.83%    passed     83.79%
+ 161  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Asaia_Asaia_platycodi_JCM_25414                                      21.46%    passed     63.10%
+ 162  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Gluconacetobacter_Gluconacetobacter_diazotrophicus_PA1_5             12.87%    passed     72.67%
+ 163  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Komagataeibacter_Komagataeibacter_medellinensis_NBRC_3288            12.87%    passed     74.13%
+ 164  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Acetobacter_Acetobacter_pasteurianus_386B                            12.83%    passed     96.48%
+ 165  Bacteria_Pseudomonadota_Alphaproteobacteria_Acetobacterales_Acetobacteraceae_Granulibacter_Granulibacter_bethesdensis_CGDNIH1                     12.94%    passed     48.73%
+ 166  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Rhodovibrionaceae_Rhodovibrio_Rhodovibrio_salinarum_DSM_9154                         12.60%    passed     17.04%
+ 167  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Sandarakinorhabdus_Sandarakinorhabdus_sp._DWP1-3-1                 12.37%    passed     90.08%
+ 168  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Zymomonas_Zymomonas_mobilis_subsp._mobilis_str._CP4_NRRL_B-14023   11.67%    passed     83.69%
+ 169  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Rhizorhabdaceae_Rhizorhabdus_Rhizorhabdus_wittichii_RW1                              16.14%    passed     76.05%
+ 170  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Blastomonas_Blastomonas_sp._UPD001                                 12.48%    passed     86.63%
+ 171  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Novosphingobium_Novosphingobium_sp._ZW_T3_23                       12.87%    passed     93.55%
+ 172  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Citromicrobium_Citromicrobium_sp._JLT1363                          13.06%    passed     98.53%
+ 173  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Erythrobacteraceae_Erythrobacter_Erythrobacter_litoralis_HTCC2594                    12.67%    passed     92.85%
+ 174  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Erythrobacteraceae_Altererythrobacter_Altererythrobacter_ishigakiensis               12.71%    passed     89.77%
+ 175  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Erythrobacteraceae_Porphyrobacter_Porphyrobacter_sp._YT40                            12.79%    passed     63.82%
+ 176  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Sphingobium_Sphingobium_indicum_UT26S                              12.56%    passed     47.53%
+ 177  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingopyxidaceae_Sphingopyxis_Sphingopyxis_alaskensis_RB2256                        12.52%    passed     75.68%
+ 178  Bacteria_Pseudomonadota_Alphaproteobacteria_Sphingomonadales_Sphingomonadaceae_Novosphingobium_Novosphingobium_indicum                            28.43%    passed     97.86%
+ 179  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Neomegalonemataceae_Neomegalonema_Neomegalonema_perideroedes_DSM_15528                12.79%    passed     51.52%
+ 180  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Pseudorhodobacter_Pseudorhodobacter_ferrugineus_DSM_5888                12.67%    passed     66.01%
+ 181  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Rhodobacter_Rhodobacter_capsulatus_SB_1003                              12.75%    passed     96.65%
+ 182  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Thioclava_Thioclava_pacifica_DSM_10166                                  12.67%    passed     99.74%
+ 183  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Haematobacter_Haematobacter_missouriensis                               12.71%    passed     99.96%
+ 184  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Paracoccus_Paracoccus_denitrificans_PD1222                              12.48%    passed     99.99%
+ 185  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Gemmobacter_Gemmobacter_nectariphilus_DSM_15620                         12.48%    passed     99.48%
+ 186  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Oceaniovalibus_Oceaniovalibus_guishaninsula_JLT2003                  12.71%    passed     95.47%
+ 187  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseobacteraceae_Palleronia_rufa_MOLA_401                            12.56%    passed     91.76%
+ 188  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Dinoroseobacter_Dinoroseobacter_shibae_DFL_12_DSM_16493              12.44%    passed     98.11%
+ 189  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Maritimibacter_Maritimibacter_sp._HL-12                                 12.52%    passed     96.70%
+ 190  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseobacter_Roseobacter_litoralis_Och_149                            12.48%    passed     92.62%
+ 191  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Sulfitobacter_Sulfitobacter_sp._NAS-14.1                                12.44%    passed     93.64%
+ 192  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Sulfitobacter_Sulfitobacter_indolifex_HEL-45                         12.37%    passed     82.83%
+ 193  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Sedimentitalea_Sedimentitalea_sp._XS_ASV28                              12.48%    passed     97.06%
+ 194  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Phaeobacter_Phaeobacter_inhibens_2.10                                12.40%    passed     96.04%
+ 195  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Pseudodonghicola_Pseudodonghicola_xiamenensis_DSM_18339                 12.56%    passed     99.96%
+ 196  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Ruegeria_Ruegeria_pomeroyi_DSS-3                                     12.63%    passed     98.73%
+ 197  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Nereida_Nereida_ignava_DSM_16309                                     12.52%    passed     96.73%
+ 198  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Sediminimonas_Sediminimonas_qiaohouensis_DSM_21189                   12.60%    passed     97.24%
+ 199  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Actibacterium_Actibacterium_mucosum_KCTC_23349                       20.15%    passed     93.16%
+ 200  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Litoreibacter_Litoreibacter_arenae_DSM_19593                         12.52%    passed     97.35%
+ 201  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Albidovulum_Defluviimonas_sp._20V17                                     12.60%    passed     97.17%
+ 202  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Wenxinia_Wenxinia_marina_DSM_24838                                   12.56%    passed     99.06%
+ 203  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Oceanicola_Oceanicola_granulosus_HTCC2516                            12.40%    passed     98.52%
+ 204  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Celeribacter_Celeribacter_sp._ULVN23_4                                  13.10%    passed     99.75%
+ 205  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Salipiger_Salipiger_mucosus_DSM_16094                                   12.56%    passed     98.65%
+ 206  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Citreicella_Citreicella_sp._SE45                                        12.60%    passed     99.85%
+ 207  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Salipiger_Salipiger_bermudensis_HTCC2601                             14.45%    passed     98.52%
+ 208  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Roseobacter_Thalassiobium_sp._R2A62                                     12.56%    passed     95.92%
+ 209  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Octadecabacter_Octadecabacter_arcticus_238                           12.56%    passed     92.59%
+ 210  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Jannaschia_Jannaschia_CCS1                                              12.56%    passed     92.63%
+ 211  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Yoonia_Yoonia_vestfoldensis_SKA53                                       16.18%    passed     87.67%
+ 212  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Planktomarina_Planktomarina_temperata_RCA23                             13.60%    passed     98.97%
+ 213  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Ketogulonicigenium_Ketogulonicigenium_vulgare_WSH-001                16.56%    passed     99.39%
+ 214  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Rubellimicrobium_Rubellimicrobium_thermophilum_DSM_16684             12.48%    passed     63.04%
+ 215  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Sagittula_Sagittula_stellata_E-37                                       21.34%    passed     85.97%
+ 216  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Sagittula_Sagittula_stellata_E-37                                    21.34%    passed     85.97%
+ 217  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Tateyamaria_Tateyamaria_omphalii                                     29.55%    passed     66.48%
+ 218  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Tateyamaria_Tateyamaria_pelophila_DSM_17270                             29.55%    passed     88.35%
+ 219  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseobacter_Roseobacter_ponti                                        30.55%    passed     73.01%
+ 220  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseobacter_Roseobacter_sp._A03A-229                                 23.81%    passed     87.28%
+ 221  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Litoreibacter_Litoreibacter_meonggei_DSM_29466                          29.01%    passed     73.10%
+ 222  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseivivax_Roseivivax_sp._THAF197b                                   30.12%    passed     94.41%
+ 223  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseivivax_Roseivivax_sp._THAF40                                     30.12%    passed     94.41%
+ 224  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Limimaricola_Limimaricola_variabilis                                    29.04%    passed     99.43%
+ 225  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Yoonia_Yoonia_rhodophyticola                                            29.01%    passed     84.62%
+ 226  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Yoonia_Yoonia_phaeophyticola                                            27.66%    passed     97.48%
+ 227  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Pseudooceanicola_Pseudooceanicola_algae                                 26.77%    passed     86.10%
+ 228  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Marinibacterium_Marinibacterium_sp._SX1                                 31.47%    passed     64.46%
+ 229  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Mameliella_Mameliella_sp.                                            38.94%    passed     80.65%
+ 230  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Algicella_Algicella_marina                                              29.20%    passed     90.76%
+ 231  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Thioclava_Thioclava_electrotropha_Elox9                                 26.08%    passed     85.30%
+ 232  Bacteria_Pseudomonadota_Alphaproteobacteria_Geminicoccales_Geminicoccaceae_Geminicoccus_Geminicoccus_roseus_DSM_18922                             12.75%    passed     51.33%
+ 233  Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Magnetospira_Magnetospira_sp._QH-2                                 26.58%    passed     87.65%
+ 234  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Amorphaceae_Acuticoccus_Acuticoccus_sp._I52.16.1                                     35.40%    passed     99.95%
+ 235  Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Pararhizobium_Pararhizobium_sp._IMCC21322                               29.43%    passed     99.97%
+ 236  Bacteria_Pseudomonadota_Alphaproteobacteria_Minwuiales_Minwuiaceae_Minwuia_Minwuia_sp._IMCC3009                                                   25.81%    passed     14.63%
+ 237  Bacteria_Pseudomonadota_Alphaproteobacteria_Minwuiales_Minwuiaceae_Minwuia_Minwuia_sp._IMCC3060                                                   25.81%    passed     14.63%
+ 238  Bacteria_Pseudomonadota_Alphaproteobacteria_Magnetococcales_Magnetococcaceae_Magnetococcus_Magnetococcus_marinus_MC-1                             13.06%    passed     41.19%
+ 239  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Rickettsiaceae_Orientia_Orientia_tsutsugamushi_str._Boryong                             12.56%    failed      0.00%
+ 240  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Rickettsiaceae_Rickettsia_Rickettsia_conorii_str._Malish_7                              13.64%    failed      0.00%
+ 241  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Anaplasmataceae_Wolbachia_Wolbachia_endosymbiont_of_Drosophila_melanogaster             13.71%    failed      0.00%
+ 242  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Anaplasmataceae_Anaplasma_Anaplasma_marginale_str._St._Maries                           14.02%    failed      0.00%
+ 243  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Anaplasmataceae_Ehrlichia_Ehrlichia_chaffeensis_Osceola                                 28.31%    failed      0.00%
+ 244  Bacteria_Pseudomonadota_Alphaproteobacteria_Holosporales_Holosporaceae_Holospora_Holospora_undulata_HU1                                           12.94%    failed      0.00%
+ 245  Bacteria_Pseudomonadota_Alphaproteobacteria_Rickettsiales_Anaplasmataceae_Neorickettsia_Neorickettsia_sennetsu_Miyayama                           15.52%    failed      0.00%
+****  TOTAL                                                                                                                                             18.31%  7 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Roseibium_Roseibium_aggregatum is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._CP4 but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF191a is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF191b but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_SMH12 is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Rhizobiaceae_Sinorhizobium_Sinorhizobium_fredii_CCBAU_25509 but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_sp._B30-1 is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodospirillales_Thalassospiraceae_Thalassospira_Thalassospira_xiamenensis but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Sagittula_Sagittula_stellata_E-37 is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Paracoccaceae_Sagittula_Sagittula_stellata_E-37 but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseivivax_Roseivivax_sp._THAF40 is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Rhodobacterales_Roseobacteraceae_Roseivivax_Roseivivax_sp._THAF197b but kept for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Minwuiales_Minwuiaceae_Minwuia_Minwuia_sp._IMCC3060 is identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Minwuiales_Minwuiaceae_Minwuia_Minwuia_sp._IMCC3009 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00202987 secs using 1879% CPU
+Identifying sites to remove: done in 0.0108508 secs using 1167% CPU
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF187b (identical to Bacteria_Pseudomonadota_Alphaproteobacteria_Hyphomicrobiales_Stappiaceae_Labrenzia_Labrenzia_sp._THAF191b) is ignored but added at the end
+Alignment was printed to ribo_tree.faa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to ribo_tree.faa.uniqueseq.phy
+
+CHECKPOINT: Initial tree restored
+Generating 1000 samples for ultrafast bootstrap (seed: 551650)...
+CHECKPOINT: 1000 UFBoot trees and 0 UFBootSplits restored
+
+NOTE: 824 MB RAM (0 GB) is required!
+CHECKPOINT: Model parameters restored, LogL: -283706.173
+Wrote distance file to... 
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+CHECKPOINT: Candidate tree set restored, best LogL: -283706.173
+Finish initializing candidate tree set (20)
+Current best tree score: -283706.173 / CPU time: 0.000
+Number of iterations: 36
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 19.4151 secs using 1197% CPU
+Optimizing NNI: done in 25.4086 secs using 1197% CPU
+Optimizing NNI: done in 22.8002 secs using 1197% CPU
+Optimizing NNI: done in 33.1862 secs using 1192% CPU
+Iteration 40 / LogL: -283782.378 / Time: 0h:1m:41s (0h:3m:49s left)
+Optimizing NNI: done in 22.1877 secs using 1196% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -283704.680
+Optimizing NNI: done in 29.6751 secs using 1195% CPU
+Optimizing NNI: done in 33.5669 secs using 1195% CPU
+Optimizing NNI: done in 31.425 secs using 1196% CPU
+Optimizing NNI: done in 36.9628 secs using 1197% CPU
+Optimizing NNI: done in 30.9046 secs using 1197% CPU
+Optimizing NNI: done in 41.7556 secs using 1197% CPU
+Optimizing NNI: done in 27.1779 secs using 1196% CPU
+Optimizing NNI: done in 35.5696 secs using 1197% CPU
+Optimizing NNI: done in 45.8809 secs using 1197% CPU
+Iteration 50 / LogL: -283717.293 / Time: 0h:7m:41s (0h:14m:16s left)
+Log-likelihood cutoff on original alignment: -284035.847
+Optimizing NNI: done in 37.4265 secs using 1197% CPU
+Optimizing NNI: done in 38.5875 secs using 1197% CPU
+Optimizing NNI: done in 35.5595 secs using 1195% CPU
+Optimizing NNI: done in 40.9778 secs using 1196% CPU
+Optimizing NNI: done in 30.6282 secs using 1197% CPU
+Optimizing NNI: done in 40.9663 secs using 1196% CPU
+Optimizing NNI: done in 32.7482 secs using 1197% CPU
+Optimizing NNI: done in 32.3966 secs using 1197% CPU
+Optimizing NNI: done in 36.7457 secs using 1197% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -283697.834
+Optimizing NNI: done in 29.4032 secs using 1197% CPU
+Iteration 60 / LogL: -283878.848 / Time: 0h:13m:53s (0h:23m:17s left)
+Optimizing NNI: done in 39.1487 secs using 1197% CPU
+Optimizing NNI: done in 35.6691 secs using 1197% CPU
+Optimizing NNI: done in 26.1788 secs using 1197% CPU
+Optimizing NNI: done in 29.1676 secs using 1197% CPU
+Optimizing NNI: done in 23.018 secs using 1196% CPU
+Optimizing NNI: done in 23.2083 secs using 1197% CPU
+Optimizing NNI: done in 23.529 secs using 1197% CPU
+Optimizing NNI: done in 21.2341 secs using 1196% CPU
+Optimizing NNI: done in 30.8739 secs using 1197% CPU
+Optimizing NNI: done in 31.3822 secs using 1197% CPU
+Iteration 70 / LogL: -283783.248 / Time: 0h:18m:38s (0h:24m:2s left)
+Optimizing NNI: done in 28.4725 secs using 1197% CPU
+Optimizing NNI: done in 23.9228 secs using 1197% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -283694.633
+Optimizing NNI: done in 26.1869 secs using 1197% CPU
+Optimizing NNI: done in 35.6352 secs using 1196% CPU
+Optimizing NNI: done in 27.2877 secs using 1197% CPU
+Optimizing NNI: done in 25.3014 secs using 1196% CPU
+Optimizing NNI: done in 27.5384 secs using 1197% CPU
+Optimizing NNI: done in 25.6479 secs using 1197% CPU
+Optimizing NNI: done in 31.0492 secs using 1197% CPU
+Optimizing NNI: done in 29.5044 secs using 1197% CPU
+Iteration 80 / LogL: -283965.673 / Time: 0h:23m:27s (0h:27m:19s left)
+Optimizing NNI: done in 27.7865 secs using 1197% CPU
+Optimizing NNI: done in 38.015 secs using 1197% CPU
+Optimizing NNI: done in 33.8613 secs using 1197% CPU
+Optimizing NNI: done in 23.2702 secs using 1196% CPU
+Optimizing NNI: done in 26.3692 secs using 1197% CPU
+Optimizing NNI: done in 32.7199 secs using 1197% CPU
+Optimizing NNI: done in 38.1558 secs using 1197% CPU
+Optimizing NNI: done in 26.9872 secs using 1197% CPU
+Optimizing NNI: done in 31.4713 secs using 1197% CPU
+Optimizing NNI: done in 28.8208 secs using 1197% CPU
+Iteration 90 / LogL: -283756.057 / Time: 0h:28m:36s (0h:26m:21s left)
+Optimizing NNI: done in 35.5776 secs using 1197% CPU
+Optimizing NNI: done in 36.7497 secs using 1197% CPU
+Optimizing NNI: done in 30.3556 secs using 1197% CPU
+Optimizing NNI: done in 30.579 secs using 1197% CPU
+Optimizing NNI: done in 31.7869 secs using 1197% CPU
+Optimizing NNI: done in 32.1112 secs using 1196% CPU
+Optimizing NNI: done in 29.522 secs using 1197% CPU
+Optimizing NNI: done in 25.7011 secs using 1197% CPU
+Optimizing NNI: done in 29.4942 secs using 1197% CPU
+Optimizing NNI: done in 27.0803 secs using 1197% CPU
+Iteration 100 / LogL: -283779.683 / Time: 0h:33m:47s (0h:24m:34s left)
+Log-likelihood cutoff on original alignment: -284035.847
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Optimizing NNI: done in 26.6644 secs using 1197% CPU
+Optimizing NNI: done in 24.5083 secs using 1197% CPU
+Optimizing NNI: done in 25.9745 secs using 1197% CPU
+Optimizing NNI: done in 27.6075 secs using 1197% CPU
+Optimizing NNI: done in 23.9209 secs using 1197% CPU
+Optimizing NNI: done in 24.4242 secs using 1197% CPU
+Optimizing NNI: done in 23.3762 secs using 1197% CPU
+Optimizing NNI: done in 27.4315 secs using 1197% CPU
+Optimizing NNI: done in 26.7059 secs using 1197% CPU
+Optimizing NNI: done in 30.6284 secs using 1197% CPU
+Iteration 110 / LogL: -283721.473 / Time: 0h:38m:10s (0h:31m:31s left)
+Optimizing NNI: done in 25.2746 secs using 1197% CPU
+Optimizing NNI: done in 31.8559 secs using 1197% CPU
+Optimizing NNI: done in 39.4196 secs using 1197% CPU
+Optimizing NNI: done in 23.3895 secs using 1197% CPU
+Optimizing NNI: done in 26.136 secs using 1197% CPU
+Optimizing NNI: done in 31.9556 secs using 1197% CPU
+Optimizing NNI: done in 26.5487 secs using 1197% CPU
+Optimizing NNI: done in 38.7779 secs using 1196% CPU
+Optimizing NNI: done in 28.0369 secs using 1197% CPU
+Optimizing NNI: done in 29.1518 secs using 1197% CPU
+Iteration 120 / LogL: -283832.525 / Time: 0h:43m:13s (0h:29m:3s left)
+Optimizing NNI: done in 24.4739 secs using 1197% CPU
+Optimizing NNI: done in 34.6637 secs using 1197% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 122: -283694.249
+Optimizing NNI: done in 26.6464 secs using 1197% CPU
+Optimizing NNI: done in 23.5658 secs using 1197% CPU
+Optimizing NNI: done in 30.193 secs using 1197% CPU
+Optimizing NNI: done in 23.9434 secs using 1197% CPU
+Optimizing NNI: done in 29.3431 secs using 1197% CPU
+Optimizing NNI: done in 28.8589 secs using 1197% CPU
+Optimizing NNI: done in 24.3591 secs using 1197% CPU
+Optimizing NNI: done in 28.0649 secs using 1197% CPU
+Iteration 130 / LogL: -283701.517 / Time: 0h:48m:13s (0h:34m:23s left)
+Optimizing NNI: done in 28.9961 secs using 1197% CPU
+Optimizing NNI: done in 31.3511 secs using 1197% CPU
+Optimizing NNI: done in 26.5587 secs using 1197% CPU
+Optimizing NNI: done in 33.4439 secs using 1197% CPU
+Optimizing NNI: done in 21.6948 secs using 1197% CPU
+Optimizing NNI: done in 30.5012 secs using 1197% CPU
+Optimizing NNI: done in 35.8763 secs using 1196% CPU
+Optimizing NNI: done in 30.4711 secs using 1197% CPU
+Optimizing NNI: done in 25.946 secs using 1197% CPU
+Optimizing NNI: done in 26.5599 secs using 1197% CPU
+Iteration 140 / LogL: -283700.157 / Time: 0h:53m:6s (0h:31m:19s left)
+Optimizing NNI: done in 24.9075 secs using 1197% CPU
+Optimizing NNI: done in 28.5545 secs using 1198% CPU
+Optimizing NNI: done in 28.905 secs using 1197% CPU
+Optimizing NNI: done in 29.1094 secs using 1197% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 144: -283692.867
+Optimizing NNI: done in 32.7807 secs using 1197% CPU
+Optimizing NNI: done in 25.5186 secs using 1197% CPU
+Optimizing NNI: done in 29.887 secs using 1196% CPU
+Optimizing NNI: done in 26.847 secs using 1197% CPU
+Optimizing NNI: done in 26.1183 secs using 1197% CPU
+Optimizing NNI: done in 31.9085 secs using 1197% CPU
+Iteration 150 / LogL: -283695.765 / Time: 0h:58m:2s (0h:36m:37s left)
+Log-likelihood cutoff on original alignment: -284035.847
+Optimizing NNI: done in 30.812 secs using 1197% CPU
+Optimizing NNI: done in 37.9537 secs using 1197% CPU
+Optimizing NNI: done in 34.3294 secs using 1197% CPU
+Optimizing NNI: done in 24.4657 secs using 1197% CPU
+Optimizing NNI: done in 24.6563 secs using 1197% CPU
+Optimizing NNI: done in 37.7946 secs using 1196% CPU
+Optimizing NNI: done in 31.6278 secs using 1197% CPU
+Optimizing NNI: done in 39.0522 secs using 1195% CPU
+Optimizing NNI: done in 26.8313 secs using 1197% CPU
+Optimizing NNI: done in 25.7379 secs using 1197% CPU
+Iteration 160 / LogL: -283807.608 / Time: 1h:3m:18s (0h:33m:26s left)
+Optimizing NNI: done in 25.3579 secs using 1197% CPU
+Optimizing NNI: done in 30.5907 secs using 1197% CPU
+Optimizing NNI: done in 25.3415 secs using 1196% CPU
+Optimizing NNI: done in 29.1437 secs using 1196% CPU
+Optimizing NNI: done in 38.1324 secs using 1197% CPU
+Optimizing NNI: done in 22.8244 secs using 1197% CPU
+Optimizing NNI: done in 27.8122 secs using 1197% CPU
+Optimizing NNI: done in 28.6855 secs using 1197% CPU
+Optimizing NNI: done in 27.4713 secs using 1197% CPU
+Optimizing NNI: done in 22.4279 secs using 1197% CPU
+Iteration 170 / LogL: -283707.646 / Time: 1h:7m:57s (0h:29m:45s left)
+Optimizing NNI: done in 28.7745 secs using 1197% CPU
+Optimizing NNI: done in 25.6336 secs using 1197% CPU
+Optimizing NNI: done in 28.4586 secs using 1197% CPU
+Optimizing NNI: done in 26.632 secs using 1197% CPU
+Optimizing NNI: done in 28.7176 secs using 1197% CPU
+Optimizing NNI: done in 23.2782 secs using 1197% CPU
+Optimizing NNI: done in 27.0443 secs using 1197% CPU
+Optimizing NNI: done in 28.5348 secs using 1197% CPU
+Optimizing NNI: done in 31.0691 secs using 1197% CPU
+Optimizing NNI: done in 31.6629 secs using 1197% CPU
+Iteration 180 / LogL: -283698.548 / Time: 1h:12m:39s (0h:25m:58s left)
+Optimizing NNI: done in 22.0797 secs using 1197% CPU
+Optimizing NNI: done in 27.1693 secs using 1197% CPU
+Optimizing NNI: done in 25.2877 secs using 1197% CPU
+Optimizing NNI: done in 28.1938 secs using 1197% CPU
+Optimizing NNI: done in 25.182 secs using 1197% CPU
+Optimizing NNI: done in 31.7775 secs using 1197% CPU
+Optimizing NNI: done in 24.5224 secs using 1197% CPU
+Optimizing NNI: done in 27.5535 secs using 1197% CPU
+Optimizing NNI: done in 27.2289 secs using 1197% CPU
+Optimizing NNI: done in 28.9958 secs using 1197% CPU
+Iteration 190 / LogL: -283724.779 / Time: 1h:17m:9s (0h:22m:2s left)
+Optimizing NNI: done in 28.6363 secs using 1197% CPU
+Optimizing NNI: done in 29.8015 secs using 1197% CPU
+Optimizing NNI: done in 25.0382 secs using 1197% CPU
+Optimizing NNI: done in 31.3993 secs using 1197% CPU
+Optimizing NNI: done in 30.463 secs using 1197% CPU
+Optimizing NNI: done in 25.9465 secs using 1197% CPU
+Optimizing NNI: done in 22.3754 secs using 1197% CPU
+Optimizing NNI: done in 26.9448 secs using 1197% CPU
+Optimizing NNI: done in 25.6922 secs using 1197% CPU
+UPDATE BEST LOG-LIKELIHOOD: -283692.858
+Optimizing NNI: done in 27.7263 secs using 1198% CPU
+Iteration 200 / LogL: -283809.897 / Time: 1h:21m:44s (0h:18m:4s left)
+Log-likelihood cutoff on original alignment: -284035.847
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Optimizing NNI: done in 26.8107 secs using 1197% CPU
+Optimizing NNI: done in 27.3651 secs using 1197% CPU
+Optimizing NNI: done in 27.1779 secs using 1197% CPU
+Optimizing NNI: done in 25.0163 secs using 1197% CPU
+Optimizing NNI: done in 30.2627 secs using 1197% CPU
+Optimizing NNI: done in 28.9396 secs using 1197% CPU
+Optimizing NNI: done in 35.0492 secs using 1197% CPU
+Optimizing NNI: done in 23.5761 secs using 1197% CPU
+Optimizing NNI: done in 24.9582 secs using 1196% CPU
+Optimizing NNI: done in 27.6715 secs using 1197% CPU
+Iteration 210 / LogL: -283713.165 / Time: 1h:26m:23s (0h:37m:12s left)
+Optimizing NNI: done in 22.75 secs using 1197% CPU
+Optimizing NNI: done in 34.1405 secs using 1197% CPU
+Optimizing NNI: done in 31.0841 secs using 1197% CPU
+Optimizing NNI: done in 31.6528 secs using 1197% CPU
+Optimizing NNI: done in 23.9052 secs using 1197% CPU
+Optimizing NNI: done in 24.2073 secs using 1197% CPU
+Optimizing NNI: done in 24.7192 secs using 1197% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 217: -283691.993
+Optimizing NNI: done in 22.4688 secs using 1197% CPU
+Optimizing NNI: done in 23.8954 secs using 1197% CPU
+Optimizing NNI: done in 22.6732 secs using 1197% CPU
+Iteration 220 / LogL: -283799.093 / Time: 1h:30m:59s (0h:40m:17s left)
+Optimizing NNI: done in 27.1624 secs using 1197% CPU
+Optimizing NNI: done in 28.525 secs using 1196% CPU
+Optimizing NNI: done in 30.2197 secs using 1197% CPU
+Optimizing NNI: done in 31.024 secs using 1197% CPU
+Optimizing NNI: done in 29.1054 secs using 1197% CPU
+Optimizing NNI: done in 28.4534 secs using 1197% CPU
+Optimizing NNI: done in 27.717 secs using 1197% CPU
+Optimizing NNI: done in 27.4252 secs using 1197% CPU
+Optimizing NNI: done in 23.5572 secs using 1197% CPU
+Optimizing NNI: done in 28.849 secs using 1197% CPU
+Iteration 230 / LogL: -283693.629 / Time: 1h:35m:42s (0h:36m:21s left)
+Optimizing NNI: done in 26.3546 secs using 1197% CPU
+Optimizing NNI: done in 28.4313 secs using 1196% CPU
+Optimizing NNI: done in 31.8146 secs using 1197% CPU
+Optimizing NNI: done in 27.9594 secs using 1197% CPU
+Optimizing NNI: done in 30.0894 secs using 1197% CPU
+Optimizing NNI: done in 27.9642 secs using 1197% CPU
+Optimizing NNI: done in 26.6261 secs using 1197% CPU
+Optimizing NNI: done in 25.1539 secs using 1197% CPU
+Optimizing NNI: done in 25.6499 secs using 1197% CPU
+Optimizing NNI: done in 21.1325 secs using 1197% CPU
+Iteration 240 / LogL: -283695.091 / Time: 1h:40m:15s (0h:32m:18s left)
+Optimizing NNI: done in 20.9784 secs using 1197% CPU
+Optimizing NNI: done in 29.2385 secs using 1197% CPU
+Optimizing NNI: done in 23.809 secs using 1197% CPU
+Optimizing NNI: done in 40.7332 secs using 1197% CPU
+Optimizing NNI: done in 31.9557 secs using 1197% CPU
+Optimizing NNI: done in 31.2032 secs using 1197% CPU
+Optimizing NNI: done in 25.3136 secs using 1197% CPU
+Optimizing NNI: done in 35.3624 secs using 1197% CPU
+Optimizing NNI: done in 33.6946 secs using 1197% CPU
+Optimizing NNI: done in 25.8603 secs using 1197% CPU
+Iteration 250 / LogL: -283707.582 / Time: 1h:45m:15s (0h:28m:19s left)
+Log-likelihood cutoff on original alignment: -284035.847
+Optimizing NNI: done in 30.3219 secs using 1197% CPU
+Optimizing NNI: done in 26.6409 secs using 1197% CPU
+Optimizing NNI: done in 25.1159 secs using 1196% CPU
+Optimizing NNI: done in 32.9871 secs using 1197% CPU
+Optimizing NNI: done in 27.1026 secs using 1197% CPU
+Optimizing NNI: done in 24.6084 secs using 1197% CPU
+Optimizing NNI: done in 23.4096 secs using 1197% CPU
+Optimizing NNI: done in 29.1261 secs using 1197% CPU
+Optimizing NNI: done in 27.6261 secs using 1196% CPU
+Optimizing NNI: done in 28.9777 secs using 1197% CPU
+Iteration 260 / LogL: -283708.622 / Time: 1h:49m:53s (0h:24m:11s left)
+Optimizing NNI: done in 23.7473 secs using 1197% CPU
+Optimizing NNI: done in 28.6527 secs using 1197% CPU
+Optimizing NNI: done in 25.0088 secs using 1197% CPU
+Optimizing NNI: done in 19.2919 secs using 1197% CPU
+Optimizing NNI: done in 25.745 secs using 1197% CPU
+Optimizing NNI: done in 25.663 secs using 1198% CPU
+Optimizing NNI: done in 27.8417 secs using 1197% CPU
+Optimizing NNI: done in 30.4521 secs using 1197% CPU
+Optimizing NNI: done in 19.5142 secs using 1197% CPU
+Optimizing NNI: done in 26.5667 secs using 1197% CPU
+Iteration 270 / LogL: -283693.632 / Time: 1h:54m:8s (0h:19m:56s left)
+Optimizing NNI: done in 24.3275 secs using 1197% CPU
+Optimizing NNI: done in 24.3267 secs using 1197% CPU
+Optimizing NNI: done in 24.7711 secs using 1197% CPU
+Optimizing NNI: done in 27.1439 secs using 1197% CPU
+Optimizing NNI: done in 24.6534 secs using 1197% CPU
+Optimizing NNI: done in 20.0717 secs using 1197% CPU
+Optimizing NNI: done in 26.1883 secs using 1197% CPU
+Optimizing NNI: done in 22.0631 secs using 1197% CPU
+Optimizing NNI: done in 25.4242 secs using 1197% CPU
+Optimizing NNI: done in 21.4266 secs using 1197% CPU
+Iteration 280 / LogL: -283729.370 / Time: 1h:58m:10s (0h:15m:40s left)
+Optimizing NNI: done in 25.1328 secs using 1197% CPU
+Optimizing NNI: done in 25.2481 secs using 1197% CPU
+Optimizing NNI: done in 24.129 secs using 1197% CPU
+Optimizing NNI: done in 23.0157 secs using 1197% CPU
+Optimizing NNI: done in 24.4434 secs using 1197% CPU
+Optimizing NNI: done in 21.701 secs using 1197% CPU
+Optimizing NNI: done in 21.2391 secs using 1197% CPU
+Optimizing NNI: done in 18.9799 secs using 1197% CPU
+Optimizing NNI: done in 24.8142 secs using 1197% CPU
+Optimizing NNI: done in 27.9179 secs using 1197% CPU
+Iteration 290 / LogL: -283740.862 / Time: 2h:2m:8s (0h:11m:24s left)
+Optimizing NNI: done in 22.9097 secs using 1198% CPU
+Optimizing NNI: done in 25.3971 secs using 1197% CPU
+Optimizing NNI: done in 21.3873 secs using 1196% CPU
+Optimizing NNI: done in 23.6675 secs using 1197% CPU
+Optimizing NNI: done in 20.5517 secs using 1197% CPU
+Optimizing NNI: done in 23.0779 secs using 1197% CPU
+Optimizing NNI: done in 27.4339 secs using 1197% CPU
+Optimizing NNI: done in 23.6323 secs using 1197% CPU
+Optimizing NNI: done in 20.9129 secs using 1197% CPU
+Optimizing NNI: done in 20.7073 secs using 1197% CPU
+Iteration 300 / LogL: -283762.836 / Time: 2h:5m:59s (0h:7m:9s left)
+Log-likelihood cutoff on original alignment: -284035.847
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+Optimizing NNI: done in 25.2078 secs using 1197% CPU
+Optimizing NNI: done in 22.9706 secs using 1197% CPU
+Optimizing NNI: done in 25.1141 secs using 1197% CPU
+Optimizing NNI: done in 28.1599 secs using 1197% CPU
+Optimizing NNI: done in 26.0022 secs using 1197% CPU
+Optimizing NNI: done in 31.7978 secs using 1197% CPU
+Optimizing NNI: done in 32.7521 secs using 1198% CPU
+Optimizing NNI: done in 27.1368 secs using 1197% CPU
+Optimizing NNI: done in 26.3916 secs using 1197% CPU
+Optimizing NNI: done in 28.3588 secs using 1197% CPU
+Iteration 310 / LogL: -283693.944 / Time: 2h:10m:35s (0h:38m:2s left)
+Optimizing NNI: done in 26.2375 secs using 1197% CPU
+Optimizing NNI: done in 23.0925 secs using 1197% CPU
+Optimizing NNI: done in 23.2194 secs using 1197% CPU
+Optimizing NNI: done in 25.8276 secs using 1197% CPU
+Optimizing NNI: done in 25.5902 secs using 1197% CPU
+Optimizing NNI: done in 26.342 secs using 1197% CPU
+Optimizing NNI: done in 33.9528 secs using 1197% CPU
+Optimizing NNI: done in 30.8427 secs using 1197% CPU
+TREE SEARCH COMPLETED AFTER 318 ITERATIONS / Time: 2h:14m:12s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -283691.993
+2. Current log-likelihood: -283691.946
+3. Current log-likelihood: -283691.891
+4. Current log-likelihood: -283691.862
+5. Current log-likelihood: -283691.843
+6. Current log-likelihood: -283691.819
+7. Current log-likelihood: -283691.793
+Optimal log-likelihood: -283691.776
+Site proportion and rates:  (0.180,0.033) (0.146,0.170) (0.161,0.407) (0.162,0.814) (0.135,1.320) (0.092,1.946) (0.080,2.817) (0.035,3.845) (0.010,5.723)
+Parameters optimization took 7 rounds (40.107 sec)
+BEST SCORE FOUND : -283691.776
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+6.673 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file ribo_tree.faa.splits.nex
+Total tree length: 34.899
+
+Total number of iterations: 318
+CPU time used for tree search: 96270.883 sec (26h:44m:30s)
+Wall-clock time used for tree search: 8051.914 sec (2h:14m:11s)
+Total CPU time used: 96832.671 sec (26h:53m:52s)
+Total wall-clock time used: 8099.736 sec (2h:14m:59s)
+
+Computing bootstrap consensus tree...
+Reading input file ribo_tree.faa.splits.nex...
+244 taxa and 1004 splits.
+Consensus tree written to ribo_tree.faa.contree
+Reading input trees file ribo_tree.faa.contree
+Log-likelihood of consensus tree: -283706.892
+
+Analysis results written to: 
+  IQ-TREE report:                ribo_tree.faa.iqtree
+  Maximum-likelihood tree:       ribo_tree.faa.treefile
+  Likelihood distances:          ribo_tree.faa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ribo_tree.faa.splits.nex
+  Consensus tree:                ribo_tree.faa.contree
+  Screen log file:               ribo_tree.faa.log
+
+Date and Time: Thu Jun 11 15:37:03 2026

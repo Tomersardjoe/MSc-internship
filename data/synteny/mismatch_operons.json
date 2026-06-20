@@ -1,0 +1,917 @@
+[
+  {
+    "genome": "GCF_000010525.1.gbff",
+    "organism": "Azorhizobium caulinodans ORS 571",
+    "record": "NC_009937.1",
+    "ribo_coords": "4992010..4992119",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein"
+    ],
+    "leader_distance": 70,
+    "operon_length": 1,
+    "genes": [
+      {
+        "locus_tag": "AZC_RS22530",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 4992189,
+        "end": 4993299,
+        "strand": 1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000013745.1.gbff",
+    "organism": "Rhodopseudomonas palustris BisB18",
+    "record": "NC_007925.1",
+    "ribo_coords": "complement(5067660..5067771)",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein",
+      "ABC transporter permease",
+      "ABC transporter ATP-binding protein",
+      "urea amidolyase associated protein UAAP1",
+      "urea amidolyase associated protein UAAP2",
+      "urea carboxylase"
+    ],
+    "leader_distance": 123,
+    "operon_length": 6,
+    "genes": [
+      {
+        "locus_tag": "RPC_RS22740",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 5066510,
+        "end": 5067536,
+        "strand": -1
+      },
+      {
+        "locus_tag": "RPC_RS22735",
+        "product": "ABC transporter permease",
+        "start": 5065663,
+        "end": 5066482,
+        "strand": -1
+      },
+      {
+        "locus_tag": "RPC_RS22730",
+        "product": "ABC transporter ATP-binding protein",
+        "start": 5064875,
+        "end": 5065667,
+        "strand": -1
+      },
+      {
+        "locus_tag": "RPC_RS22725",
+        "product": "urea amidolyase associated protein UAAP1",
+        "start": 5063999,
+        "end": 5064833,
+        "strand": -1
+      },
+      {
+        "locus_tag": "RPC_RS22720",
+        "product": "urea amidolyase associated protein UAAP2",
+        "start": 5063355,
+        "end": 5063994,
+        "strand": -1
+      },
+      {
+        "locus_tag": "RPC_RS22715",
+        "product": "urea carboxylase",
+        "start": 5059800,
+        "end": 5063352,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000014285.2.gbff",
+    "organism": "Granulibacter bethesdensis CGDNIH1",
+    "record": "NC_008343.2",
+    "ribo_coords": "complement(1970300..1970413)",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein",
+      "ABC transporter permease",
+      "ABC transporter ATP-binding protein",
+      "urea amidolyase associated protein UAAP1",
+      "urea amidolyase associated protein UAAP2",
+      "urea carboxylase",
+      "allophanate hydrolase"
+    ],
+    "leader_distance": 110,
+    "operon_length": 7,
+    "genes": [
+      {
+        "locus_tag": "GBCGDNIH1_RS21240",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 1969115,
+        "end": 1970189,
+        "strand": -1
+      },
+      {
+        "locus_tag": "GBCGDNIH1_RS21235",
+        "product": "ABC transporter permease",
+        "start": 1968258,
+        "end": 1969086,
+        "strand": -1
+      },
+      {
+        "locus_tag": "GBCGDNIH1_RS21230",
+        "product": "ABC transporter ATP-binding protein",
+        "start": 1967464,
+        "end": 1968262,
+        "strand": -1
+      },
+      {
+        "locus_tag": "GBCGDNIH1_RS21225",
+        "product": "urea amidolyase associated protein UAAP1",
+        "start": 1966629,
+        "end": 1967364,
+        "strand": -1
+      },
+      {
+        "locus_tag": "GBCGDNIH1_RS21220",
+        "product": "urea amidolyase associated protein UAAP2",
+        "start": 1965981,
+        "end": 1966626,
+        "strand": -1
+      },
+      {
+        "locus_tag": "GBCGDNIH1_RS21215",
+        "product": "urea carboxylase",
+        "start": 1962371,
+        "end": 1965965,
+        "strand": -1
+      },
+      {
+        "locus_tag": "GBCGDNIH1_RS21210",
+        "product": "allophanate hydrolase",
+        "start": 1960591,
+        "end": 1962370,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000015165.1.gbff",
+    "organism": "Bradyrhizobium sp. BTAi1",
+    "record": "NC_009485.1",
+    "ribo_coords": "758361..758463",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein"
+    ],
+    "leader_distance": 75,
+    "operon_length": 1,
+    "genes": [
+      {
+        "locus_tag": "BBTA_RS03455",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 758538,
+        "end": 759609,
+        "strand": 1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000017565.1.gbff",
+    "organism": "Parvibaculum lavamentivorans DS-1",
+    "record": "NC_009719.1",
+    "ribo_coords": "2046573..2046691",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein",
+      "ABC transporter permease",
+      "ABC transporter ATP-binding protein",
+      "urea amidolyase associated protein UAAP1",
+      "urea amidolyase associated protein UAAP2",
+      "urea carboxylase",
+      "allophanate hydrolase"
+    ],
+    "leader_distance": 92,
+    "operon_length": 7,
+    "genes": [
+      {
+        "locus_tag": "PLAV_RS09560",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 2046783,
+        "end": 2047863,
+        "strand": 1
+      },
+      {
+        "locus_tag": "PLAV_RS09565",
+        "product": "ABC transporter permease",
+        "start": 2047893,
+        "end": 2048715,
+        "strand": 1
+      },
+      {
+        "locus_tag": "PLAV_RS09570",
+        "product": "ABC transporter ATP-binding protein",
+        "start": 2048711,
+        "end": 2049485,
+        "strand": 1
+      },
+      {
+        "locus_tag": "PLAV_RS09575",
+        "product": "urea amidolyase associated protein UAAP1",
+        "start": 2049579,
+        "end": 2050416,
+        "strand": 1
+      },
+      {
+        "locus_tag": "PLAV_RS09580",
+        "product": "urea amidolyase associated protein UAAP2",
+        "start": 2050415,
+        "end": 2051051,
+        "strand": 1
+      },
+      {
+        "locus_tag": "PLAV_RS09585",
+        "product": "urea carboxylase",
+        "start": 2051084,
+        "end": 2054702,
+        "strand": 1
+      },
+      {
+        "locus_tag": "PLAV_RS09590",
+        "product": "allophanate hydrolase",
+        "start": 2054698,
+        "end": 2056489,
+        "strand": 1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000018845.1.gbff",
+    "organism": "Methylorubrum extorquens PA1",
+    "record": "NC_010172.1",
+    "ribo_coords": "complement(4131747..4131856)",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "ABC transporter substrate-binding protein",
+      "ABC transporter permease",
+      "ABC transporter ATP-binding protein",
+      "creatininase family protein",
+      "type III glutamate--ammonia ligase",
+      "cupin domain-containing protein"
+    ],
+    "leader_distance": 388,
+    "operon_length": 6,
+    "genes": [
+      {
+        "locus_tag": "MEXT_RS18700",
+        "product": "ABC transporter substrate-binding protein",
+        "start": 4130347,
+        "end": 4131358,
+        "strand": -1
+      },
+      {
+        "locus_tag": "MEXT_RS18695",
+        "product": "ABC transporter permease",
+        "start": 4129275,
+        "end": 4130337,
+        "strand": -1
+      },
+      {
+        "locus_tag": "MEXT_RS18690",
+        "product": "ABC transporter ATP-binding protein",
+        "start": 4128328,
+        "end": 4129279,
+        "strand": -1
+      },
+      {
+        "locus_tag": "MEXT_RS18685",
+        "product": "creatininase family protein",
+        "start": 4127531,
+        "end": 4128332,
+        "strand": -1
+      },
+      {
+        "locus_tag": "MEXT_RS18680",
+        "product": "type III glutamate--ammonia ligase",
+        "start": 4126156,
+        "end": 4127530,
+        "strand": -1
+      },
+      {
+        "locus_tag": "MEXT_RS18675",
+        "product": "cupin domain-containing protein",
+        "start": 4125772,
+        "end": 4126144,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000021745.1.gbff",
+    "organism": "Methylocella silvestris BL2",
+    "record": "NC_011666.1",
+    "ribo_coords": "2840436..2840544",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein",
+      "ABC transporter permease",
+      "ABC transporter ATP-binding protein",
+      "urea amidolyase associated protein UAAP1",
+      "urea amidolyase associated protein UAAP2",
+      "5-oxoprolinase/urea amidolyase family protein",
+      "allophanate hydrolase"
+    ],
+    "leader_distance": 62,
+    "operon_length": 7,
+    "genes": [
+      {
+        "locus_tag": "MSIL_RS13255",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 2840606,
+        "end": 2841680,
+        "strand": 1
+      },
+      {
+        "locus_tag": "MSIL_RS13260",
+        "product": "ABC transporter permease",
+        "start": 2841686,
+        "end": 2842505,
+        "strand": 1
+      },
+      {
+        "locus_tag": "MSIL_RS13265",
+        "product": "ABC transporter ATP-binding protein",
+        "start": 2842501,
+        "end": 2843272,
+        "strand": 1
+      },
+      {
+        "locus_tag": "MSIL_RS13270",
+        "product": "urea amidolyase associated protein UAAP1",
+        "start": 2843355,
+        "end": 2844168,
+        "strand": 1
+      },
+      {
+        "locus_tag": "MSIL_RS13275",
+        "product": "urea amidolyase associated protein UAAP2",
+        "start": 2844182,
+        "end": 2844836,
+        "strand": 1
+      },
+      {
+        "locus_tag": "MSIL_RS13280",
+        "product": "5-oxoprolinase/urea amidolyase family protein",
+        "start": 2844840,
+        "end": 2848359,
+        "strand": 1
+      },
+      {
+        "locus_tag": "MSIL_RS13285",
+        "product": "allophanate hydrolase",
+        "start": 2848355,
+        "end": 2850161,
+        "strand": 1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000026145.1.gbff",
+    "organism": "Bradyrhizobium sp. ORS 278",
+    "record": "NC_009445.1",
+    "ribo_coords": "complement(7058665..7058767)",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein"
+    ],
+    "leader_distance": 74,
+    "operon_length": 1,
+    "genes": [
+      {
+        "locus_tag": "BRADO_RS31570",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 7057519,
+        "end": 7058590,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000092925.1.gbff",
+    "organism": "Ancylobacter novellus DSM 506",
+    "record": "NC_014217.1",
+    "ribo_coords": "complement(87894..87994)",
+    "classification": "AGMATINASE_ONLY",
+    "pattern": [
+      "agmatinase family protein",
+      "hypothetical protein",
+      "5-aminolevulinate synthase"
+    ],
+    "leader_distance": 98,
+    "operon_length": 3,
+    "genes": [
+      {
+        "locus_tag": "SNOV_RS00490",
+        "product": "agmatinase family protein",
+        "start": 86574,
+        "end": 87795,
+        "strand": -1
+      },
+      {
+        "locus_tag": "SNOV_RS00485",
+        "product": "hypothetical protein",
+        "start": 85929,
+        "end": 86433,
+        "strand": -1
+      },
+      {
+        "locus_tag": "SNOV_RS00480",
+        "product": "5-aminolevulinate synthase",
+        "start": 84553,
+        "end": 85780,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000158095.2.gbff",
+    "organism": "Roseibium alexandrii DFL-11",
+    "record": "NZ_CM011002.1",
+    "ribo_coords": "4907468..4907585",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein"
+    ],
+    "leader_distance": 109,
+    "operon_length": 1,
+    "genes": [
+      {
+        "locus_tag": "SADFL11_RS22665",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 4907694,
+        "end": 4908753,
+        "strand": 1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000344805.1.gbff",
+    "organism": "Bradyrhizobium oligotrophicum S58",
+    "record": "NC_020453.1",
+    "ribo_coords": "732166..732268",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein"
+    ],
+    "leader_distance": 75,
+    "operon_length": 1,
+    "genes": [
+      {
+        "locus_tag": "S58_RS03260",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 732343,
+        "end": 733414,
+        "strand": 1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000520875.1.gbff",
+    "organism": "Rhizobium leguminosarum bv. trifolii CB782",
+    "record": "NZ_CP007068.1",
+    "ribo_coords": "complement(1299031..1299142)",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein",
+      "ABC transporter permease",
+      "ABC transporter ATP-binding protein",
+      "urea carboxylase-associated family protein",
+      "urea carboxylase-associated family protein",
+      "urea carboxylase",
+      "allophanate hydrolase"
+    ],
+    "leader_distance": 74,
+    "operon_length": 7,
+    "genes": [
+      {
+        "locus_tag": "RLEG12_RS27055",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 1297882,
+        "end": 1298956,
+        "strand": -1
+      },
+      {
+        "locus_tag": "RLEG12_RS27050",
+        "product": "ABC transporter permease",
+        "start": 1297007,
+        "end": 1297826,
+        "strand": -1
+      },
+      {
+        "locus_tag": "RLEG12_RS27045",
+        "product": "ABC transporter ATP-binding protein",
+        "start": 1296186,
+        "end": 1297011,
+        "strand": -1
+      },
+      {
+        "locus_tag": "RLEG12_RS27040",
+        "product": "urea carboxylase-associated family protein",
+        "start": 1295368,
+        "end": 1296190,
+        "strand": -1
+      },
+      {
+        "locus_tag": "RLEG12_RS27035",
+        "product": "urea carboxylase-associated family protein",
+        "start": 1294707,
+        "end": 1295358,
+        "strand": -1
+      },
+      {
+        "locus_tag": "RLEG12_RS27030",
+        "product": "urea carboxylase",
+        "start": 1291165,
+        "end": 1294705,
+        "strand": -1
+      },
+      {
+        "locus_tag": "RLEG12_RS27025",
+        "product": "allophanate hydrolase",
+        "start": 1289350,
+        "end": 1291162,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000576635.1.gbff",
+    "organism": "Skermanella stibiiresistens SB22",
+    "record": "NZ_AVFL01000006.1",
+    "ribo_coords": "39513..39636",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "urea amidolyase associated protein UAAP1",
+      "urea amidolyase associated protein UAAP2",
+      "urea carboxylase",
+      "putative urea ABC transporter substrate-binding protein",
+      "ABC transporter permease",
+      "ABC transporter ATP-binding protein"
+    ],
+    "leader_distance": 73,
+    "operon_length": 6,
+    "genes": [
+      {
+        "locus_tag": "N825_RS09910",
+        "product": "urea amidolyase associated protein UAAP1",
+        "start": 39709,
+        "end": 40438,
+        "strand": 1
+      },
+      {
+        "locus_tag": "N825_RS09915",
+        "product": "urea amidolyase associated protein UAAP2",
+        "start": 40458,
+        "end": 41103,
+        "strand": 1
+      },
+      {
+        "locus_tag": "N825_RS09920",
+        "product": "urea carboxylase",
+        "start": 41117,
+        "end": 44729,
+        "strand": 1
+      },
+      {
+        "locus_tag": "N825_RS09925",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 44764,
+        "end": 45838,
+        "strand": 1
+      },
+      {
+        "locus_tag": "N825_RS09930",
+        "product": "ABC transporter permease",
+        "start": 45841,
+        "end": 46666,
+        "strand": 1
+      },
+      {
+        "locus_tag": "N825_RS09935",
+        "product": "ABC transporter ATP-binding protein",
+        "start": 46662,
+        "end": 47409,
+        "strand": 1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_000964345.1.gbff",
+    "organism": "Acidiphilium multivorum AIU301",
+    "record": "NZ_BANA01000145.1",
+    "ribo_coords": "complement(8950..9060)",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein",
+      "ABC transporter permease",
+      "ABC transporter ATP-binding protein",
+      "urea amidolyase associated protein UAAP1",
+      "urea amidolyase associated protein UAAP2",
+      "5-oxoprolinase/urea amidolyase family protein",
+      "allophanate hydrolase"
+    ],
+    "leader_distance": 81,
+    "operon_length": 7,
+    "genes": [
+      {
+        "locus_tag": "B7450_RS10025",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 7788,
+        "end": 8868,
+        "strand": -1
+      },
+      {
+        "locus_tag": "B7450_RS10020",
+        "product": "ABC transporter permease",
+        "start": 6961,
+        "end": 7780,
+        "strand": -1
+      },
+      {
+        "locus_tag": "B7450_RS10015",
+        "product": "ABC transporter ATP-binding protein",
+        "start": 6161,
+        "end": 6965,
+        "strand": -1
+      },
+      {
+        "locus_tag": "B7450_RS10010",
+        "product": "urea amidolyase associated protein UAAP1",
+        "start": 5371,
+        "end": 6154,
+        "strand": -1
+      },
+      {
+        "locus_tag": "B7450_RS10005",
+        "product": "urea amidolyase associated protein UAAP2",
+        "start": 4731,
+        "end": 5364,
+        "strand": -1
+      },
+      {
+        "locus_tag": "B7450_RS10000",
+        "product": "5-oxoprolinase/urea amidolyase family protein",
+        "start": 1246,
+        "end": 4735,
+        "strand": -1
+      },
+      {
+        "locus_tag": "B7450_RS09995",
+        "product": "allophanate hydrolase",
+        "start": 0,
+        "end": 1250,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_001458695.1.gbff",
+    "organism": "Candidatus Nitrospira inopinata",
+    "record": "NZ_LN885086.1",
+    "ribo_coords": "1127535..1127638",
+    "classification": "AGMATINASE_ONLY",
+    "pattern": [
+      "APC family permease",
+      "agmatinase family protein",
+      "AsmA family protein",
+      "PAS domain S-box protein"
+    ],
+    "leader_distance": 58,
+    "operon_length": 4,
+    "genes": [
+      {
+        "locus_tag": "NITINOP_RS05365",
+        "product": "APC family permease",
+        "start": 1127696,
+        "end": 1129247,
+        "strand": 1
+      },
+      {
+        "locus_tag": "NITINOP_RS05370",
+        "product": "agmatinase family protein",
+        "start": 1129332,
+        "end": 1130481,
+        "strand": 1
+      },
+      {
+        "locus_tag": "NITINOP_RS05375",
+        "product": "AsmA family protein",
+        "start": 1130630,
+        "end": 1132286,
+        "strand": 1
+      },
+      {
+        "locus_tag": "NITINOP_RS05380",
+        "product": "PAS domain S-box protein",
+        "start": 1132409,
+        "end": 1134845,
+        "strand": 1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_003432385.1.gbff",
+    "organism": "Breoghania sp. L-A4",
+    "record": "NZ_CP031841.1",
+    "ribo_coords": "complement(3635212..3635319)",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein"
+    ],
+    "leader_distance": 104,
+    "operon_length": 1,
+    "genes": [
+      {
+        "locus_tag": "D1F64_RS16610",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 3634025,
+        "end": 3635107,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_009931615.1.gbff",
+    "organism": "Algicella marina",
+    "record": "NZ_CP046620.1",
+    "ribo_coords": "complement(1720602..1720707)",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein"
+    ],
+    "leader_distance": 87,
+    "operon_length": 1,
+    "genes": [
+      {
+        "locus_tag": "GO499_RS08560",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 1719455,
+        "end": 1720514,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_019797865.1.gbff",
+    "organism": "Chenggangzhangella methanolivorans",
+    "record": "NZ_CP081869.1",
+    "ribo_coords": "complement(5529558..5529662)",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein"
+    ],
+    "leader_distance": 99,
+    "operon_length": 1,
+    "genes": [
+      {
+        "locus_tag": "K6K41_RS29130",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 5528393,
+        "end": 5529458,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_029760895.1.gbff",
+    "organism": "Ancylobacter sp. WKF20",
+    "record": "NZ_CP121679.1",
+    "ribo_coords": "complement(4492362..4492495)",
+    "classification": "AGMATINASE_ONLY",
+    "pattern": [
+      "agmatinase family protein",
+      "hypothetical protein",
+      "5-aminolevulinate synthase"
+    ],
+    "leader_distance": 127,
+    "operon_length": 3,
+    "genes": [
+      {
+        "locus_tag": "AncyloWKF20_RS20695",
+        "product": "agmatinase family protein",
+        "start": 4491013,
+        "end": 4492234,
+        "strand": -1
+      },
+      {
+        "locus_tag": "AncyloWKF20_RS20690",
+        "product": "hypothetical protein",
+        "start": 4490358,
+        "end": 4490865,
+        "strand": -1
+      },
+      {
+        "locus_tag": "AncyloWKF20_RS20685",
+        "product": "5-aminolevulinate synthase",
+        "start": 4488983,
+        "end": 4490225,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_039986115.1.gbff",
+    "organism": "Bauldia litoralis",
+    "record": "NZ_JBDWRI010000001.1",
+    "ribo_coords": "21201..21312",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein"
+    ],
+    "leader_distance": 108,
+    "operon_length": 1,
+    "genes": [
+      {
+        "locus_tag": "ABJP87_RS00120",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 21420,
+        "end": 22491,
+        "strand": 1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_043194105.1.gbff",
+    "organism": "Xanthobacter versatilis",
+    "record": "NZ_JBAFVG010000007.1",
+    "ribo_coords": "117526..117636",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein"
+    ],
+    "leader_distance": 72,
+    "operon_length": 1,
+    "genes": [
+      {
+        "locus_tag": "V5F37_RS11525",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 117708,
+        "end": 118812,
+        "strand": 1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_900176205.1.gbff",
+    "organism": "Bradyrhizobium sp. ORS 285",
+    "record": "NZ_LT859959.1",
+    "ribo_coords": "complement(6946306..6946408)",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein"
+    ],
+    "leader_distance": 75,
+    "operon_length": 1,
+    "genes": [
+      {
+        "locus_tag": "BRAD285_RS31235",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 6945159,
+        "end": 6946230,
+        "strand": -1
+      }
+    ]
+  },
+  {
+    "genome": "GCF_982602715.1.gbff",
+    "organism": "Mameliella sp.",
+    "record": "NZ_CEWZUA010000022.1",
+    "ribo_coords": "complement(22673..22785)",
+    "classification": "ABC_ONLY",
+    "pattern": [
+      "putative urea ABC transporter substrate-binding protein",
+      "ABC transporter permease",
+      "ATP-binding cassette domain-containing protein"
+    ],
+    "leader_distance": 93,
+    "operon_length": 3,
+    "genes": [
+      {
+        "locus_tag": "AC2LDI_RS05305",
+        "product": "putative urea ABC transporter substrate-binding protein",
+        "start": 21523,
+        "end": 22579,
+        "strand": -1
+      },
+      {
+        "locus_tag": "AC2LDI_RS05300",
+        "product": "ABC transporter permease",
+        "start": 20621,
+        "end": 21434,
+        "strand": -1
+      },
+      {
+        "locus_tag": "AC2LDI_RS05295",
+        "product": "ATP-binding cassette domain-containing protein",
+        "start": 19854,
+        "end": 20625,
+        "strand": -1
+      }
+    ]
+  }
+]

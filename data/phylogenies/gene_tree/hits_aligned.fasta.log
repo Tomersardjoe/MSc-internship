@@ -1,0 +1,2091 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Jan 21 2022
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    algae (AVX2, FMA3, 125 GB RAM)
+Command: iqtree2 -s hits_aligned.fasta -mset raxml -bb 1000 -alrt 1000 -nt 6
+Seed:    883539 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jun 10 17:20:48 2026
+Kernel:  AVX+FMA - 6 threads (12 CPU cores detected)
+
+Reading alignment file hits_aligned.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 7 sites contain only gaps or ambiguous characters.
+Alignment has 1668 sequences with 820 columns, 745 distinct patterns
+521 parsimony-informative, 101 singleton sites, 198 constant sites
+                         Gap/Ambiguity  Composition  p-value
+   1  UniRef100_P73270          52.44%    passed     99.97%
+   2  UniRef100_A0A498GTS6      50.37%    passed      7.20%
+   3  UniRef100_A0A7R9UK07      51.22%    passed     87.88%
+   4  UniRef100_A0A7S1K767      48.54%    passed     86.55%
+   5  UniRef100_A0A0G4EJG8      50.61%    passed     84.23%
+   6  UniRef100_A0A0G4G147      52.07%    passed     94.54%
+   7  UniRef100_A0A7S1VBP4      49.63%    passed     95.13%
+   8  UniRef100_A0A9K3L412      50.37%    passed     98.54%
+   9  UniRef100_A0A9K3LDS5      50.24%    passed     97.62%
+  10  UniRef100_C1E523          40.49%    passed     71.95%
+  11  UniRef100_A0A7S4QDP4      60.00%    passed     97.80%
+  12  UniRef100_A0ABD3M0V8      46.83%    passed     83.81%
+  13  UniRef100_K8FHZ3          46.83%    passed     65.23%
+  14  UniRef100_A0A7S3LBH6      50.73%    passed     95.82%
+  15  UniRef100_A0A835Z9U8      49.27%    passed     94.05%
+  16  UniRef100_A0ABD3N118      50.85%    passed     61.27%
+  17  UniRef100_A0ABD3SRQ2      46.59%    passed     83.32%
+  18  UniRef100_A0A7S2L450      50.98%    passed     99.11%
+  19  UniRef100_A0A6H5KKR4      48.54%    passed     96.46%
+  20  UniRef100_A0AAD2G2Q6      50.98%    passed     99.49%
+  21  UniRef100_A0A1Z5KGK7      50.24%    passed     93.37%
+  22  UniRef100_A0A1Z5K3Y7      50.24%    passed     92.49%
+  23  UniRef100_A0ABD3NAR1      50.49%    passed     95.87%
+  24  UniRef100_A0A7S2XSC0      49.39%    passed     95.44%
+  25  UniRef100_A0AAD3CHI6      51.34%    passed     99.92%
+  26  UniRef100_A0A9N8DM88      49.27%    passed     72.13%
+  27  UniRef100_B7GCN5          49.27%    passed     97.74%
+  28  UniRef100_A0ABD3PP09      49.39%    passed     42.51%
+  29  UniRef100_A0ABD3NWZ2      48.05%    passed     56.74%
+  30  UniRef100_A0A1C5U0R0      55.24%    failed      2.22%
+  31  UniRef100_A0AAF0ZE65      53.05%    passed     74.31%
+  32  UniRef100_A0A7C5F0Q9      53.41%    passed     91.65%
+  33  UniRef100_A0A7V3IYB6      54.02%    passed     99.90%
+  34  UniRef100_A0A831TMQ0      53.17%    passed     73.74%
+  35  UniRef100_A0AA96YB86      51.95%    passed     99.93%
+  36  UniRef100_A0AAU3IIY9      54.27%    passed     88.85%
+  37  UniRef100_A0A6J4UC88      52.32%    passed     44.26%
+  38  UniRef100_A0A6J4U4Q4      52.68%    passed     47.67%
+  39  UniRef100_A0A6J4US99      51.71%    failed      2.17%
+  40  UniRef100_A0A455T8S3      54.88%    passed     39.16%
+  41  UniRef100_A0A679JVW1      50.12%    passed     32.70%
+  42  UniRef100_A0A679JVN5      50.24%    passed     48.33%
+  43  UniRef100_A0A653EKG6      52.80%    passed     88.49%
+  44  UniRef100_A0A552FAZ5      52.20%    passed     99.92%
+  45  UniRef100_A0A6G4WGK2      53.41%    passed     99.69%
+  46  UniRef100_A0A1J1JJH6      51.59%    passed     95.90%
+  47  UniRef100_A0A1M4EE72      57.32%    passed     33.53%
+  48  UniRef100_A0A6B3MXF0      51.59%    passed     31.87%
+  49  UniRef100_A0A6B1F6E5      51.83%    passed     50.75%
+  50  UniRef100_E6TB50          53.41%    passed     99.64%
+  51  UniRef100_A0AA48HH94      49.51%    passed     76.43%
+  52  UniRef100_A0A7C3KHI6      51.95%    passed     99.98%
+  53  UniRef100_A0AAU7CIF0      47.20%    passed     76.95%
+  54  UniRef100_A0AAW6EIV4      55.49%    failed      3.09%
+  55  UniRef100_A0A1C5R3T5      55.24%    failed      2.88%
+  56  UniRef100_A0AAU3GBP2      53.54%    passed     84.98%
+  57  UniRef100_A0AA96WGM1      51.34%    passed     99.78%
+  58  UniRef100_A0A4Q7EB19      52.44%    passed     99.64%
+  59  UniRef100_A0AA97ED03      51.46%    passed     99.82%
+  60  UniRef100_A0A1Y0BLR5      51.59%    passed     96.83%
+  61  UniRef100_A0A023X8E4      53.41%    passed      7.73%
+  62  UniRef100_A0A532F180      53.41%    passed     97.13%
+  63  UniRef100_A0A532D8I1      54.88%    passed    100.00%
+  64  UniRef100_A0A2W6YZT2      51.71%    passed     98.40%
+  65  UniRef100_Q6W1Q5          51.10%    passed     99.88%
+  66  UniRef100_A0A6I5RF86      52.44%    passed     99.72%
+  67  UniRef100_A0A3B9C956      51.83%    passed     75.44%
+  68  UniRef100_A0A352KGC5      50.00%    passed     98.37%
+  69  UniRef100_A0A424HDV2      51.71%    passed     99.65%
+  70  UniRef100_A0A0J6W345      53.17%    passed     96.37%
+  71  UniRef100_A0A2A7NFS9      53.17%    passed     96.29%
+  72  UniRef100_A0A1X0L356      52.80%    passed     90.97%
+  73  UniRef100_A0A359KS23      55.24%    passed     67.48%
+  74  UniRef100_A0A3S3DZQ6      50.98%    passed     99.94%
+  75  UniRef100_A0A439GA77      50.98%    passed     99.99%
+  76  UniRef100_A0A442RW70      50.98%    passed     99.99%
+  77  UniRef100_A0A441D5T7      50.98%    passed     99.92%
+  78  UniRef100_A0A442WVD3      50.98%    passed     99.99%
+  79  UniRef100_A0A3S3FF26      50.98%    passed     99.99%
+  80  UniRef100_A0A441ULE3      50.98%    passed     99.99%
+  81  UniRef100_A0A441Y7Y6      50.98%    passed     99.99%
+  82  UniRef100_A0A3S3EEX3      50.98%    passed     99.99%
+  83  UniRef100_A0A1G9HIV2      50.98%    passed     99.99%
+  84  UniRef100_A0A442JV89      50.98%    passed    100.00%
+  85  UniRef100_A0A2A3DXR2      50.98%    passed     99.99%
+  86  UniRef100_A0A6P1A819      51.59%    passed     97.62%
+  87  UniRef100_A0A7Y2FQ39      52.32%    passed     99.41%
+  88  UniRef100_A0A8J6WV69      51.46%    passed     99.77%
+  89  UniRef100_M4Z0T5          51.10%    passed    100.00%
+  90  UniRef100_A0A926YW59      51.83%    passed     99.49%
+  91  UniRef100_A0A0F6U538      52.20%    passed     99.98%
+  92  UniRef100_A0A1H3SQ66      49.51%    passed     91.68%
+  93  UniRef100_A0A2T2WBI8      51.59%    passed     99.97%
+  94  UniRef100_K9XRB5          51.59%    passed     98.68%
+  95  UniRef100_A0A2N6LM71      51.59%    passed     99.83%
+  96  UniRef100_A0A326QJ83      51.10%    passed     99.47%
+  97  UniRef100_A0A4P5VP90      51.46%    passed     99.49%
+  98  UniRef100_A0A8K2A005      51.34%    passed     99.15%
+  99  UniRef100_A0A1G8CF54      54.15%    passed     95.83%
+ 100  UniRef100_A0A6M0SLH9      52.20%    passed     98.67%
+ 101  UniRef100_A0A1Y2L8A0      49.76%    passed    100.00%
+ 102  UniRef100_A0A7I7WL00      52.68%    passed     99.09%
+ 103  UniRef100_A0A6P0SPW8      52.32%    passed     89.21%
+ 104  UniRef100_A0A0A1VZ07      52.20%    passed     99.76%
+ 105  UniRef100_A0A8J6V082      51.10%    passed     98.08%
+ 106  UniRef100_A0A2W6DB63      54.63%    passed     89.58%
+ 107  UniRef100_A0A1G6B2W5      50.85%    passed    100.00%
+ 108  UniRef100_A0A7G8ELP1      51.22%    passed     99.48%
+ 109  UniRef100_A0A538RPZ4      53.90%    passed     99.97%
+ 110  UniRef100_A0A951ARZ9      52.80%    passed     72.21%
+ 111  UniRef100_A0A9D6VDR6      54.88%    passed     99.45%
+ 112  UniRef100_A0A934B382      65.00%    passed     98.92%
+ 113  UniRef100_A0AAW5KGS3      55.49%    failed      3.30%
+ 114  UniRef100_D5XBS8          55.24%    passed     80.13%
+ 115  UniRef100_A0A081GM79      50.73%    passed     94.26%
+ 116  UniRef100_A0AAW6DWT6      55.49%    failed      2.85%
+ 117  UniRef100_A0AAW6E8X7      55.49%    failed      3.40%
+ 118  UniRef100_A0A2T6KPE1      49.51%    passed     90.86%
+ 119  UniRef100_A0A640VIE1      49.76%    passed     92.86%
+ 120  UniRef100_A3VHR9          48.41%    passed     87.25%
+ 121  UniRef100_A0A7K0RXV4      52.07%    passed     84.32%
+ 122  UniRef100_A0A950WYJ5      54.02%    passed     90.66%
+ 123  UniRef100_A0A6N8FFW2      53.17%    passed     83.57%
+ 124  UniRef100_A0A941Y8D2      53.78%    passed     97.09%
+ 125  UniRef100_A0A944C9T7      54.15%    passed     99.97%
+ 126  UniRef100_A0A2W6CS41      52.32%    passed     26.71%
+ 127  UniRef100_A0A1I0FAT8      53.17%    passed     98.08%
+ 128  UniRef100_A0A1X1TZZ5      52.80%    passed     99.95%
+ 129  UniRef100_A0A8J8B9C3      49.51%    passed     62.66%
+ 130  UniRef100_A0A9J6REK8      53.17%    passed     93.16%
+ 131  UniRef100_A0A286EKX4      52.80%    passed     96.58%
+ 132  UniRef100_A0A2E6W2D8      51.83%    passed     81.65%
+ 133  UniRef100_A0A944CTV5      52.20%    passed     99.68%
+ 134  UniRef100_A0A3D9SWI0      50.85%    passed     21.16%
+ 135  UniRef100_A9DB02          48.78%    passed    100.00%
+ 136  UniRef100_A0A1T1D3L4      51.83%    passed     67.93%
+ 137  UniRef100_K9YB53          52.93%    passed     84.43%
+ 138  UniRef100_A3YX02          51.10%    passed     99.47%
+ 139  UniRef100_A0A448IGG8      53.05%    passed     96.61%
+ 140  UniRef100_A0A2R8BVD7      48.29%    passed     96.38%
+ 141  UniRef100_A0A3S1AHZ2      57.07%    passed     29.62%
+ 142  UniRef100_A0A1A2LZ86      52.80%    passed     97.15%
+ 143  UniRef100_A0A537Y749      53.90%    passed     83.24%
+ 144  UniRef100_A0AAE2ZNG3      52.68%    passed     99.97%
+ 145  UniRef100_A0A9D2NTK2      55.49%    failed      0.47%
+ 146  UniRef100_A0A538J4L1      58.29%    passed     37.72%
+ 147  UniRef100_D7A019          50.49%    passed     99.95%
+ 148  UniRef100_A0A154L2I7      49.76%    passed    100.00%
+ 149  UniRef100_A0A927R2M7      53.17%    passed     88.48%
+ 150  UniRef100_A0A285RN60      49.76%    passed    100.00%
+ 151  UniRef100_A0A927MCJ3      50.12%    passed     44.00%
+ 152  UniRef100_A0A921NSC8      49.39%    passed     62.68%
+ 153  UniRef100_A0A367WY26      49.76%    passed    100.00%
+ 154  UniRef100_A0A846CY67      52.32%    passed     95.05%
+ 155  UniRef100_A0A551Z0G1      52.20%    passed     99.94%
+ 156  UniRef100_A0A0Q9TFW0      56.34%    passed     39.51%
+ 157  UniRef100_A0A7I7YQF1      52.80%    passed     99.75%
+ 158  UniRef100_A0ABD6P6X8      52.80%    passed     99.92%
+ 159  UniRef100_A0A8J4DTA2      53.78%    passed     98.31%
+ 160  UniRef100_A0A7Y0KNM2      53.05%    passed     80.92%
+ 161  UniRef100_A0A5A5RLP8      52.20%    passed     99.95%
+ 162  UniRef100_A0AAD1HIW2      53.41%    passed     89.09%
+ 163  UniRef100_A0A139XDF7      51.59%    passed     99.92%
+ 164  UniRef100_A0AA42BVJ2      52.80%    passed     99.65%
+ 165  UniRef100_A0A2S3UQL3      49.76%    passed    100.00%
+ 166  UniRef100_A0A8J7E247      51.46%    passed     99.96%
+ 167  UniRef100_A0A525VW90      53.41%    passed    100.00%
+ 168  UniRef100_A0A7X3YNM9      51.83%    passed     52.76%
+ 169  UniRef100_A0A930TKI9      50.85%    passed     87.69%
+ 170  UniRef100_A0AB72U9N2      49.76%    passed    100.00%
+ 171  UniRef100_A0A5Q4DLD2      52.07%    passed     99.96%
+ 172  UniRef100_W6KAS6          51.22%    passed     99.53%
+ 173  UniRef100_A0A8I1IPU7      49.51%    passed     68.64%
+ 174  UniRef100_A0A978SIF7      51.95%    passed     99.99%
+ 175  UniRef100_A0A0D6AAS3      53.05%    passed     90.46%
+ 176  UniRef100_A0A1Z3HL76      52.07%    passed     83.14%
+ 177  UniRef100_A0A3C0PRR8      51.83%    passed     79.72%
+ 178  UniRef100_A0A651F2G2      49.15%    passed     65.67%
+ 179  UniRef100_A0A953VRG7      52.07%    passed     91.10%
+ 180  UniRef100_A0A251WD81      51.46%    passed     99.75%
+ 181  UniRef100_A0A6N8FYN5      52.20%    passed     99.80%
+ 182  UniRef100_A0A545TFB2      51.22%    passed     99.87%
+ 183  UniRef100_A0A858SU23      48.66%    passed     56.89%
+ 184  UniRef100_A0A953VZT3      49.15%    passed     98.67%
+ 185  UniRef100_A0A2D5IVI1      49.51%    passed     31.31%
+ 186  UniRef100_A0A2E3PLV1      49.51%    passed     49.00%
+ 187  UniRef100_A0A552HNQ4      52.20%    passed     99.94%
+ 188  UniRef100_A0A2S3YQY7      51.10%    passed     99.71%
+ 189  UniRef100_X6GGH9          50.98%    passed     99.99%
+ 190  UniRef100_A0A841UK63      52.20%    passed     99.98%
+ 191  UniRef100_A0A239P0Q2      53.05%    passed     29.42%
+ 192  UniRef100_A0A926SUW6      52.20%    passed     99.91%
+ 193  UniRef100_A0AAV6AFX4      51.10%    passed     99.96%
+ 194  UniRef100_A0A1M7SSY1      50.98%    passed     99.98%
+ 195  UniRef100_A0A5S9N8P2      50.98%    passed     99.90%
+ 196  UniRef100_A0A2A6P6E5      51.10%    passed     99.61%
+ 197  UniRef100_A0A844AS56      48.41%    passed     99.27%
+ 198  UniRef100_A0A4Q3Z8U5      49.02%    passed     99.51%
+ 199  UniRef100_A0A961PAP9      49.15%    passed     83.22%
+ 200  UniRef100_A0A937K9C9      48.41%    passed     94.46%
+ 201  UniRef100_G6YFD5          50.98%    passed     99.98%
+ 202  UniRef100_A0A1Y0CC31      53.66%    passed     63.86%
+ 203  UniRef100_A0A961NX17      49.15%    passed     97.56%
+ 204  UniRef100_A0A1X1QZB9      52.80%    passed     98.21%
+ 205  UniRef100_I3X603          51.10%    passed     98.24%
+ 206  UniRef100_A0A1B9VGW3      49.76%    passed    100.00%
+ 207  UniRef100_A0AAV3XHE7      51.22%    passed     98.31%
+ 208  UniRef100_U5DJQ1          51.95%    passed     97.50%
+ 209  UniRef100_A0A4Y8RNW0      50.49%    passed     99.91%
+ 210  UniRef100_A0A132T5V1      53.05%    passed     98.35%
+ 211  UniRef100_A0A6P1YMB7      51.10%    passed     99.98%
+ 212  UniRef100_A0A9D9K6S2      51.46%    passed     93.69%
+ 213  UniRef100_A0A3P3G4B6      50.98%    passed     99.98%
+ 214  UniRef100_A0A2E1H7K3      50.49%    passed     99.71%
+ 215  UniRef100_A0A6V8KZY2      54.76%    passed     98.90%
+ 216  UniRef100_A0A7D4A878      50.85%    passed     31.37%
+ 217  UniRef100_A0AA40T348      51.59%    passed     99.98%
+ 218  UniRef100_A0A9D9G6B2      54.02%    passed     68.76%
+ 219  UniRef100_A0A1B9D8M5      52.80%    passed     98.61%
+ 220  UniRef100_A0A0S4LKH7      53.41%    passed     90.61%
+ 221  UniRef100_A0A8J3P0E6      51.46%    passed     40.00%
+ 222  UniRef100_A0AAE7M4I8      51.71%    passed     99.54%
+ 223  UniRef100_A0A845U4U4      52.07%    passed     96.56%
+ 224  UniRef100_A0A2U2N9G3      51.22%    passed     74.01%
+ 225  UniRef100_A0A1Z4RKM4      52.07%    passed     99.76%
+ 226  UniRef100_A0A969JJX2      51.46%    passed     92.84%
+ 227  UniRef100_A0A844A5S3      51.10%    passed     98.31%
+ 228  UniRef100_I0IE04          52.20%    passed     74.84%
+ 229  UniRef100_A0A2A6LR43      51.10%    passed     98.82%
+ 230  UniRef100_A0A1X0DE82      52.80%    passed     99.76%
+ 231  UniRef100_A0A841V5Z8      52.20%    passed     99.99%
+ 232  UniRef100_A0A2M7Y8F9      49.02%    passed     52.74%
+ 233  UniRef100_A0A1D9FUK8      51.22%    passed     83.46%
+ 234  UniRef100_A0A4Q0MKR1      51.10%    passed     99.98%
+ 235  UniRef100_A0A2Z6UUQ2      52.20%    passed     99.93%
+ 236  UniRef100_A0A951PCB2      51.46%    passed     99.94%
+ 237  UniRef100_A0A2N0ZJ67      56.10%    passed     11.19%
+ 238  UniRef100_A0A968SKT4      51.46%    passed     99.64%
+ 239  UniRef100_A0A479ZNN4      51.59%    passed     97.07%
+ 240  UniRef100_A0A6L9YGA5      52.32%    passed     95.30%
+ 241  UniRef100_A0A1X0A741      52.80%    passed     98.92%
+ 242  UniRef100_A0A9W6N3H6      51.10%    passed     99.76%
+ 243  UniRef100_A0A292YLR1      52.93%    passed     92.64%
+ 244  UniRef100_A0A7T6VQ55      57.07%    failed      3.76%
+ 245  UniRef100_A0A936UQ02      51.95%    passed     86.94%
+ 246  UniRef100_A0A3A4W6A9      51.71%    passed     96.35%
+ 247  UniRef100_A0A1P8MY00      48.66%    passed     73.80%
+ 248  UniRef100_A0A8J7FVA3      51.34%    passed     99.81%
+ 249  UniRef100_A0A255DLB2      53.41%    passed     98.00%
+ 250  UniRef100_A0A962RFT1      52.68%    passed    100.00%
+ 251  UniRef100_A0A434N6U4      50.98%    passed     99.96%
+ 252  UniRef100_A0A9W6J7G0      50.49%    passed     99.98%
+ 253  UniRef100_A0A5S4H8R8      53.66%    passed     95.31%
+ 254  UniRef100_A0A956WJH4      52.93%    passed     83.69%
+ 255  UniRef100_A0A1Z8V5Y5      52.20%    passed     58.27%
+ 256  UniRef100_B0CA98          51.46%    passed     99.99%
+ 257  UniRef100_A0A950XS84      53.17%    passed     98.06%
+ 258  UniRef100_A0A1E7KMP7      52.32%    passed     74.60%
+ 259  UniRef100_A0A4R4XJI2      53.66%    passed     72.67%
+ 260  UniRef100_A0A9W5RZS5      53.29%    passed     98.03%
+ 261  UniRef100_A0A964BTH8      52.44%    passed     98.81%
+ 262  UniRef100_A0A5J6Q5I1      51.71%    passed     97.52%
+ 263  UniRef100_A0A8J7ELA4      51.46%    passed     99.76%
+ 264  UniRef100_A0A6P0LWZ8      52.32%    passed     90.37%
+ 265  UniRef100_A0A2U1FA04      53.78%    passed     84.76%
+ 266  UniRef100_A0A9E6R8N0      51.10%    passed     99.91%
+ 267  UniRef100_A0A6N7I4F5      56.46%    passed     99.70%
+ 268  UniRef100_A0A0J6W4U2      53.05%    passed     98.84%
+ 269  UniRef100_A0A7X6IA69      50.12%    passed      5.32%
+ 270  UniRef100_A0A2E2T952      49.76%    passed    100.00%
+ 271  UniRef100_A0A1V2I5U1      54.76%    passed     80.61%
+ 272  UniRef100_B1XPM6          52.44%    passed    100.00%
+ 273  UniRef100_A0A8J6WIB0      51.46%    passed     99.60%
+ 274  UniRef100_A0A968YCN6      51.46%    passed     99.08%
+ 275  UniRef100_A0A9W6MSV6      51.10%    passed     99.76%
+ 276  UniRef100_A0A6P1T0E8      48.78%    passed     73.76%
+ 277  UniRef100_A0A9Q2S2P6      49.51%    passed     85.47%
+ 278  UniRef100_A0A0M6XZX5      49.76%    passed    100.00%
+ 279  UniRef100_A0A0P7XFG1      49.76%    passed     68.63%
+ 280  UniRef100_A0A352AP02      51.22%    passed     67.61%
+ 281  UniRef100_A0A9X7RHH2      49.76%    passed    100.00%
+ 282  UniRef100_A0A937HUH4      51.71%    passed     99.54%
+ 283  UniRef100_A0A926NXJ6      49.76%    passed     99.99%
+ 284  UniRef100_A0A939EDK8      54.15%    passed     99.94%
+ 285  UniRef100_A0NSP7          54.15%    passed     99.74%
+ 286  UniRef100_A0A1G7S4E4      51.71%    passed     90.13%
+ 287  UniRef100_A0A552FYJ8      52.20%    passed     99.92%
+ 288  UniRef100_A0A926ZWL2      51.83%    passed     99.99%
+ 289  UniRef100_A0A6H1TXK2      51.95%    passed     86.85%
+ 290  UniRef100_A0A651DXW6      52.07%    passed     99.79%
+ 291  UniRef100_A0A6P0WTP3      51.59%    passed     96.75%
+ 292  UniRef100_H0TUD6          51.10%    passed    100.00%
+ 293  UniRef100_A0A8J3NRB7      52.20%    passed     63.09%
+ 294  UniRef100_A0A2U3NYV8      52.80%    passed     99.84%
+ 295  UniRef100_A0A5P8YYY3      48.90%    passed     91.77%
+ 296  UniRef100_A0A8J7ABK2      52.32%    passed     99.94%
+ 297  UniRef100_K9TCH8          51.10%    passed     93.61%
+ 298  UniRef100_A0A399J7F4      49.63%    passed     94.91%
+ 299  UniRef100_A0A0A0E9I7      48.29%    passed     95.58%
+ 300  UniRef100_A0A0J6Z3J8      53.05%    passed     98.49%
+ 301  UniRef100_A0A5R8ZDH0      54.27%    passed     97.35%
+ 302  UniRef100_A0A1X4GAC8      52.20%    passed     79.75%
+ 303  UniRef100_A0A1G4RSI2      50.37%    passed     99.89%
+ 304  UniRef100_S9Q9K7          48.66%    passed     97.72%
+ 305  UniRef100_A0A510PHJ4      52.20%    passed     99.95%
+ 306  UniRef100_A0A7R7CC30      51.10%    passed     99.98%
+ 307  UniRef100_A0A2E4VAZ4      52.56%    passed      6.08%
+ 308  UniRef100_A0A6G3ZB72      58.90%    passed     99.86%
+ 309  UniRef100_A0AA37V973      51.10%    passed     99.99%
+ 310  UniRef100_A0A1U7MWP8      51.22%    passed     91.21%
+ 311  UniRef100_A0A523PI11      51.95%    passed     99.93%
+ 312  UniRef100_A0A1X1WSP0      53.41%    passed     99.37%
+ 313  UniRef100_A0A7I7M3P4      53.05%    passed     97.70%
+ 314  UniRef100_A0A0B3SU23      49.51%    passed     67.87%
+ 315  UniRef100_A0A839PZ60      52.68%    passed     98.93%
+ 316  UniRef100_L8LKZ4          51.71%    passed     96.12%
+ 317  UniRef100_A0A552IFH0      52.20%    passed     99.95%
+ 318  UniRef100_A0A178LQ75      53.41%    passed     99.10%
+ 319  UniRef100_K8GPU9          51.83%    passed     99.83%
+ 320  UniRef100_A0A1V1UFP7      48.41%    passed     95.90%
+ 321  UniRef100_A0A085TZR9      48.41%    passed     99.00%
+ 322  UniRef100_A0A552CC56      52.20%    passed     99.97%
+ 323  UniRef100_A0A9E3HBD2      51.59%    passed     99.63%
+ 324  UniRef100_A0A2W7ARS9      51.46%    passed     99.98%
+ 325  UniRef100_A0A073CFV3      51.59%    passed     94.81%
+ 326  UniRef100_A0A4R6VFA2      54.15%    passed     84.07%
+ 327  UniRef100_A0A968Y6Y7      50.73%    passed     98.74%
+ 328  UniRef100_A0A2W7AX61      51.59%    passed     99.82%
+ 329  UniRef100_A0A178XQV9      51.10%    passed     99.25%
+ 330  UniRef100_A0A1H4AHG8      49.02%    passed     64.88%
+ 331  UniRef100_W7T0B0          54.51%    passed     85.58%
+ 332  UniRef100_A0A1N6KKF9      47.20%    passed     76.15%
+ 333  UniRef100_A0A5P9D1D3      49.76%    passed     99.99%
+ 334  UniRef100_A0A7T5JFE9      51.59%    passed     99.08%
+ 335  UniRef100_A0A3A8AF40      48.78%    passed     99.99%
+ 336  UniRef100_A0A7Y9DYV9      52.80%    passed     88.71%
+ 337  UniRef100_A0A2E6EB57      51.59%    passed     97.90%
+ 338  UniRef100_A0A937REF8      51.59%    passed     83.68%
+ 339  UniRef100_K9S9D4          47.80%    passed     95.02%
+ 340  UniRef100_A0A1I6CMZ1      49.15%    passed     97.35%
+ 341  UniRef100_A0A437S7J5      57.07%    passed     12.30%
+ 342  UniRef100_A0A6P0IUR7      52.32%    passed     94.43%
+ 343  UniRef100_L8LZL4          52.20%    passed     99.63%
+ 344  UniRef100_A0A2E1IGT1      51.71%    passed     96.85%
+ 345  UniRef100_A0A6P0MPG6      51.59%    passed     98.14%
+ 346  UniRef100_A0A0M6YGB3      49.51%    passed     83.10%
+ 347  UniRef100_A0A7W8A2W3      53.90%    passed     45.46%
+ 348  UniRef100_A0A1M3ND77      53.29%    passed     97.95%
+ 349  UniRef100_A0A433NKC8      51.71%    passed     98.73%
+ 350  UniRef100_A0A238JVB3      49.02%    passed     99.58%
+ 351  UniRef100_A0A6N4V8S7      53.41%    passed     94.09%
+ 352  UniRef100_A0A140K905      51.59%    passed     98.72%
+ 353  UniRef100_A0A7I7TYQ8      53.41%    passed     99.31%
+ 354  UniRef100_A0A839Z3E8      51.10%    passed    100.00%
+ 355  UniRef100_A0A8I2BKU7      54.02%    passed     68.40%
+ 356  UniRef100_A0A1J5LGA1      48.41%    passed     97.86%
+ 357  UniRef100_A0A3N1ARS4      52.68%    passed     88.42%
+ 358  UniRef100_A0A271LGP1      50.98%    passed     99.99%
+ 359  UniRef100_A0A375YFS9      53.41%    passed     99.53%
+ 360  UniRef100_A0A1D8IRI4      51.46%    passed     97.61%
+ 361  UniRef100_A0A5D0NVH5      51.46%    passed      8.60%
+ 362  UniRef100_A0A1I3CWH8      48.90%    passed     74.44%
+ 363  UniRef100_A0A2T5B3M4      49.88%    passed     59.32%
+ 364  UniRef100_A0A7C9RW40      54.15%    passed     88.50%
+ 365  UniRef100_A0A929FUM1      51.59%    passed     99.81%
+ 366  UniRef100_A0A919QIK1      54.51%    passed     97.81%
+ 367  UniRef100_A0A551ZFP0      52.20%    passed     99.99%
+ 368  UniRef100_A0A9E6ZX33      51.10%    passed     99.97%
+ 369  UniRef100_A0A7C9J1C8      54.27%    passed     96.41%
+ 370  UniRef100_A0A2C9D9R3      50.98%    passed     99.97%
+ 371  UniRef100_A0A369TBE5      52.32%    passed     93.52%
+ 372  UniRef100_A0A239L0P5      49.51%    passed     94.67%
+ 373  UniRef100_A0A4V3BCC2      49.51%    passed     94.21%
+ 374  UniRef100_A0A1Z9LHN3      51.71%    passed     96.38%
+ 375  UniRef100_K9YMC4          53.05%    passed     73.22%
+ 376  UniRef100_A0A0R0M9W9      50.24%    passed     27.55%
+ 377  UniRef100_A0A840CMR2      48.66%    passed     85.55%
+ 378  UniRef100_A0A978U6S0      52.20%    passed     97.77%
+ 379  UniRef100_A0A5P8MZZ9      51.10%    passed     99.97%
+ 380  UniRef100_A0A6H9G6T6      52.20%    passed     99.99%
+ 381  UniRef100_A0AA35U5U9      49.63%    passed     82.94%
+ 382  UniRef100_A0A328VJ47      53.54%    passed     99.50%
+ 383  UniRef100_A0A9P2YFN4      52.07%    passed     99.96%
+ 384  UniRef100_S3JEP8          52.20%    passed     99.98%
+ 385  UniRef100_A0A926UYN9      51.71%    passed     99.81%
+ 386  UniRef100_K9RVM3          51.95%    passed     99.75%
+ 387  UniRef100_A0A5D3FH59      51.59%    passed     10.04%
+ 388  UniRef100_A0A1X2FCU9      52.80%    passed     99.27%
+ 389  UniRef100_A0A853MJB3      50.61%    passed     38.92%
+ 390  UniRef100_A0A6N9ELI5      51.83%    passed     59.22%
+ 391  UniRef100_A0A1W9HES2      56.22%    passed     99.76%
+ 392  UniRef100_A0A2D7FGK0      51.10%    passed     99.65%
+ 393  UniRef100_A0A1B1TQK1      52.44%    passed    100.00%
+ 394  UniRef100_A0A1S2RFD8      54.15%    passed     39.45%
+ 395  UniRef100_A0A5M3WXU7      54.51%    passed     99.59%
+ 396  UniRef100_A0AAC9M3P6      51.71%    passed     51.50%
+ 397  UniRef100_E0UCF1          51.10%    passed     99.00%
+ 398  UniRef100_A0A1M5K3L0      48.29%    passed     97.39%
+ 399  UniRef100_A0A6N3X395      51.34%    passed     46.59%
+ 400  UniRef100_A0A3N5IGD6      54.63%    passed     99.99%
+ 401  UniRef100_A0A1X0JWB4      52.68%    passed     99.33%
+ 402  UniRef100_A0A925CKZ5      50.24%    passed     74.74%
+ 403  UniRef100_G8RW42          53.41%    passed     97.07%
+ 404  UniRef100_A0A1V3X362      46.59%    passed     58.02%
+ 405  UniRef100_A0A552Q5K5      52.20%    passed     99.99%
+ 406  UniRef100_A0A524RNM7      51.71%    passed     99.47%
+ 407  UniRef100_A0A058ZJP7      49.51%    passed     98.90%
+ 408  UniRef100_A0A8J7D6I1      51.59%    passed     99.96%
+ 409  UniRef100_F6B309          55.24%    passed     88.96%
+ 410  UniRef100_F6B315          55.12%    passed     56.50%
+ 411  UniRef100_A0A968Q9M2      52.32%    passed     96.87%
+ 412  UniRef100_A0A6I1FZE5      52.56%    passed     10.02%
+ 413  UniRef100_D5WQW1          53.41%    passed     99.46%
+ 414  UniRef100_A0A6I5NNC0      52.44%    passed     99.07%
+ 415  UniRef100_A0A0S4LJ73      53.41%    passed     92.88%
+ 416  UniRef100_A0A4Y9Q6F9      53.66%    passed     91.17%
+ 417  UniRef100_A0A346R4D1      50.00%    passed    100.00%
+ 418  UniRef100_A0A8J6W4H6      51.46%    passed     99.29%
+ 419  UniRef100_K9W900          51.10%    passed     99.33%
+ 420  UniRef100_A0A846E2T3      51.46%    passed     99.83%
+ 421  UniRef100_A0A525VMM3      54.51%    passed     99.76%
+ 422  UniRef100_A0A919V6Y8      53.78%    passed     77.45%
+ 423  UniRef100_A0A1X0XZN4      52.80%    passed     98.87%
+ 424  UniRef100_A0A7X6GWN3      49.51%    passed     86.09%
+ 425  UniRef100_A0A357A7X4      52.44%    passed     77.57%
+ 426  UniRef100_A0A7G8IJJ4      51.71%    passed     99.53%
+ 427  UniRef100_A0A552M5S7      52.20%    passed     99.94%
+ 428  UniRef100_A0A8J3FMQ9      53.78%    passed     91.37%
+ 429  UniRef100_A0A552EG51      52.20%    passed     99.98%
+ 430  UniRef100_A0A5J4KFU9      51.83%    failed      3.52%
+ 431  UniRef100_A0A9X2H4N0      52.20%    passed     99.99%
+ 432  UniRef100_A0A947DC86      52.32%    passed     99.99%
+ 433  UniRef100_A0A552E3L0      52.20%    passed     99.97%
+ 434  UniRef100_A0A1D8TLK6      51.22%    passed     77.10%
+ 435  UniRef100_A0A967K9I0      52.07%    passed     99.56%
+ 436  UniRef100_A0A0D8ZSH3      51.10%    passed     97.14%
+ 437  UniRef100_A0A1X6Z0A5      48.90%    passed     99.13%
+ 438  UniRef100_A0A1Y6KPR1      51.10%    passed    100.00%
+ 439  UniRef100_A0A257SQD7      51.59%    passed     97.67%
+ 440  UniRef100_A0A5M3XUV9      54.51%    passed     99.18%
+ 441  UniRef100_A0A2P9AE15      50.98%    passed     99.99%
+ 442  UniRef100_A0A1D8K4S7      51.46%    passed     95.25%
+ 443  UniRef100_A0A6P0RT57      51.59%    passed     89.55%
+ 444  UniRef100_A0A969TQW8      51.46%    passed     95.46%
+ 445  UniRef100_A0A926P9J5      51.22%    passed     97.49%
+ 446  UniRef100_A0A7I8D9J2      53.05%    passed     84.37%
+ 447  UniRef100_A0AAX0KZL6      48.29%    passed     96.88%
+ 448  UniRef100_A0A2W7N9C4      49.51%    passed     78.89%
+ 449  UniRef100_A0A1H6IL32      53.29%    passed     98.78%
+ 450  UniRef100_A0A8J8CIJ3      51.59%    passed     97.64%
+ 451  UniRef100_A0A929ALH5      51.46%    passed     99.89%
+ 452  UniRef100_A0A2P8WJ61      51.46%    passed     99.94%
+ 453  UniRef100_K9YYN0          53.05%    passed     75.34%
+ 454  UniRef100_A0A372DVD1      52.20%    passed     98.16%
+ 455  UniRef100_B0JWM6          52.20%    passed     99.99%
+ 456  UniRef100_A0A418SGW4      49.51%    passed     97.28%
+ 457  UniRef100_A0A937I0Q8      51.71%    passed     98.90%
+ 458  UniRef100_A0A810NUZ5      52.20%    failed      3.74%
+ 459  UniRef100_A0A953J4I0      49.51%    passed     22.56%
+ 460  UniRef100_A0AB36RE81      50.98%    passed     99.99%
+ 461  UniRef100_A0A1H3BFI5      48.54%    passed     32.03%
+ 462  UniRef100_A0A939FY26      50.49%    passed     99.93%
+ 463  UniRef100_U5W7R9          52.32%    passed     82.83%
+ 464  UniRef100_A0A2H6BHV1      51.10%    passed     99.75%
+ 465  UniRef100_A0A2P8VTS0      51.59%    passed     99.92%
+ 466  UniRef100_A0A2W5SDY9      51.10%    passed     99.98%
+ 467  UniRef100_A0A2V2LL67      49.51%    passed     69.10%
+ 468  UniRef100_A0A1J0PDN1      50.73%    passed     99.86%
+ 469  UniRef100_A0A182ALT8      51.71%    passed     99.15%
+ 470  UniRef100_A0A222E7T4      49.27%    passed     90.36%
+ 471  UniRef100_A0A2W5MD25      51.22%    passed     99.17%
+ 472  UniRef100_A0A239GF76      49.27%    passed     88.12%
+ 473  UniRef100_A0A8B2NTK4      50.73%    passed     99.53%
+ 474  UniRef100_A0A2W5K5R3      54.15%    passed     98.92%
+ 475  UniRef100_A0A2E3UDF5      48.66%    passed     91.06%
+ 476  UniRef100_A0A2I2KM90      51.95%    passed     51.55%
+ 477  UniRef100_A0AB36HXU1      49.76%    passed    100.00%
+ 478  UniRef100_A0A2A6M2L8      51.10%    passed     99.64%
+ 479  UniRef100_A0A969R3A8      51.59%    passed     98.49%
+ 480  UniRef100_A0A0S3TRN2      51.59%    passed     99.64%
+ 481  UniRef100_A0A4R4Y5U6      51.34%    passed      7.46%
+ 482  UniRef100_A0A1I3FGL7      52.07%    passed     93.32%
+ 483  UniRef100_A0A7W8Z1W0      52.32%    passed     55.65%
+ 484  UniRef100_A0A6L8LT00      49.51%    passed     94.02%
+ 485  UniRef100_A0A6L9ZEL8      52.32%    passed     95.40%
+ 486  UniRef100_A0A1A3SML4      53.54%    passed     92.46%
+ 487  UniRef100_A0A3N2QRI4      48.78%    passed     83.17%
+ 488  UniRef100_A0A163VEL5      50.85%    passed     99.90%
+ 489  UniRef100_A0A1W9GG45      53.41%    passed     91.39%
+ 490  UniRef100_A0A239NI66      52.68%    passed     96.74%
+ 491  UniRef100_A0A4Q0VUU2      53.05%    passed     57.29%
+ 492  UniRef100_A0A2S0XE41      50.37%    passed     77.94%
+ 493  UniRef100_U2Z3Q1          49.51%    passed     99.66%
+ 494  UniRef100_A0A9W6JXW9      51.10%    passed     99.97%
+ 495  UniRef100_A0A1C0UU91      52.20%    passed     96.01%
+ 496  UniRef100_A0A9P1NZN9      51.10%    passed     89.49%
+ 497  UniRef100_A0A967AAJ9      53.41%    passed     97.29%
+ 498  UniRef100_A0A843YIX6      48.29%    passed     99.41%
+ 499  UniRef100_A0A967DX15      59.27%    passed     94.66%
+ 500  UniRef100_A0A1T2A0F3      48.78%    passed     94.72%
+ 501  UniRef100_W4PYS7          53.17%    passed     57.78%
+ 502  UniRef100_A0A7L8RPJ2      50.37%    passed     85.86%
+ 503  UniRef100_A0A919MW05      52.56%    passed     80.23%
+ 504  UniRef100_A0A6F8ZIQ2      54.76%    passed     57.95%
+ 505  UniRef100_A0A5D0P392      53.90%    passed      7.84%
+ 506  UniRef100_A0A7T1MFI0      51.71%    passed     99.70%
+ 507  UniRef100_A0A2W2DRU9      52.32%    passed     98.33%
+ 508  UniRef100_A0A7V9FCX2      54.63%    passed     37.18%
+ 509  UniRef100_A0A090E7G1      50.98%    passed    100.00%
+ 510  UniRef100_A0A0B4BH14      49.51%    passed     64.26%
+ 511  UniRef100_A0A365H4X9      54.88%    passed     94.93%
+ 512  UniRef100_A0A1S2LS36      56.34%    passed     90.52%
+ 513  UniRef100_A0A7V9SBG2      52.93%    passed     72.82%
+ 514  UniRef100_A0A7W0A3C5      53.29%    passed     37.23%
+ 515  UniRef100_A0A7W0NAX5      52.80%    passed     48.17%
+ 516  UniRef100_A0A7V9B8R1      55.24%    passed     45.08%
+ 517  UniRef100_A0A243RNF0      52.07%    passed     89.06%
+ 518  UniRef100_A0A7W1DVF2      52.93%    passed     63.40%
+ 519  UniRef100_A0A7V9VDL2      52.32%    passed     35.88%
+ 520  UniRef100_A0A858CS03      49.51%    passed     91.93%
+ 521  UniRef100_A0A4R9X673      50.98%    passed     99.99%
+ 522  UniRef100_A0A2Z3UKN3      52.68%    passed     96.75%
+ 523  UniRef100_A0A969F785      51.71%    passed     92.69%
+ 524  UniRef100_A0A2N6KJ89      51.59%    passed     99.38%
+ 525  UniRef100_A0A2T2RSC8      51.46%    passed     89.74%
+ 526  UniRef100_A0A2V2EUN9      55.49%    failed      0.49%
+ 527  UniRef100_A0AAE4JV92      51.95%    passed     99.64%
+ 528  UniRef100_A0A2T1CAV0      51.95%    passed    100.00%
+ 529  UniRef100_A0A916ZV29      51.10%    passed      9.99%
+ 530  UniRef100_Q7U6C6          48.05%    passed     98.52%
+ 531  UniRef100_A0A917A8E9      49.51%    passed     95.30%
+ 532  UniRef100_A0A316HLU7      54.15%    passed     74.51%
+ 533  UniRef100_A0AAW9QXC5      51.71%    passed     96.77%
+ 534  UniRef100_A0A919PW34      53.78%    passed     97.52%
+ 535  UniRef100_A0A238J8E0      48.41%    passed     88.86%
+ 536  UniRef100_A0A0M7AS31      49.76%    passed     99.99%
+ 537  UniRef100_A0A1G8VS52      49.51%    passed     93.67%
+ 538  UniRef100_K9Z965          53.05%    passed     74.82%
+ 539  UniRef100_A0A1B7VBU1      52.20%    passed     99.76%
+ 540  UniRef100_A0A977L551      52.20%    passed     99.81%
+ 541  UniRef100_A0A7C1W1A4      51.22%    passed     58.73%
+ 542  UniRef100_A0A961L8Y0      54.02%    passed     91.48%
+ 543  UniRef100_A0A3C0TSC1      52.32%    passed     99.97%
+ 544  UniRef100_A0A4S0GWT1      50.98%    passed     99.99%
+ 545  UniRef100_A0A3B9BMY1      53.29%    passed     98.10%
+ 546  UniRef100_A0A9E4M1R0      49.63%    passed     66.00%
+ 547  UniRef100_A0A6H2NQE6      51.83%    passed     89.79%
+ 548  UniRef100_A0A353LTI4      50.00%    passed     98.33%
+ 549  UniRef100_A0A351T1E0      50.00%    passed     98.31%
+ 550  UniRef100_A5GWX2          51.71%    passed     99.50%
+ 551  UniRef100_A0A537PTY3      50.98%    passed     99.97%
+ 552  UniRef100_A0A552ASG7      52.20%    passed     99.93%
+ 553  UniRef100_A0A3S1KMM5      50.98%    passed     99.98%
+ 554  UniRef100_A0A929A0H5      52.20%    passed     99.97%
+ 555  UniRef100_A0A9X2K106      53.90%    passed      5.78%
+ 556  UniRef100_A0A1Z8NF85      52.07%    passed     98.62%
+ 557  UniRef100_A0A316A5U4      48.66%    passed     57.31%
+ 558  UniRef100_A0A1W2E6U1      50.61%    passed     99.73%
+ 559  UniRef100_A0A5B8NJP0      53.05%    passed     77.34%
+ 560  UniRef100_A0A1U7J704      51.46%    passed     99.96%
+ 561  UniRef100_A0A2W4XWD3      51.95%    passed     99.94%
+ 562  UniRef100_A0A1U7H0G6      51.59%    passed     99.11%
+ 563  UniRef100_A0A953DH84      52.44%    passed     10.41%
+ 564  UniRef100_A0A838WJJ8      52.20%    passed     73.37%
+ 565  UniRef100_A0A9E8ZD71      51.10%    passed     99.22%
+ 566  UniRef100_A0A434WD75      50.98%    passed     99.99%
+ 567  UniRef100_A0A0Q2UZ82      50.98%    passed     98.39%
+ 568  UniRef100_A0A2W7D8R6      52.20%    passed     99.97%
+ 569  UniRef100_A0A6F9E7J9      48.78%    passed     97.38%
+ 570  UniRef100_A0A926XCN3      51.59%    passed     99.81%
+ 571  UniRef100_A0A8J7B3D5      51.95%    passed     99.66%
+ 572  UniRef100_A0A6P0NAK5      52.32%    passed     95.67%
+ 573  UniRef100_A0A3S0TDL7      54.27%    passed     96.25%
+ 574  UniRef100_K9TXV5          51.22%    passed     95.22%
+ 575  UniRef100_A0ABF7PYD3      51.10%    passed    100.00%
+ 576  UniRef100_A0A2T2R894      52.80%    passed     91.54%
+ 577  UniRef100_A0A074JNC9      48.29%    passed     96.71%
+ 578  UniRef100_A0A9X2YQK6      49.63%    passed     96.76%
+ 579  UniRef100_H0I424          50.98%    passed     99.92%
+ 580  UniRef100_A0A926VA65      51.59%    passed     99.93%
+ 581  UniRef100_A0A8J7ETX4      51.83%    passed     99.98%
+ 582  UniRef100_A0A367QMW7      51.59%    passed     99.60%
+ 583  UniRef100_A0A9W4BKQ4      47.32%    passed     89.35%
+ 584  UniRef100_A0A356ICT4      51.83%    passed     49.59%
+ 585  UniRef100_A0A498PZ76      52.80%    passed     86.63%
+ 586  UniRef100_A0A2G2K5R1      51.95%    passed     73.71%
+ 587  UniRef100_A0A9Q5QVF8      52.20%    passed     89.86%
+ 588  UniRef100_A0A5M3VNL4      54.51%    passed     99.64%
+ 589  UniRef100_A0A968I231      51.46%    passed     99.80%
+ 590  UniRef100_A0A9D6CT00      53.05%    passed     99.99%
+ 591  UniRef100_A0A960J7L6      53.17%    passed     99.50%
+ 592  UniRef100_A0A7X3XFD0      51.71%    passed     77.75%
+ 593  UniRef100_A0A5J5K752      54.27%    passed     95.71%
+ 594  UniRef100_A0A7W7RE34      52.32%    passed     49.48%
+ 595  UniRef100_A0A0D8HF23      54.15%    passed     99.99%
+ 596  UniRef100_A0A2P8QUV9      51.22%    passed     92.13%
+ 597  UniRef100_A0A9D8KAC6      51.22%    passed     99.83%
+ 598  UniRef100_A0AA42BC34      52.56%    passed     17.56%
+ 599  UniRef100_A0A1V4BL07      52.20%    passed     99.98%
+ 600  UniRef100_A0A5S9PX60      53.41%    passed     98.98%
+ 601  UniRef100_A0A844W8J3      49.76%    passed     92.82%
+ 602  UniRef100_A0A9X5E7H5      51.22%    passed     95.39%
+ 603  UniRef100_A0A1A2H4G3      52.80%    passed     99.61%
+ 604  UniRef100_A0A1J5NCF8      53.17%    passed     75.18%
+ 605  UniRef100_A0A1I1IU83      49.02%    passed     92.35%
+ 606  UniRef100_A0A9Q9IKV6      53.66%    passed     91.97%
+ 607  UniRef100_A0A926YGN0      51.46%    passed     97.43%
+ 608  UniRef100_A0A0P1FDK3      50.24%    passed     97.24%
+ 609  UniRef100_A0A3D9ZZ05      52.56%    passed     41.08%
+ 610  UniRef100_A0A1I7NU34      50.24%    passed     47.25%
+ 611  UniRef100_A0A6B3MTL5      51.22%    passed     88.08%
+ 612  UniRef100_A0A8J6VKQ0      51.71%    passed     99.80%
+ 613  UniRef100_A0AAE4T9B7      48.66%    passed     81.04%
+ 614  UniRef100_A0A2W7RFH7      49.02%    passed     98.66%
+ 615  UniRef100_A0A1I7N5A1      50.12%    passed     34.16%
+ 616  UniRef100_A0A2M8W613      49.51%    passed     68.21%
+ 617  UniRef100_A0A928W9K3      52.07%    passed     87.08%
+ 618  UniRef100_A0A950VG11      56.10%    passed     99.70%
+ 619  UniRef100_A0A950LF02      51.59%    passed     96.00%
+ 620  UniRef100_A0A222FDU8      51.95%    passed    100.00%
+ 621  UniRef100_A0A373WBA5      55.24%    failed      2.00%
+ 622  UniRef100_A0A8T4F313      54.02%    passed     91.65%
+ 623  UniRef100_A0A7Y3LDG1      57.07%    passed     97.62%
+ 624  UniRef100_A0A1H9AMY2      48.66%    passed     98.31%
+ 625  UniRef100_A0A2E2RPP0      48.66%    passed    100.00%
+ 626  UniRef100_A0A969NIY0      51.59%    passed     99.27%
+ 627  UniRef100_A0A6P1A5Z8      52.32%    passed     94.85%
+ 628  UniRef100_A0A1S1QQK5      54.88%    passed     83.11%
+ 629  UniRef100_A0A969TMP5      51.59%    passed     99.94%
+ 630  UniRef100_A0A1E3V4V8      51.10%    passed     99.83%
+ 631  UniRef100_A0A5N5VGT5      53.41%    passed     99.59%
+ 632  UniRef100_A0A0P1IT51      48.29%    passed     93.37%
+ 633  UniRef100_A0A9X2YFC4      53.05%    passed     97.01%
+ 634  UniRef100_A0A3R7RQX7      51.71%    passed     83.91%
+ 635  UniRef100_A0AAF1ACW1      52.32%    passed     95.23%
+ 636  UniRef100_A0A5J4F551      52.20%    passed     99.98%
+ 637  UniRef100_A0A917UHP4      54.63%    passed     97.56%
+ 638  UniRef100_W4QQC8          53.17%    passed     25.68%
+ 639  UniRef100_A0A6I5N258      51.95%    passed     99.95%
+ 640  UniRef100_A0A8J6RB86      51.46%    passed     99.37%
+ 641  UniRef100_A0A1A0MZP5      53.54%    passed     94.06%
+ 642  UniRef100_A0A968SI38      51.46%    passed     99.80%
+ 643  UniRef100_A0A0D6ANF4      53.05%    passed     90.49%
+ 644  UniRef100_A0A928Z8M9      52.07%    passed     82.10%
+ 645  UniRef100_A0AAW5SRH8      53.66%    passed     87.90%
+ 646  UniRef100_A0A968PQD0      51.83%    passed     94.58%
+ 647  UniRef100_A0A7X0IFQ5      53.29%    passed     95.62%
+ 648  UniRef100_A0A402D6M7      53.78%    passed     99.93%
+ 649  UniRef100_A0A4R1I8R0      50.37%    passed     99.98%
+ 650  UniRef100_A0A1X0FQL5      52.80%    passed     97.58%
+ 651  UniRef100_A0A2L2XMK1      52.20%    passed     99.98%
+ 652  UniRef100_A0A2M8J1J6      47.93%    passed     83.56%
+ 653  UniRef100_A0A858X221      51.46%    passed     99.74%
+ 654  UniRef100_A0A9E4BV62      53.05%    passed     97.61%
+ 655  UniRef100_A0A1Y5S0C6      48.54%    passed     88.74%
+ 656  UniRef100_A0A945FJD6      53.17%    passed     98.48%
+ 657  UniRef100_A0A6B3LUK6      51.59%    passed     76.89%
+ 658  UniRef100_A0A1I3I989      48.29%    passed     84.62%
+ 659  UniRef100_L0DIQ7          47.20%    passed     70.07%
+ 660  UniRef100_A0AB37UHV7      51.22%    passed     95.48%
+ 661  UniRef100_A0A969CPM3      51.71%    passed     99.43%
+ 662  UniRef100_A0A7T1M906      51.10%    passed     95.52%
+ 663  UniRef100_A0A7W0GZV8      53.66%    passed     90.31%
+ 664  UniRef100_A0A968N4N4      51.59%    passed     86.83%
+ 665  UniRef100_A0A1G5PM80      48.29%    passed     99.55%
+ 666  UniRef100_A0A845X1L6      52.56%    passed     99.92%
+ 667  UniRef100_A0A354B318      52.20%    passed     93.32%
+ 668  UniRef100_A0A4R6RL20      51.10%    passed     99.80%
+ 669  UniRef100_A0A0M2PTN2      52.32%    passed     84.92%
+ 670  UniRef100_A0AAJ1RZV5      52.80%    passed     97.69%
+ 671  UniRef100_A0A5C0DTI1      51.83%    passed     99.80%
+ 672  UniRef100_A0A552J9F6      52.20%    passed     99.89%
+ 673  UniRef100_U9VHU0          52.20%    passed     98.50%
+ 674  UniRef100_A0A0P8A2V1      51.59%    passed     99.78%
+ 675  UniRef100_A0A845YH69      51.59%    passed     79.31%
+ 676  UniRef100_A0A5J4E4E9      51.83%    passed     99.20%
+ 677  UniRef100_A0A7X4F3X8      51.83%    passed     49.01%
+ 678  UniRef100_A0A7X0LIZ6      52.68%    passed     64.99%
+ 679  UniRef100_A0A2E7HKR6      51.83%    passed     97.03%
+ 680  UniRef100_A0A961Y9G8      48.66%    passed    100.00%
+ 681  UniRef100_A0A2E8YEP6      51.95%    passed     94.71%
+ 682  UniRef100_A0A7G8E428      51.71%    passed     96.17%
+ 683  UniRef100_A0A552EYT2      52.20%    passed     99.97%
+ 684  UniRef100_A0A7X0LII8      52.32%    passed     91.74%
+ 685  UniRef100_A0A961U9C9      49.76%    passed    100.00%
+ 686  UniRef100_A0A2E1LHM3      49.39%    passed    100.00%
+ 687  UniRef100_A0A0P1GGZ3      48.17%    passed     88.01%
+ 688  UniRef100_A0A946AG15      51.95%    passed     63.14%
+ 689  UniRef100_A0A951PJL6      51.22%    passed     98.25%
+ 690  UniRef100_A0A2U3N5U4      52.80%    passed     99.77%
+ 691  UniRef100_A0A1E3WE99      54.39%    passed     93.87%
+ 692  UniRef100_A0A1E3GZ07      50.98%    passed     99.83%
+ 693  UniRef100_A0A926A6G4      47.07%    passed     63.62%
+ 694  UniRef100_A0A316GVS2      49.51%    passed     78.71%
+ 695  UniRef100_A0A972GHU1      52.68%    passed     30.22%
+ 696  UniRef100_A0A4R4M7K3      51.34%    passed     19.83%
+ 697  UniRef100_A0A958AB89      52.07%    passed     99.69%
+ 698  UniRef100_A0A929A0Z7      52.44%    passed     98.39%
+ 699  UniRef100_A0A7I7VQN0      49.88%    passed     88.95%
+ 700  UniRef100_A0A9D9BIS1      54.15%    passed     99.93%
+ 701  UniRef100_A0A845W7K9      56.34%    passed     97.33%
+ 702  UniRef100_A0A1X1TMF9      51.95%    passed     91.00%
+ 703  UniRef100_A0A925U6J9      53.78%    passed     79.59%
+ 704  UniRef100_A0A1X1ZVE1      52.80%    passed     95.12%
+ 705  UniRef100_A0A925U670      51.10%    passed     99.94%
+ 706  UniRef100_A0A969D8K2      51.83%    passed     99.95%
+ 707  UniRef100_B4WQ34          51.83%    passed     99.90%
+ 708  UniRef100_A0A9X5YY09      54.76%    passed     85.20%
+ 709  UniRef100_A0A6P0W2X4      51.59%    passed     89.33%
+ 710  UniRef100_A0A844GUZ4      53.05%    passed     65.29%
+ 711  UniRef100_A0A562PCP5      50.98%    passed    100.00%
+ 712  UniRef100_A0A3A0AZB0      52.44%    passed     74.06%
+ 713  UniRef100_A0A950RZT3      49.76%    passed     14.88%
+ 714  UniRef100_A1T3A2          53.05%    passed     99.28%
+ 715  UniRef100_A0A941AKV2      54.51%    passed     98.99%
+ 716  UniRef100_A0A535V3N0      54.76%    passed     68.77%
+ 717  UniRef100_A0A3A0AN26      54.76%    passed     78.88%
+ 718  UniRef100_A0A7S8J228      53.41%    passed     95.95%
+ 719  UniRef100_A0A535FJW2      55.12%    passed     95.36%
+ 720  UniRef100_A0A2N6K6H0      51.59%    passed     99.89%
+ 721  UniRef100_B5IIK2          51.71%    passed     99.75%
+ 722  UniRef100_A0A969GWL4      52.07%    passed     98.96%
+ 723  UniRef100_A0A950ZQ74      49.76%    passed     15.30%
+ 724  UniRef100_A0A535E8M8      51.46%    failed      4.46%
+ 725  UniRef100_A0A068N2V0      52.44%    passed     99.68%
+ 726  UniRef100_A0A1L9QR24      52.44%    passed     78.75%
+ 727  UniRef100_A0A1M5LRA1      49.51%    passed     95.46%
+ 728  UniRef100_A0A930XP11      52.07%    passed     99.69%
+ 729  UniRef100_A0A8B5XDM0      54.88%    passed     15.90%
+ 730  UniRef100_A0A2T1E3R3      51.10%    passed     91.64%
+ 731  UniRef100_A0A1T1D4R7      51.83%    passed     68.40%
+ 732  UniRef100_K9T3D9          51.46%    passed     87.18%
+ 733  UniRef100_A0A356NCY8      49.15%    passed     44.12%
+ 734  UniRef100_A0A8T8D0C4      50.98%    passed     99.99%
+ 735  UniRef100_A0A6L9QTE1      50.85%    passed     29.40%
+ 736  UniRef100_A0A0A6P9U7      51.59%    passed     66.41%
+ 737  UniRef100_A0AAJ5ZRT0      50.98%    passed    100.00%
+ 738  UniRef100_G6FUZ6          51.59%    passed     99.52%
+ 739  UniRef100_A0A6M8B6W7      51.95%    passed     99.99%
+ 740  UniRef100_A0A439USA1      50.98%    passed     99.90%
+ 741  UniRef100_A0A442V0M4      50.98%    passed    100.00%
+ 742  UniRef100_A0A526ML25      50.98%    passed     99.99%
+ 743  UniRef100_A0A531FHH8      50.98%    passed     99.98%
+ 744  UniRef100_A0A529AUI8      50.98%    passed     99.97%
+ 745  UniRef100_A0A8J2X6K7      51.71%    passed     99.64%
+ 746  UniRef100_A0A442HQG2      50.98%    passed     99.98%
+ 747  UniRef100_A0A527VF47      50.98%    passed     99.99%
+ 748  UniRef100_A0A529CCW1      50.98%    passed     99.97%
+ 749  UniRef100_A0A2E8CKE3      51.71%    passed     97.14%
+ 750  UniRef100_A0A527TTG6      50.98%    passed    100.00%
+ 751  UniRef100_A0A528DZ85      50.98%    passed     99.98%
+ 752  UniRef100_A0A3S3LKM6      50.98%    passed     99.99%
+ 753  UniRef100_A0A528XHP3      64.15%    passed     99.89%
+ 754  UniRef100_A0A440AP74      50.98%    passed     99.94%
+ 755  UniRef100_A0A442NMS6      50.98%    passed     99.97%
+ 756  UniRef100_A0A442IP92      50.98%    passed     99.99%
+ 757  UniRef100_A0A528FAA8      53.05%    passed     99.99%
+ 758  UniRef100_A0A441ZB09      50.98%    passed    100.00%
+ 759  UniRef100_A0A5E8GW62      49.76%    passed    100.00%
+ 760  UniRef100_A0A0M6ZVI1      49.76%    passed    100.00%
+ 761  UniRef100_A0A438MBA3      53.78%    passed     98.65%
+ 762  UniRef100_A0A941RBT5      53.41%    passed     94.26%
+ 763  UniRef100_A0A357EDZ7      53.41%    passed     99.09%
+ 764  UniRef100_A0A850PRK0      53.17%    passed     98.96%
+ 765  UniRef100_A0A532DP18      53.41%    passed     92.75%
+ 766  UniRef100_A0A6M0BH50      51.22%    passed     91.58%
+ 767  UniRef100_A0A532ENS4      54.76%    passed     99.88%
+ 768  UniRef100_A0A533BH58      53.41%    passed     99.90%
+ 769  UniRef100_A0AA43F999      53.41%    passed     99.86%
+ 770  UniRef100_A0A532D1H6      53.41%    passed     91.37%
+ 771  UniRef100_A0A936VNU9      53.41%    passed     94.32%
+ 772  UniRef100_A0A1G8PW19      53.17%    passed     60.50%
+ 773  UniRef100_A0A532C0B1      53.41%    passed     99.99%
+ 774  UniRef100_A4Z2L5          51.10%    passed    100.00%
+ 775  UniRef100_A0AA43ESF3      53.41%    passed     91.86%
+ 776  UniRef100_A0A936NLE8      53.41%    passed     94.67%
+ 777  UniRef100_A0AA43J6K2      53.41%    passed     99.77%
+ 778  UniRef100_A0A532CHP9      53.41%    passed     96.32%
+ 779  UniRef100_A0A6P0KHV0      51.22%    passed     83.62%
+ 780  UniRef100_A0A952SH65      53.41%    passed     98.50%
+ 781  UniRef100_A0A8J3VKJ0      54.27%    passed     97.13%
+ 782  UniRef100_A0A7I9ZJN3      53.17%    passed     99.68%
+ 783  UniRef100_A0A952T2V9      53.41%    passed     95.84%
+ 784  UniRef100_A0A533B561      53.41%    passed     99.99%
+ 785  UniRef100_A0A952VRT7      53.41%    passed     74.31%
+ 786  UniRef100_B4VZ47          51.59%    passed     85.18%
+ 787  UniRef100_A0A2E9I6V5      49.27%    passed     89.21%
+ 788  UniRef100_A0A563VJY2      52.20%    passed     96.12%
+ 789  UniRef100_A0A9E6Y8C9      51.34%    passed     74.77%
+ 790  UniRef100_A0A1E5QPH2      51.46%    passed     99.40%
+ 791  UniRef100_A0A926TBI2      51.10%    passed     99.75%
+ 792  UniRef100_A0A525WPE1      53.41%    passed     99.24%
+ 793  UniRef100_A0A3M9ZAP8      51.34%    passed     99.67%
+ 794  UniRef100_A0A9J7B224      50.73%    passed    100.00%
+ 795  UniRef100_A0A6L8A371      51.71%    passed     54.62%
+ 796  UniRef100_A0A7S7LBG4      53.05%    passed     89.59%
+ 797  UniRef100_A0A2M9G3G5      48.41%    passed     82.03%
+ 798  UniRef100_A0A3M2JG78      48.29%    passed     44.46%
+ 799  UniRef100_A0A366LS30      52.32%    passed     58.83%
+ 800  UniRef100_A0A2G7GEH2      52.20%    passed     99.75%
+ 801  UniRef100_A0A7Y0HEJ6      49.39%    passed     99.96%
+ 802  UniRef100_A0A2A9GN36      48.29%    passed     94.51%
+ 803  UniRef100_A0A1X0I2V1      54.02%    passed     98.49%
+ 804  UniRef100_K9PUX9          51.59%    passed     99.28%
+ 805  UniRef100_A0A2T1D354      51.10%    passed     99.97%
+ 806  UniRef100_A0A9X3UEH5      49.76%    passed     99.96%
+ 807  UniRef100_A0A1X0SY16      50.49%    passed     99.94%
+ 808  UniRef100_K9Q643          52.44%    passed     99.93%
+ 809  UniRef100_A0A3G9JRC3      52.07%    passed     99.94%
+ 810  UniRef100_A0A951HEL9      48.29%    passed     60.51%
+ 811  UniRef100_A0A966QIM4      51.71%    passed     99.66%
+ 812  UniRef100_A0A7X5ZQ94      54.15%    passed     97.66%
+ 813  UniRef100_A0A967AU07      53.41%    passed     99.75%
+ 814  UniRef100_A0A4U3MEL7      54.27%    passed     96.93%
+ 815  UniRef100_W2ELA7          54.39%    passed     99.67%
+ 816  UniRef100_A0A552ZTP8      53.05%    passed     86.56%
+ 817  UniRef100_A0AAJ1U4P3      48.54%    passed     71.62%
+ 818  UniRef100_A0A8J7B0V9      51.46%    passed     99.81%
+ 819  UniRef100_A0A3S9BHY3      50.98%    passed     99.95%
+ 820  UniRef100_A0A926X4U4      51.83%    passed     95.91%
+ 821  UniRef100_A0A428XSZ9      55.00%    passed     93.57%
+ 822  UniRef100_A0A969IUG8      51.10%    passed     99.99%
+ 823  UniRef100_A0A561SNW2      53.05%    passed     94.37%
+ 824  UniRef100_A0A2U3D794      53.54%    passed     81.56%
+ 825  UniRef100_A0A2K4YBJ4      52.80%    passed     99.83%
+ 826  UniRef100_B7KIA6          51.71%    passed     90.84%
+ 827  UniRef100_A0A1I0X3J4      48.17%    passed     99.29%
+ 828  UniRef100_A0A2T1M1Y1      51.59%    passed     99.49%
+ 829  UniRef100_A0A7X3P5B6      51.83%    passed     56.77%
+ 830  UniRef100_A0A1H3UZ11      53.17%    passed     50.05%
+ 831  UniRef100_A0AAN0YI73      52.44%    passed    100.00%
+ 832  UniRef100_K9P6I1          50.73%    passed     99.55%
+ 833  UniRef100_A0AA37PK19      52.80%    passed     99.77%
+ 834  UniRef100_A0A6P0YUT8      51.83%    passed     99.36%
+ 835  UniRef100_A0A7T1HQF8      50.98%    passed     99.99%
+ 836  UniRef100_A0A1Q8ZJP5      51.59%    passed     99.92%
+ 837  UniRef100_A0A928WLM2      51.59%    passed     97.87%
+ 838  UniRef100_A0A0S4KUT0      53.41%    passed     91.95%
+ 839  UniRef100_A0A937JVF8      50.85%    passed     98.76%
+ 840  UniRef100_A0A1N7PBV7      48.90%    passed     93.35%
+ 841  UniRef100_A0A1A2ZI36      52.80%    passed     99.95%
+ 842  UniRef100_A0A852TU86      50.85%    passed     84.20%
+ 843  UniRef100_A0A552L7B1      52.20%    passed     99.99%
+ 844  UniRef100_A0A1W9GF92      53.41%    passed     93.08%
+ 845  UniRef100_A0A7W1YUE8      54.63%    passed     92.74%
+ 846  UniRef100_A0A037ZFJ4      49.51%    passed     98.37%
+ 847  UniRef100_A0A2T1CK34      51.59%    passed     96.44%
+ 848  UniRef100_A0ABD4TCE5      51.59%    passed     94.85%
+ 849  UniRef100_A0A1Z9J2W7      51.71%    passed     99.57%
+ 850  UniRef100_A0A552E249      52.20%    passed     99.89%
+ 851  UniRef100_X5PU20          50.98%    passed     99.99%
+ 852  UniRef100_A0A926YQX6      51.71%    passed     99.59%
+ 853  UniRef100_A0A968J2I8      51.83%    passed     74.85%
+ 854  UniRef100_A0A1E3SPR4      52.80%    passed     99.01%
+ 855  UniRef100_A0A2N6MQ19      51.59%    passed     99.83%
+ 856  UniRef100_A0A076H3P5      51.71%    passed     91.15%
+ 857  UniRef100_H0T4E2          51.10%    passed    100.00%
+ 858  UniRef100_A0A1B1YQT6      52.68%    passed     99.99%
+ 859  UniRef100_A0A2H5YU77      52.56%    passed     51.20%
+ 860  UniRef100_A0A1A2B3X0      52.80%    passed     99.74%
+ 861  UniRef100_A0A172TGM5      53.41%    passed     75.90%
+ 862  UniRef100_A0A6N2ELJ7      51.22%    passed     97.41%
+ 863  UniRef100_A0A840NZS6      52.68%    passed     91.49%
+ 864  UniRef100_A0A3M1KXX6      52.20%    passed     96.75%
+ 865  UniRef100_A0A949CTE9      51.59%    passed     87.79%
+ 866  UniRef100_A0A0F9RXY9      50.73%    passed    100.00%
+ 867  UniRef100_A0A382NMG5      56.83%    passed     73.47%
+ 868  UniRef100_UPI002AE0B31F   53.17%    passed     91.70%
+ 869  UniRef100_UPI001E281C52   52.20%    passed     99.98%
+ 870  UniRef100_UPI0022C6904A   52.20%    passed     99.93%
+ 871  UniRef100_UPI00257FE9F9   55.49%    failed      3.41%
+ 872  UniRef100_UPI001950BE68   52.68%    passed     95.17%
+ 873  UniRef100_UPI0020CCCE82   51.71%    passed     98.87%
+ 874  UniRef100_UPI00223AD307   53.66%    passed     99.95%
+ 875  UniRef100_UPI00047C9811   51.59%    passed     99.79%
+ 876  UniRef100_UPI000853602F   53.54%    passed     99.76%
+ 877  UniRef100_UPI0014836663   51.10%    passed     99.61%
+ 878  UniRef100_UPI002FF5C3E9   52.80%    passed     98.05%
+ 879  UniRef100_UPI00398C1C55   51.71%    passed     99.93%
+ 880  UniRef100_UPI00031C9ECA   52.44%    passed     99.27%
+ 881  UniRef100_UPI0018801003   51.10%    passed     99.60%
+ 882  UniRef100_UPI002CFF5C21   62.93%    passed     97.76%
+ 883  UniRef100_UPI001689E229   51.10%    passed     99.70%
+ 884  UniRef100_UPI00236504B7   53.05%    passed     48.11%
+ 885  UniRef100_UPI0025C0DD15   49.51%    passed     88.22%
+ 886  UniRef100_UPI0025D7D906   49.76%    passed    100.00%
+ 887  UniRef100_UPI0030EF7E8E   52.68%    passed     59.23%
+ 888  UniRef100_UPI00333CC7F7   50.98%    passed     99.99%
+ 889  UniRef100_UPI000849F10E   52.20%    passed     99.93%
+ 890  UniRef100_UPI000A7067E7   53.17%    passed     90.25%
+ 891  UniRef100_A0A076HBZ2      54.02%    passed     96.21%
+ 892  UniRef100_UPI001AE9C9B5   50.49%    passed     99.81%
+ 893  UniRef100_UPI003BAB0645   49.76%    passed     99.92%
+ 894  UniRef100_UPI000778AA80   52.20%    passed     84.28%
+ 895  UniRef100_UPI00099781E1   53.17%    passed     57.53%
+ 896  UniRef100_A0A7G8FK72      54.02%    passed     96.24%
+ 897  UniRef100_UPI001EE15290   54.88%    passed     97.15%
+ 898  UniRef100_UPI0020CED5FB   51.10%    passed     99.81%
+ 899  UniRef100_UPI0015F33276   55.49%    failed      3.05%
+ 900  UniRef100_UPI001FD01D5B   50.73%    passed     97.44%
+ 901  UniRef100_UPI0021E86E98   49.51%    passed     79.88%
+ 902  UniRef100_UPI000345695F   51.34%    passed     96.88%
+ 903  UniRef100_UPI000DED413A   49.76%    passed    100.00%
+ 904  UniRef100_UPI00121140D5   50.98%    passed     99.98%
+ 905  UniRef100_A0A934IGN5      50.37%    passed     92.95%
+ 906  UniRef100_UPI00177BFF0D   50.98%    passed     99.99%
+ 907  UniRef100_UPI00232D711F   52.32%    passed     85.01%
+ 908  UniRef100_UPI00263844E3   50.12%    passed     78.79%
+ 909  UniRef100_UPI0029168696   51.10%    passed    100.00%
+ 910  UniRef100_UPI0029169596   51.10%    passed    100.00%
+ 911  UniRef100_UPI002DD83E58   52.93%    passed     97.00%
+ 912  UniRef100_UPI0032B1D909   53.41%    passed     95.24%
+ 913  UniRef100_A3K0T3          50.61%    passed     93.02%
+ 914  UniRef100_UPI002ACBEA88   54.88%    passed     20.03%
+ 915  UniRef100_UPI0036F1E49C   52.56%    passed     99.60%
+ 916  UniRef100_UPI001957A2EA   54.27%    passed     64.29%
+ 917  UniRef100_UPI0032178141   49.76%    passed     99.99%
+ 918  UniRef100_UPI0012D42A5C   52.44%    passed     70.18%
+ 919  UniRef100_UPI0016472689   51.71%    passed     99.86%
+ 920  UniRef100_UPI000B98EC62   51.71%    passed     99.93%
+ 921  UniRef100_UPI000C9DE9A3   52.44%    passed     72.07%
+ 922  UniRef100_UPI001AD8A0DE   49.76%    passed    100.00%
+ 923  UniRef100_UPI00223C01D5   51.10%    passed     99.96%
+ 924  UniRef100_UPI0038992820   47.93%    passed     98.54%
+ 925  UniRef100_UPI0009E6FA96   53.29%    passed     35.81%
+ 926  UniRef100_A0A1Q9Q375      55.12%    passed     59.38%
+ 927  UniRef100_A0A7G8H9X9      54.02%    passed     94.18%
+ 928  UniRef100_A0A7G8H1K0      54.02%    passed     94.31%
+ 929  UniRef100_UPI002916C4A4   51.10%    passed    100.00%
+ 930  UniRef100_UPI003A972502   49.76%    passed    100.00%
+ 931  UniRef100_UPI001557354F   51.10%    passed    100.00%
+ 932  UniRef100_UPI0017828560   50.98%    passed     99.98%
+ 933  UniRef100_UPI001CA37E1B   53.05%    passed     98.34%
+ 934  UniRef100_UPI00215DB1EC   49.76%    passed     99.90%
+ 935  UniRef100_UPI0021D3409C   54.02%    passed     83.47%
+ 936  UniRef100_UPI0028EA3769   51.10%    passed     99.99%
+ 937  UniRef100_UPI001AD93B57   49.76%    passed    100.00%
+ 938  UniRef100_UPI0021D0A07F   53.54%    passed     91.60%
+ 939  UniRef100_UPI00307D5E00   55.49%    failed      2.60%
+ 940  UniRef100_UPI00370DDC3B   55.61%    passed     11.18%
+ 941  UniRef100_UPI0009F1AE35   52.20%    passed     23.73%
+ 942  UniRef100_UPI0009F43A21   50.49%    passed     56.65%
+ 943  UniRef100_UPI001629B40E   51.10%    passed     99.96%
+ 944  UniRef100_UPI0025BBE8A3   54.27%    passed     96.55%
+ 945  UniRef100_UPI0031E17D47   51.71%    passed     99.51%
+ 946  UniRef100_UPI0032EC14DC   48.78%    passed     99.99%
+ 947  UniRef100_UPI003A96A2B5   49.76%    passed    100.00%
+ 948  UniRef100_UPI0007457CC9   52.44%    passed    100.00%
+ 949  UniRef100_UPI000778DC06   52.80%    passed     98.70%
+ 950  UniRef100_UPI0011BD4BC7   48.66%    passed     79.09%
+ 951  UniRef100_UPI0015EF585C   51.10%    passed     99.99%
+ 952  UniRef100_UPI0022E55366   55.49%    failed      2.70%
+ 953  UniRef100_UPI00342F5E19   52.32%    passed     95.09%
+ 954  UniRef100_UPI001A93EC91   50.49%    passed     99.93%
+ 955  UniRef100_UPI000BFEDF1C   52.80%    passed     99.73%
+ 956  UniRef100_UPI00143FE68F   53.41%    passed     99.31%
+ 957  UniRef100_UPI00200DE55F   53.17%    passed     85.22%
+ 958  UniRef100_UPI002740EAE2   49.76%    passed     99.98%
+ 959  UniRef100_UPI002C407976   53.29%    passed     94.83%
+ 960  UniRef100_UPI002D7ED1FE   54.39%    passed     65.66%
+ 961  UniRef100_A0A0N0V4H1      53.29%    passed     99.60%
+ 962  UniRef100_UPI0021B7F3C4   53.05%    passed     68.01%
+ 963  UniRef100_UPI00333E06D9   50.98%    passed     99.99%
+ 964  UniRef100_UPI0005956E86   51.10%    passed     98.70%
+ 965  UniRef100_UPI000CF2178B   53.41%    passed     99.51%
+ 966  UniRef100_UPI00159BADE2   56.10%    passed      6.28%
+ 967  UniRef100_UPI001E4AAAD7   52.44%    passed     98.09%
+ 968  UniRef100_UPI0032676B90   52.07%    passed     99.58%
+ 969  UniRef100_UPI003796748D   53.90%    passed     34.43%
+ 970  UniRef100_UPI001392EF82   52.80%    passed     98.40%
+ 971  UniRef100_UPI001AFE30D1   52.44%    passed     83.48%
+ 972  UniRef100_UPI002849B463   47.20%    passed     67.53%
+ 973  UniRef100_UPI002ED5C19D   54.63%    passed     96.62%
+ 974  UniRef100_UPI0028A86DA8   51.71%    passed     92.54%
+ 975  UniRef100_UPI002AD367F3   53.66%    passed     99.94%
+ 976  UniRef100_UPI00146BF943   51.83%    passed     98.29%
+ 977  UniRef100_UPI001A197CD2   51.59%    passed     97.39%
+ 978  UniRef100_UPI0020CF914E   50.73%    passed     99.92%
+ 979  UniRef100_UPI0025E0F662   48.66%    passed     46.63%
+ 980  UniRef100_UPI00190A944C   51.95%    passed     86.11%
+ 981  UniRef100_UPI00194473E4   54.76%    failed      4.28%
+ 982  UniRef100_UPI001C5F8155   53.17%    passed     49.51%
+ 983  UniRef100_UPI0028E1D1AC   51.10%    passed    100.00%
+ 984  UniRef100_UPI0021DD5F3E   52.80%    passed     99.90%
+ 985  UniRef100_UPI00296693FE   49.51%    passed     87.18%
+ 986  UniRef100_UPI002B27AD68   49.27%    passed     88.67%
+ 987  UniRef100_UPI000A1E4A83   49.76%    passed    100.00%
+ 988  UniRef100_UPI001683FC63   51.46%    passed     99.58%
+ 989  UniRef100_UPI0018673B3A   50.73%    passed     99.99%
+ 990  UniRef100_UPI001C96802D   50.98%    failed      3.61%
+ 991  UniRef100_UPI002E184EA7   53.78%    passed     99.15%
+ 992  UniRef100_UPI003459A9D8   50.12%    passed     22.93%
+ 993  UniRef100_UPI0015567E24   51.10%    passed    100.00%
+ 994  UniRef100_UPI0033CF237C   54.15%    passed     94.04%
+ 995  UniRef100_UPI00243461C7   50.49%    passed     99.93%
+ 996  UniRef100_UPI00167FF660   53.05%    passed     76.43%
+ 997  UniRef100_UPI0020B66CA5   49.15%    passed     18.51%
+ 998  UniRef100_UPI0003A700AB   51.10%    passed     99.97%
+ 999  UniRef100_UPI002ED8A36B   52.44%    passed     94.02%
+1000  UniRef100_UPI00333C9E13   50.98%    passed     99.97%
+1001  UniRef100_UPI0033174524   52.32%    passed     94.81%
+1002  UniRef100_UPI0002002D81   51.22%    passed     96.68%
+1003  UniRef100_UPI000FE91452   50.98%    passed     99.97%
+1004  UniRef100_A0A7G8GKD0      54.02%    passed     97.48%
+1005  UniRef100_UPI00166187BF   53.29%    passed     97.26%
+1006  UniRef100_UPI001FE652DD   49.02%    passed     99.75%
+1007  UniRef100_UPI002614CE63   51.46%    passed     99.99%
+1008  UniRef100_UPI0018C7273B   51.59%    passed     99.99%
+1009  UniRef100_UPI0019809DF4   48.41%    passed     98.79%
+1010  UniRef100_UPI001C99BEC0   49.51%    passed     77.36%
+1011  UniRef100_UPI0020CE4034   51.10%    passed     99.72%
+1012  UniRef100_UPI0032994EB1   49.51%    passed     95.97%
+1013  UniRef100_UPI00329A74B1   50.85%    passed    100.00%
+1014  UniRef100_UPI000B982906   51.10%    passed     99.94%
+1015  UniRef100_UPI002417E17F   52.32%    passed     89.69%
+1016  UniRef100_UPI002626B0F3   49.51%    passed     78.79%
+1017  UniRef100_UPI0030DC6294   62.80%    passed     84.84%
+1018  UniRef100_UPI00257C71DB   55.49%    failed      1.51%
+1019  UniRef100_UPI0039C8A01C   49.76%    passed     14.91%
+1020  UniRef100_UPI0018F69D92   53.29%    passed     87.22%
+1021  UniRef100_UPI00232D79B0   52.20%    passed     99.98%
+1022  UniRef100_UPI0003728309   52.80%    passed     90.48%
+1023  UniRef100_UPI001906BBF4   49.76%    passed     42.87%
+1024  UniRef100_UPI00195E0D0F   53.17%    passed     38.43%
+1025  UniRef100_UPI0028E41052   51.10%    passed    100.00%
+1026  UniRef100_UPI003B023549   49.76%    passed    100.00%
+1027  UniRef100_UPI000373CEC0   54.27%    passed     90.52%
+1028  UniRef100_UPI00385EAC77   49.51%    passed     71.37%
+1029  UniRef100_UPI000E1EFC57   52.44%    passed     71.54%
+1030  UniRef100_UPI000E5AC678   52.80%    passed     94.94%
+1031  UniRef100_UPI0020CCE66B   53.41%    passed     96.92%
+1032  UniRef100_UPI002843D725   51.10%    passed     99.99%
+1033  UniRef100_UPI0029827D1A   52.44%    passed     86.18%
+1034  UniRef100_UPI00082BA3FE   52.80%    passed     99.97%
+1035  UniRef100_UPI0009EBBC58   53.17%    passed     63.26%
+1036  UniRef100_UPI000A023F54   51.83%    passed      8.76%
+1037  UniRef100_UPI00232E7DDF   52.20%    passed     99.98%
+1038  UniRef100_UPI00248F5EF6   48.29%    passed     99.48%
+1039  UniRef100_UPI0032AFC597   50.24%    passed     99.94%
+1040  UniRef100_UPI00333DDDB0   50.98%    passed     99.98%
+1041  UniRef100_UPI00351648B1   49.76%    passed    100.00%
+1042  UniRef100_A0A502DWZ8      49.63%    passed     68.19%
+1043  UniRef100_UPI00062358D5   55.49%    failed      3.41%
+1044  UniRef100_UPI000810A6D4   52.44%    passed    100.00%
+1045  UniRef100_UPI001040F3CE   52.44%    passed     80.54%
+1046  UniRef100_UPI0016461645   51.71%    passed     99.32%
+1047  UniRef100_UPI001BB06D55   54.51%    passed     97.48%
+1048  UniRef100_UPI0020B1D8D9   51.59%    passed     95.47%
+1049  UniRef100_UPI0035655F2A   53.41%    passed     59.49%
+1050  UniRef100_UPI0036778EE7   49.88%    passed     10.33%
+1051  UniRef100_UPI000832BA93   49.51%    passed     98.38%
+1052  UniRef100_UPI000D07CEB6   50.73%    passed     99.83%
+1053  UniRef100_UPI00165F5C46   50.98%    passed    100.00%
+1054  UniRef100_UPI002593C0E8   48.41%    passed     94.94%
+1055  UniRef100_UPI0033351286   50.98%    passed     99.99%
+1056  UniRef100_UPI000746E05D   53.66%    passed     82.99%
+1057  UniRef100_UPI000EB05E21   48.66%    passed     80.94%
+1058  UniRef100_UPI0012F83EFB   53.90%    passed     32.20%
+1059  UniRef100_UPI0024166D12   52.93%    passed     94.05%
+1060  UniRef100_UPI00262054EB   48.29%    passed     80.02%
+1061  UniRef100_UPI002DBC1C58   54.39%    passed     79.84%
+1062  UniRef100_UPI0036AB32EA   59.88%    passed     87.37%
+1063  UniRef100_UPI0004944321   50.98%    passed    100.00%
+1064  UniRef100_UPI000831D186   49.51%    passed     93.94%
+1065  UniRef100_A0A7G8GVI1      54.02%    passed     95.18%
+1066  UniRef100_UPI0024A3795D   52.80%    passed     92.85%
+1067  UniRef100_UPI002F907440   49.15%    passed     28.73%
+1068  UniRef100_UPI00074D2BE8   51.95%    passed     99.99%
+1069  UniRef100_UPI000C80B59F   51.59%    passed     99.78%
+1070  UniRef100_UPI000E1BCF5B   49.51%    passed     97.02%
+1071  UniRef100_UPI00241899BE   52.68%    passed     99.16%
+1072  UniRef100_UPI0024A31151   54.02%    passed     97.10%
+1073  UniRef100_UPI002A0D1F32   49.51%    passed     81.67%
+1074  UniRef100_UPI0035E4059D   50.98%    failed      1.26%
+1075  UniRef100_UPI00106F59B8   53.05%    passed     71.64%
+1076  UniRef100_UPI0011080B00   48.54%    passed     77.96%
+1077  UniRef100_UPI00223B6758   50.73%    passed     99.92%
+1078  UniRef100_UPI00259A7957   50.85%    passed    100.00%
+1079  UniRef100_UPI003297A7D9   50.85%    passed     99.99%
+1080  UniRef100_UPI0009F5B12A   52.80%    passed     91.84%
+1081  UniRef100_UPI001FF143C2   51.10%    passed     99.70%
+1082  UniRef100_UPI002101A04F   50.85%    passed     99.99%
+1083  UniRef100_UPI00225E15DB   52.07%    passed     67.07%
+1084  UniRef100_UPI00321699FE   49.76%    passed    100.00%
+1085  UniRef100_UPI0032713D24   49.51%    passed     58.70%
+1086  UniRef100_UPI001553701E   51.10%    passed    100.00%
+1087  UniRef100_UPI0019F81508   51.95%    passed     99.99%
+1088  UniRef100_A0AA40YHZ5      54.27%    passed     13.20%
+1089  UniRef100_UPI001F3800AF   51.71%    passed     89.42%
+1090  UniRef100_UPI0020CE2F92   50.49%    passed     99.55%
+1091  UniRef100_UPI000CF01CC2   49.76%    passed     99.99%
+1092  UniRef100_UPI0013D51B87   52.68%    passed     98.52%
+1093  UniRef100_UPI0015F41A8F   55.49%    failed      3.19%
+1094  UniRef100_UPI001FF11941   50.73%    passed     99.95%
+1095  UniRef100_UPI002010D4CB   51.46%    passed     99.49%
+1096  UniRef100_UPI0025855CDA   54.02%    passed     62.91%
+1097  UniRef100_UPI0026230F2D   53.66%    passed     96.77%
+1098  UniRef100_UPI003569099B   54.27%    passed     78.34%
+1099  UniRef100_UPI0002483902   51.46%    passed     99.95%
+1100  UniRef100_UPI001D0AE593   51.59%    passed     95.39%
+1101  UniRef100_UPI0024A06009   52.93%    passed     72.52%
+1102  UniRef100_UPI000A014E3B   53.17%    passed     63.12%
+1103  UniRef100_UPI0031F19C09   52.32%    passed     93.60%
+1104  UniRef100_UPI000DAC41EE   53.17%    passed     97.00%
+1105  UniRef100_UPI000E64A6A8   52.07%    passed     99.70%
+1106  UniRef100_UPI00135A8A9F   51.34%    passed     93.28%
+1107  UniRef100_UPI0018F51A5B   52.44%    passed     87.06%
+1108  UniRef100_UPI001F14FB48   52.80%    passed     90.80%
+1109  UniRef100_UPI0039953831   55.49%    failed      2.18%
+1110  UniRef100_UPI0008410FCF   49.51%    passed     65.22%
+1111  UniRef100_UPI001DF76B80   50.98%    passed    100.00%
+1112  UniRef100_UPI001FB1ABC2   53.17%    passed     53.36%
+1113  UniRef100_UPI00333980B5   50.98%    passed     99.99%
+1114  UniRef100_UPI0039C1C8E4   52.20%    passed     99.99%
+1115  UniRef100_UPI0009FBBAB1   52.93%    passed     78.33%
+1116  UniRef100_UPI001F280AC5   50.98%    passed     99.98%
+1117  UniRef100_UPI00223A8B09   50.73%    passed     99.96%
+1118  UniRef100_UPI00262807BE   49.51%    passed     88.76%
+1119  UniRef100_UPI00273D32DF   49.76%    passed     99.96%
+1120  UniRef100_UPI002DDCE3F3   54.02%    passed     59.63%
+1121  UniRef100_UPI003518491F   48.66%    passed    100.00%
+1122  UniRef100_UPI001431B6F4   49.51%    passed     93.08%
+1123  UniRef100_UPI00193F4693   53.17%    passed     60.17%
+1124  UniRef100_UPI0026575508   55.49%    failed      3.49%
+1125  UniRef100_UPI0028E9BAF0   51.10%    passed    100.00%
+1126  UniRef100_UPI002ABC46FF   50.37%    passed     11.58%
+1127  UniRef100_UPI003AA9D7B2   49.76%    passed     99.99%
+1128  UniRef100_UPI000367C96B   51.46%    passed     89.41%
+1129  UniRef100_UPI0024151524   53.05%    passed     96.38%
+1130  UniRef100_UPI0035BF6103   53.66%    passed     50.71%
+1131  UniRef100_UPI00068ACD47   54.51%    passed     97.16%
+1132  UniRef100_UPI002034945D   47.93%    passed     92.09%
+1133  UniRef100_UPI0031DC9EFF   53.05%    passed     95.24%
+1134  UniRef100_UPI0033366517   50.98%    passed    100.00%
+1135  UniRef100_UPI000366E776   53.17%    passed     95.92%
+1136  UniRef100_UPI000B980BC1   50.73%    passed     99.96%
+1137  UniRef100_UPI001670D8E3   54.51%    passed     59.41%
+1138  UniRef100_UPI001BD0BDEC   50.85%    passed    100.00%
+1139  UniRef100_UPI001C78D2EB   65.12%    passed     85.23%
+1140  UniRef100_UPI00261F06B3   51.83%    failed      1.63%
+1141  UniRef100_UPI002E32FFDB   48.41%    passed     24.28%
+1142  UniRef100_UPI00156965BC   52.20%    passed     66.80%
+1143  UniRef100_UPI001AD9CDCE   49.76%    passed    100.00%
+1144  UniRef100_UPI00248CE3D5   52.07%    passed     89.39%
+1145  UniRef100_UPI0002AC05B2   51.10%    passed     93.91%
+1146  UniRef100_UPI00069C1F53   53.54%    passed     99.85%
+1147  UniRef100_UPI0015F308CF   55.49%    failed      2.58%
+1148  UniRef100_UPI0036291029   53.29%    passed     92.86%
+1149  UniRef100_UPI000AB72258   51.59%    passed     86.68%
+1150  UniRef100_UPI00040587CB   52.80%    passed     98.95%
+1151  UniRef100_UPI001685A4D3   51.59%    passed     99.89%
+1152  UniRef100_UPI0025826C58   53.41%    passed     99.17%
+1153  UniRef100_UPI002610A2CD   49.51%    passed     77.99%
+1154  UniRef100_UPI000749C8C0   53.66%    passed     90.80%
+1155  UniRef100_UPI00168906D1   51.71%    passed     99.84%
+1156  UniRef100_UPI001880B5C0   52.44%    passed     99.94%
+1157  UniRef100_UPI001AD9A678   49.76%    passed    100.00%
+1158  UniRef100_UPI001C6E3E9F   53.29%    passed     97.51%
+1159  UniRef100_UPI002622DC1F   49.76%    passed     99.96%
+1160  UniRef100_UPI003420482A   52.80%    passed     45.66%
+1161  UniRef100_UPI00055F3AB6   51.59%    passed     99.70%
+1162  UniRef100_UPI000C07A78A   52.44%    passed    100.00%
+1163  UniRef100_UPI00247605EB   51.10%    passed     99.80%
+1164  UniRef100_UPI00329D5B2C   49.51%    passed     68.13%
+1165  UniRef100_UPI0035B94C48   51.59%    passed     99.81%
+1166  UniRef100_UPI003639B291   51.10%    passed     99.92%
+1167  UniRef100_UPI00391AE116   51.10%    passed    100.00%
+1168  UniRef100_UPI001645B8E8   51.71%    passed     97.30%
+1169  UniRef100_UPI0022E42B52   53.41%    passed     98.46%
+1170  UniRef100_UPI000234CB04   51.59%    passed     84.66%
+1171  UniRef100_UPI0013E41BFC   49.51%    passed     73.91%
+1172  UniRef100_UPI0019507D06   52.44%    passed     98.97%
+1173  UniRef100_UPI00261F4457   49.51%    passed     77.10%
+1174  UniRef100_UPI00295E74C5   49.51%    passed     80.06%
+1175  UniRef100_UPI00301CE131   46.83%    passed     26.30%
+1176  UniRef100_UPI000BB869C4   53.05%    passed     79.20%
+1177  UniRef100_UPI001942C132   52.44%    passed     88.08%
+1178  UniRef100_UPI001F2328D9   51.10%    passed     99.27%
+1179  UniRef100_UPI001F286BE8   53.17%    passed     80.74%
+1180  UniRef100_UPI0020CCA3B4   50.73%    passed     99.85%
+1181  UniRef100_UPI0028AA00B4   52.68%    passed     97.36%
+1182  UniRef100_UPI0035133096   51.10%    passed     98.46%
+1183  UniRef100_UPI0036371CC5   51.46%    failed      0.11%
+1184  UniRef100_UPI001688D955   51.59%    passed     99.77%
+1185  UniRef100_UPI00232C460B   52.20%    passed     99.97%
+1186  UniRef100_UPI000DC25CCA   54.15%    passed     75.89%
+1187  UniRef100_UPI00257D9D08   54.02%    passed     59.42%
+1188  UniRef100_UPI00362C65C5   49.02%    passed     94.15%
+1189  UniRef100_UPI00048D80C2   49.76%    passed     99.99%
+1190  UniRef100_UPI000B98DDC7   51.10%    passed     99.75%
+1191  UniRef100_UPI002026CFB0   51.71%    passed     96.45%
+1192  UniRef100_UPI00203E5216   48.29%    passed     98.18%
+1193  UniRef100_UPI0022095AD2   54.88%    passed     97.39%
+1194  UniRef100_UPI0024322E3B   55.49%    failed      3.24%
+1195  UniRef100_UPI00260FD6B7   50.00%    passed     86.21%
+1196  UniRef100_UPI0028EAF06A   51.10%    passed    100.00%
+1197  UniRef100_UPI002002CFFD   52.32%    passed     99.99%
+1198  UniRef100_UPI0031E57888   52.93%    passed     62.31%
+1199  UniRef100_UPI00361B3061   53.78%    passed     91.30%
+1200  UniRef100_UPI0036B9F20C   55.37%    passed     31.07%
+1201  UniRef100_UPI003BAFF78C   49.76%    passed     99.92%
+1202  UniRef100_UPI000800CF00   53.66%    passed     87.38%
+1203  UniRef100_UPI001BCCB6A5   51.10%    passed    100.00%
+1204  UniRef100_UPI0029420327   49.76%    passed    100.00%
+1205  UniRef100_UPI000FD51867   50.98%    passed     99.99%
+1206  UniRef100_UPI00110C4E33   53.78%    passed     96.90%
+1207  UniRef100_UPI00253FED3E   49.39%    passed      9.98%
+1208  UniRef100_UPI0025B0C840   52.20%    passed     28.58%
+1209  UniRef100_UPI00273E44D0   49.76%    passed    100.00%
+1210  UniRef100_UPI000F413122   48.78%    passed     99.99%
+1211  UniRef100_UPI001CBA892F   49.51%    passed     94.43%
+1212  UniRef100_UPI001E58CA82   53.90%    passed     97.57%
+1213  UniRef100_UPI00261539F6   48.29%    passed     85.17%
+1214  UniRef100_UPI0027323F75   49.76%    passed     99.93%
+1215  UniRef100_UPI002936F837   51.22%    passed     95.91%
+1216  UniRef100_UPI00048B7689   51.71%    passed     83.90%
+1217  UniRef100_UPI001CBAC22E   52.44%    passed     99.96%
+1218  UniRef100_UPI001F439110   52.20%    passed     99.98%
+1219  UniRef100_UPI0035EF3877   52.80%    passed     57.87%
+1220  UniRef100_UPI003A8BEB4B   48.29%    passed     83.47%
+1221  UniRef100_UPI0028D05830   53.29%    passed     93.57%
+1222  UniRef100_UPI0031D77493   53.17%    passed     94.05%
+1223  UniRef100_UPI003337C0A1   50.98%    passed     99.97%
+1224  UniRef100_UPI0037A6CDA2   59.88%    passed     91.41%
+1225  UniRef100_UPI000E0C1673   51.59%    passed     99.63%
+1226  UniRef100_UPI002002D547   52.80%    passed     46.93%
+1227  UniRef100_UPI001872F142   50.00%    passed     99.56%
+1228  UniRef100_UPI0022CB31A5   52.20%    passed     99.98%
+1229  UniRef100_UPI00329862CC   51.46%    passed     99.62%
+1230  UniRef100_UPI00343CC1FD   53.66%    passed     86.86%
+1231  UniRef100_UPI000F02553E   52.80%    passed     90.75%
+1232  UniRef100_UPI00262BB18D   49.51%    passed     84.86%
+1233  UniRef100_UPI002E0D1674   54.27%    passed     89.44%
+1234  UniRef100_UPI000566169D   49.76%    passed     99.99%
+1235  UniRef100_UPI003B5A7E96   48.54%    passed     91.63%
+1236  UniRef100_UPI001CBF7087   49.02%    passed     99.99%
+1237  UniRef100_UPI00005D5976   51.71%    passed     96.24%
+1238  UniRef100_UPI000AC9E2F7   51.71%    passed     86.08%
+1239  UniRef100_UPI002044725A   47.56%    passed     15.16%
+1240  UniRef100_UPI0020CF2A90   51.10%    passed     99.52%
+1241  UniRef100_UPI00249B6B49   51.83%    passed     71.49%
+1242  UniRef100_UPI002592995D   55.49%    failed      2.83%
+1243  UniRef100_UPI0027D82B03   51.10%    passed     99.99%
+1244  UniRef100_UPI0039C37F89   52.20%    passed     99.99%
+1245  UniRef100_UPI0028EB9445   51.10%    passed    100.00%
+1246  UniRef100_UPI00332D4495   53.66%    passed     84.38%
+1247  UniRef100_UPI002FE1F4AC   50.00%    passed     13.52%
+1248  UniRef100_UPI003A96F5EF   49.15%    passed     74.33%
+1249  UniRef100_UPI0012AA893B   49.76%    passed    100.00%
+1250  UniRef100_UPI0018A29CDB   49.51%    passed     82.43%
+1251  UniRef100_UPI0020B21D04   54.39%    passed     99.36%
+1252  UniRef100_UPI0024B1FE57   52.68%    passed     50.14%
+1253  UniRef100_UPI00259AEC36   52.68%    passed     93.98%
+1254  UniRef100_UPI0033A0EAD1   63.66%    passed     33.32%
+1255  UniRef100_UPI000D1568AB   51.71%    passed     74.49%
+1256  UniRef100_UPI000F0BACFC   53.66%    passed     95.92%
+1257  UniRef100_UPI001B27E633   52.44%    passed     79.42%
+1258  UniRef100_UPI000261D0A7   52.20%    passed     99.98%
+1259  UniRef100_UPI00195B55A2   53.17%    passed     97.08%
+1260  UniRef100_UPI0026A81967   55.61%    passed      8.11%
+1261  UniRef100_UPI00047EF049   51.10%    passed     99.22%
+1262  UniRef100_UPI001EF73AC4   50.85%    passed     75.65%
+1263  UniRef100_UPI002022E2D0   50.49%    passed     99.97%
+1264  UniRef100_UPI0021B4A35C   53.41%    passed     98.97%
+1265  UniRef100_UPI002818EABA   50.73%    passed     99.92%
+1266  UniRef100_UPI001C440944   49.63%    passed     66.20%
+1267  UniRef100_UPI001CF80ED5   51.71%    passed     97.91%
+1268  UniRef100_UPI001F2C528C   48.54%    passed     99.66%
+1269  UniRef100_UPI001F4E81ED   50.49%    passed     99.98%
+1270  UniRef100_UPI002CF7C21A   54.88%    passed     96.32%
+1271  UniRef100_UPI002DDC585D   52.32%    passed     95.40%
+1272  UniRef100_UPI00232EEED4   52.20%    passed     99.65%
+1273  UniRef100_UPI002638D2A7   50.85%    passed     99.99%
+1274  UniRef100_UPI002E802E89   53.05%    passed     76.92%
+1275  UniRef100_UPI001AAEBE1E   50.85%    passed     21.58%
+1276  UniRef100_UPI00258D51AB   52.20%    passed     99.98%
+1277  UniRef100_UPI0033223250   48.05%    passed     73.31%
+1278  UniRef100_UPI00369F2B0F   53.90%    passed     46.15%
+1279  UniRef100_UPI003BAF3E37   48.66%    passed    100.00%
+1280  UniRef100_UPI0005B39D84   51.10%    passed     98.81%
+1281  UniRef100_UPI001C24847C   50.73%    passed     99.92%
+1282  UniRef100_UPI0021C025E6   54.51%    passed     98.78%
+1283  UniRef100_UPI0003494A12   52.32%    passed     99.64%
+1284  UniRef100_UPI0004B5318E   49.76%    passed    100.00%
+1285  UniRef100_UPI00138E6876   52.44%    passed     99.92%
+1286  UniRef100_UPI001800B877   51.59%    passed     99.42%
+1287  UniRef100_UPI001BD12F9B   48.29%    passed     73.77%
+1288  UniRef100_UPI002C5B2CC2   52.44%    passed     95.59%
+1289  UniRef100_UPI0004230D49   50.98%    passed     99.98%
+1290  UniRef100_UPI0032EAAFC0   48.66%    passed    100.00%
+1291  UniRef100_UPI00398BD487   51.71%    passed     99.92%
+1292  UniRef100_UPI0015F2F258   55.49%    failed      1.87%
+1293  UniRef100_UPI001CBE80E0   52.20%    passed     26.93%
+1294  UniRef100_UPI00257AA0CA   55.49%    failed      2.26%
+1295  UniRef100_UPI003AA8DF13   49.76%    passed    100.00%
+1296  UniRef100_UPI00197FCF93   52.80%    passed     96.74%
+1297  UniRef100_UPI001E297EFF   51.59%    passed     95.96%
+1298  UniRef100_UPI0039C4C523   52.20%    passed    100.00%
+1299  UniRef100_UPI0012D4C385   52.44%    passed     77.35%
+1300  UniRef100_UPI0020CFB8AD   51.71%    passed     99.91%
+1301  UniRef100_UPI002915274E   49.51%    passed     85.36%
+1302  UniRef100_UPI003984D43A   51.71%    passed     99.93%
+1303  UniRef100_UPI003B8B031D   48.29%    passed     99.27%
+1304  UniRef100_UPI0037C76601   53.90%    passed     39.29%
+1305  UniRef100_UPI003BAF9273   50.12%    passed     98.05%
+1306  UniRef100_UPI003B525839   48.78%    passed    100.00%
+1307  UniRef100_UPI003B514DEE   49.76%    passed    100.00%
+1308  UniRef100_UPI003B500A28   49.88%    passed     98.41%
+1309  UniRef100_UPI003BAC4ACE   49.76%    passed     99.97%
+1310  UniRef100_UPI003BAD0069   51.10%    passed     99.99%
+1311  UniRef100_UPI003BAD0E3F   48.54%    passed    100.00%
+1312  UniRef100_UPI003A942439   49.27%    passed     92.02%
+1313  UniRef100_UPI000B2B6BE3   48.29%    passed     84.96%
+1314  UniRef100_UPI001BD1FF28   51.10%    passed     99.40%
+1315  UniRef100_UPI0024E10C24   49.51%    passed     81.22%
+1316  UniRef100_UPI002E344833   50.00%    passed      8.08%
+1317  UniRef100_UPI002FD6D78E   56.71%    passed     99.37%
+1318  UniRef100_UPI0032DCE850   49.51%    passed     73.03%
+1319  UniRef100_UPI0033389D94   53.41%    passed     99.90%
+1320  UniRef100_UPI00352955EF   50.12%    passed     49.03%
+1321  UniRef100_UPI003B511426   49.76%    passed     99.96%
+1322  UniRef100_UPI003AB09FFD   55.49%    failed      1.98%
+1323  UniRef100_UPI003BAD4517   50.85%    passed     99.84%
+1324  UniRef100_UPI003B8A7B00   49.76%    passed    100.00%
+1325  UniRef100_UPI003C2DE64F   50.73%    passed    100.00%
+1326  UniRef100_UPI001356C468   50.73%    passed     99.81%
+1327  UniRef100_UPI001687CD2D   52.44%    passed     99.95%
+1328  UniRef100_UPI0019E22ABC   53.54%    passed     99.71%
+1329  UniRef100_UPI0025B61EB4   51.46%    passed     99.87%
+1330  UniRef100_UPI0035BF0A84   53.78%    passed     87.83%
+1331  UniRef100_UPI0039C3110E   52.20%    passed     99.99%
+1332  UniRef100_UPI00273FFFFC   48.78%    passed     99.99%
+1333  UniRef100_UPI002B212C4A   50.73%    passed     99.79%
+1334  UniRef100_UPI00333D3648   50.98%    passed     99.97%
+1335  UniRef100_UPI0020CE2562   51.71%    passed     89.98%
+1336  UniRef100_UPI00241775A2   54.88%    failed      3.40%
+1337  UniRef100_UPI0035196321   50.37%    passed     98.85%
+1338  UniRef100_UPI0016466226   51.71%    passed     98.92%
+1339  UniRef100_UPI0021F37F94   53.17%    passed     99.10%
+1340  UniRef100_UPI0029170FE8   51.10%    passed    100.00%
+1341  UniRef100_UPI002FFE84F2   52.20%    passed     28.35%
+1342  UniRef100_UPI000E0E094B   51.71%    passed     97.04%
+1343  UniRef100_A0A7G8JKV9      54.02%    passed     98.43%
+1344  UniRef100_UPI00194058B0   52.68%    passed     23.71%
+1345  UniRef100_UPI0020CC0F8A   51.22%    passed     98.38%
+1346  UniRef100_UPI00211C1DD6   65.49%    passed     89.52%
+1347  UniRef100_UPI00226D5327   50.49%    passed     99.97%
+1348  UniRef100_UPI0023DA2893   48.90%    passed     57.78%
+1349  UniRef100_UPI001786DA7B   51.22%    passed     95.48%
+1350  UniRef100_UPI002864D729   51.10%    passed     99.98%
+1351  UniRef100_UPI002ED870DE   53.66%    passed     88.46%
+1352  UniRef100_UPI00329F0860   49.51%    passed     70.66%
+1353  UniRef100_A0A328VL69      55.37%    passed     20.04%
+1354  UniRef100_UPI0020CBE7E5   50.61%    passed     99.66%
+1355  UniRef100_UPI00258D2C7B   53.05%    passed     73.77%
+1356  UniRef100_UPI0028DFF594   53.17%    passed     43.34%
+1357  UniRef100_UPI0030EDA174   48.90%    passed     33.67%
+1358  UniRef100_UPI0035CAD88E   52.32%    passed     96.34%
+1359  UniRef100_UPI0013D1C2C5   51.95%    passed     99.97%
+1360  UniRef100_UPI001BDD94F5   51.34%    passed     49.54%
+1361  UniRef100_UPI002021650B   50.98%    passed     98.17%
+1362  UniRef100_UPI00266C58FB   55.49%    failed      2.92%
+1363  UniRef100_UPI002858D35D   50.98%    passed     98.47%
+1364  UniRef100_UPI0023B26BBF   51.59%    passed     99.77%
+1365  UniRef100_UPI0031FE22D5   52.68%    passed     95.59%
+1366  UniRef100_UPI0032EF203F   50.85%    passed     99.68%
+1367  UniRef100_UPI0002F1EDCF   51.59%    passed     99.74%
+1368  UniRef100_UPI000570C6BA   50.85%    passed    100.00%
+1369  UniRef100_UPI0008315AD2   54.51%    passed     99.60%
+1370  UniRef100_UPI001956A14D   48.29%    passed     67.92%
+1371  UniRef100_UPI0020CE6FAE   51.10%    passed     99.90%
+1372  UniRef100_UPI0022B4ABF4   49.76%    passed     99.90%
+1373  UniRef100_UPI0037BCD365   53.90%    passed     35.99%
+1374  UniRef100_UPI0035193370   53.17%    passed     99.59%
+1375  UniRef100_UPI0004C2C047   54.15%    passed     78.12%
+1376  UniRef100_UPI0018F182DC   52.93%    passed     93.72%
+1377  UniRef100_UPI002604BF25   49.76%    passed     99.99%
+1378  UniRef100_UPI002ADDCED6   54.15%    passed     96.75%
+1379  UniRef100_UPI00384B3B7E   49.76%    passed    100.00%
+1380  UniRef100_UPI001C066C29   52.20%    passed     36.43%
+1381  UniRef100_UPI001CA79DAE   51.59%    passed     99.68%
+1382  UniRef100_UPI0023574AEC   50.61%    passed     99.78%
+1383  UniRef100_UPI00273EC35E   49.51%    passed     50.08%
+1384  UniRef100_UPI0029131590   49.51%    passed     87.93%
+1385  UniRef100_UPI0032B75F4B   61.59%    passed     96.70%
+1386  UniRef100_UPI000415894F   51.59%    passed     96.46%
+1387  UniRef100_UPI001F27DE99   49.76%    passed    100.00%
+1388  UniRef100_UPI0029163124   51.10%    passed    100.00%
+1389  UniRef100_UPI0016837C21   51.46%    passed     99.98%
+1390  UniRef100_UPI00360A04EB   53.17%    passed     85.93%
+1391  UniRef100_UPI000F029E88   52.80%    passed     87.93%
+1392  UniRef100_UPI001682FCF7   51.59%    passed     99.85%
+1393  UniRef100_UPI001E2B4E61   50.61%    passed     69.43%
+1394  UniRef100_UPI001FFE5D6A   49.76%    passed    100.00%
+1395  UniRef100_UPI0020CE8047   50.73%    passed     99.60%
+1396  UniRef100_UPI0016857E58   52.20%    passed     99.98%
+1397  UniRef100_UPI0020CE6527   51.71%    passed     98.91%
+1398  UniRef100_UPI0024BA51B8   53.41%    passed     94.26%
+1399  UniRef100_UPI001AD9D192   48.41%    passed     93.32%
+1400  UniRef100_UPI001F08DEC5   52.93%    passed     84.45%
+1401  UniRef100_UPI002E760062   55.49%    failed      2.78%
+1402  UniRef100_UPI0039192447   49.76%    passed    100.00%
+1403  UniRef100_UPI00157579AA   49.63%    passed     76.19%
+1404  UniRef100_UPI001108E899   49.15%    passed     71.96%
+1405  UniRef100_UPI001ADC38FB   49.15%    passed     91.96%
+1406  UniRef100_UPI00232EEE73   48.29%    passed     98.07%
+1407  UniRef100_UPI0028B0D684   51.59%    passed     94.65%
+1408  UniRef100_H0SI18          58.29%    passed     99.96%
+1409  UniRef100_UPI003266A611   50.85%    passed    100.00%
+1410  UniRef100_UPI00333B8850   50.98%    passed     99.99%
+1411  UniRef100_UPI003AB1A71D   55.49%    failed      2.31%
+1412  UniRef100_UPI0015EF553B   51.59%    passed     64.48%
+1413  UniRef100_UPI00187E2A0F   52.44%    passed     99.97%
+1414  UniRef100_UPI0033C4FEE4   53.90%    passed      8.15%
+1415  UniRef100_UPI0036D1E55F   53.66%    passed     95.40%
+1416  UniRef100_UPI0006EC2144   53.29%    passed     21.27%
+1417  UniRef100_UPI001A8E7C19   48.17%    passed     97.99%
+1418  UniRef100_UPI001F3C067D   52.80%    passed     25.59%
+1419  UniRef100_UPI00232F1B89   52.20%    passed     99.74%
+1420  UniRef100_UPI0025AD2626   49.76%    passed    100.00%
+1421  UniRef100_UPI002740ABA9   50.73%    passed     88.64%
+1422  UniRef100_UPI002F946712   51.22%    passed     87.22%
+1423  UniRef100_UPI0003748CCD   51.10%    passed     99.99%
+1424  UniRef100_UPI0009807D13   49.76%    passed    100.00%
+1425  UniRef100_UPI002DF990EA   54.39%    passed     91.61%
+1426  UniRef100_UPI0008F8871F   52.80%    passed     94.27%
+1427  UniRef100_UPI00249072F1   48.29%    passed     99.00%
+1428  UniRef100_UPI002614E743   49.76%    passed    100.00%
+1429  UniRef100_UPI002B4B0CCA   53.17%    passed     93.21%
+1430  UniRef100_UPI003087A94A   53.05%    passed     70.97%
+1431  UniRef100_UPI003337EA9B   50.98%    passed     99.99%
+1432  UniRef100_UPI0037519A90   49.76%    passed    100.00%
+1433  UniRef100_UPI003A84BDBA   52.07%    passed     89.18%
+1434  UniRef100_UPI001FE80140   52.93%    passed     96.76%
+1435  UniRef100_UPI0023AFF815   53.05%    passed     97.77%
+1436  UniRef100_UPI002416C56A   51.95%    passed     44.79%
+1437  UniRef100_UPI0031CF436B   53.90%    passed     12.62%
+1438  UniRef100_UPI0035C8148B   49.51%    passed     75.36%
+1439  UniRef100_UPI001F23A823   49.39%    passed     69.49%
+1440  UniRef100_UPI00215ED844   50.98%    passed     99.98%
+1441  UniRef100_UPI00249B5CA5   52.07%    passed     86.65%
+1442  UniRef100_UPI0036068521   54.15%    passed     72.31%
+1443  UniRef100_UPI00156025DA   51.59%    passed     73.29%
+1444  UniRef100_UPI001FE9C407   49.51%    passed     65.95%
+1445  UniRef100_UPI0026709ABE   55.49%    failed      2.44%
+1446  UniRef100_UPI002783098C   51.10%    passed     99.99%
+1447  UniRef100_UPI000484A58E   50.98%    passed     99.98%
+1448  UniRef100_UPI0013DCB565   53.17%    passed     75.02%
+1449  UniRef100_UPI001C866841   53.05%    passed     94.21%
+1450  UniRef100_UPI0031CDBEFC   53.17%    passed     94.74%
+1451  UniRef100_UPI000A3D20A1   54.15%    passed     70.34%
+1452  UniRef100_UPI0020A6E9BC   50.98%    passed     99.99%
+1453  UniRef100_UPI00259B4A3A   52.07%    passed     84.87%
+1454  UniRef100_UPI0031706782   50.85%    passed    100.00%
+1455  UniRef100_UPI003BA8DA92   49.76%    passed    100.00%
+1456  UniRef100_UPI000468EF1B   52.20%    passed     99.95%
+1457  UniRef100_UPI000D55E07F   49.51%    passed     66.93%
+1458  UniRef100_UPI001EF4A8E7   50.85%    passed     77.99%
+1459  UniRef100_UPI001FCC81D5   52.20%    passed     99.96%
+1460  UniRef100_UPI00258460C1   52.20%    passed     99.93%
+1461  UniRef100_UPI00273DD535   51.95%    passed    100.00%
+1462  UniRef100_UPI002917031F   51.10%    passed    100.00%
+1463  UniRef100_UPI00034789E9   52.20%    passed     91.82%
+1464  UniRef100_UPI00211E65C3   51.10%    passed    100.00%
+1465  UniRef100_UPI0029C634A6   49.76%    passed     99.98%
+1466  UniRef100_UPI00341566C6   59.88%    passed     90.10%
+1467  UniRef100_UPI00187F6CFE   51.22%    passed     99.08%
+1468  UniRef100_UPI0031DF9C46   53.66%    passed     69.81%
+1469  UniRef100_UPI000B81AD55   48.29%    passed     96.56%
+1470  UniRef100_UPI002916707A   51.10%    passed    100.00%
+1471  UniRef100_UPI00391C5385   52.20%    passed     99.99%
+1472  UniRef100_UPI000D3EB760   51.10%    passed     98.67%
+1473  UniRef100_UPI0016843B2E   51.59%    passed     99.76%
+1474  UniRef100_UPI0018ACE716   53.17%    passed     83.60%
+1475  UniRef100_UPI001C8E8BFA   53.29%    passed     23.82%
+1476  UniRef100_UPI001FEC2B45   49.51%    passed     98.67%
+1477  UniRef100_UPI0025D56F92   48.54%    passed     99.98%
+1478  UniRef100_UPI0028E30EC3   51.10%    passed    100.00%
+1479  UniRef100_UPI002F40A910   52.93%    passed     77.72%
+1480  UniRef100_UPI00024A1A7E   52.80%    passed     95.56%
+1481  UniRef100_UPI000B4C0E16   50.98%    passed     99.99%
+1482  UniRef100_UPI001554730F   49.15%    passed     98.60%
+1483  UniRef100_UPI00168120DA   52.20%    passed     94.82%
+1484  UniRef100_UPI003A988625   49.76%    passed    100.00%
+1485  UniRef100_UPI003AFA5712   50.98%    passed     99.99%
+1486  UniRef100_UPI000A7AB037   54.51%    passed     94.70%
+1487  UniRef100_UPI0015F2FF73   55.49%    failed      2.28%
+1488  UniRef100_UPI001C033506   52.20%    passed     99.79%
+1489  UniRef100_UPI0007490FB4   53.66%    passed     91.89%
+1490  UniRef100_UPI0012BBC5E0   49.76%    passed     99.99%
+1491  UniRef100_UPI00333A4F1C   50.98%    passed     99.99%
+1492  UniRef100_UPI0026218605   49.88%    passed     99.61%
+1493  UniRef100_UPI003623EBD5   52.56%    passed     75.22%
+1494  UniRef100_UPI00042590B5   51.59%    passed     94.05%
+1495  UniRef100_UPI000DDA2D1B   50.98%    passed     99.95%
+1496  UniRef100_UPI00299DB57D   53.90%    passed     98.38%
+1497  UniRef100_UPI003A843E24   49.51%    passed     69.74%
+1498  UniRef100_UPI00031DEF32   53.05%    passed     68.95%
+1499  UniRef100_UPI0010C03329   53.41%    passed     97.74%
+1500  UniRef100_UPI0015581584   48.66%    passed     78.53%
+1501  UniRef100_UPI001E601543   50.85%    passed     99.97%
+1502  UniRef100_UPI001FE35540   51.34%    passed     95.73%
+1503  UniRef100_UPI001BAF2C5F   51.46%    passed     99.91%
+1504  UniRef100_UPI001C5F0DBC   49.63%    passed     84.16%
+1505  UniRef100_A0A940MSI4      50.49%    passed     96.51%
+1506  UniRef100_UPI0016841760   51.59%    passed     99.86%
+1507  UniRef100_UPI0020CE43D2   51.71%    passed     98.95%
+1508  UniRef100_UPI0022F11574   49.76%    passed    100.00%
+1509  UniRef100_UPI00249CC68A   52.93%    passed     93.11%
+1510  UniRef100_UPI0007FD999F   53.66%    passed     91.71%
+1511  UniRef100_UPI0009E04F1B   51.34%    passed      7.28%
+1512  UniRef100_UPI00273B4F74   53.78%    passed     98.51%
+1513  UniRef100_UPI0009498C0F   50.98%    passed     99.89%
+1514  UniRef100_UPI0009FACF74   48.66%    passed     99.01%
+1515  UniRef100_UPI001D809C1F   51.59%    passed     95.67%
+1516  UniRef100_UPI001E290811   51.10%    passed    100.00%
+1517  UniRef100_UPI0028EE8838   51.10%    passed    100.00%
+1518  UniRef100_UPI0004AE90AE   49.88%    passed     95.53%
+1519  UniRef100_UPI000BBA07CB   51.59%    passed     82.28%
+1520  UniRef100_UPI001AE8BA5E   51.10%    passed     98.17%
+1521  UniRef100_UPI002A0FC031   49.51%    passed     86.40%
+1522  UniRef100_UPI00361F4121   53.66%    passed     69.92%
+1523  UniRef100_UPI001E54E601   49.76%    passed    100.00%
+1524  UniRef100_UPI0029C76AC7   51.59%    passed     85.56%
+1525  UniRef100_UPI00036E1D5F   53.90%    passed     76.93%
+1526  UniRef100_UPI000BFEC651   52.68%    passed     98.26%
+1527  UniRef100_UPI0025FD4D8E   51.22%    passed     87.11%
+1528  UniRef100_UPI0039671AA2   55.49%    failed      3.75%
+1529  UniRef100_UPI00140B6FFF   51.71%    passed     98.30%
+1530  UniRef100_UPI0014850F64   55.49%    failed      2.16%
+1531  UniRef100_UPI0018827BE4   51.22%    passed     99.79%
+1532  UniRef100_UPI001ADA9BDA   49.76%    passed    100.00%
+1533  UniRef100_UPI002B26F065   49.51%    passed     95.60%
+1534  UniRef100_UPI00361DFC7B   52.93%    passed     75.74%
+1535  UniRef100_UPI003A7FCE37   50.98%    failed      0.90%
+1536  UniRef100_UPI00037E8780   51.10%    passed     99.86%
+1537  UniRef100_A0A1U7IRY9      51.10%    passed     99.77%
+1538  UniRef100_UPI00187EFB4E   52.20%    passed     99.55%
+1539  UniRef100_UPI001BD9E450   54.51%    passed     96.38%
+1540  UniRef100_UPI0031CF615A   53.17%    passed     97.08%
+1541  UniRef100_UPI00124E102C   51.10%    passed     99.74%
+1542  UniRef100_UPI002FE9C50D   49.15%    passed     97.81%
+1543  UniRef100_UPI0031F7AF0F   50.85%    passed      6.77%
+1544  UniRef100_UPI000A795930   54.51%    passed     98.41%
+1545  UniRef100_UPI0011846401   52.44%    passed     70.24%
+1546  UniRef100_UPI002365B799   53.66%    passed     73.19%
+1547  UniRef100_UPI002ED34D6E   54.39%    passed     83.43%
+1548  UniRef100_UPI0035CA841F   52.68%    passed     98.59%
+1549  UniRef100_UPI001EEBF40A   53.90%    passed     90.68%
+1550  UniRef100_UPI0021570E4B   50.98%    passed     99.97%
+1551  UniRef100_UPI00278AC5E1   51.10%    passed     99.96%
+1552  UniRef100_UPI003747FBDA   48.66%    passed    100.00%
+1553  UniRef100_UPI00391DC67C   52.93%    passed     92.38%
+1554  UniRef100_UPI001E2F1875   49.63%    passed    100.00%
+1555  UniRef100_UPI00210D0208   57.20%    passed     21.52%
+1556  UniRef100_UPI00232BEBE3   52.44%    passed     99.45%
+1557  UniRef100_UPI0036A87662   47.80%    passed     60.67%
+1558  UniRef100_UPI001865C823   51.59%    passed     99.99%
+1559  UniRef100_UPI0039C88B29   49.88%    passed     30.63%
+1560  UniRef100_UPI0029D0A132   53.05%    passed     99.72%
+1561  UniRef100_UPI0013C2BEBB   49.76%    passed    100.00%
+1562  UniRef100_UPI00166E78A0   49.51%    passed     92.89%
+1563  UniRef100_UPI001A33A608   52.44%    passed     85.42%
+1564  UniRef100_UPI002362BD61   54.63%    passed     77.74%
+1565  UniRef100_UPI002636F8F5   49.51%    passed     83.42%
+1566  UniRef100_UPI0022EFB7BB   55.00%    passed     97.19%
+1567  UniRef100_A0A439W7Q7      51.22%    passed     99.97%
+1568  UniRef100_UPI000B5310FB   49.51%    passed     64.17%
+1569  UniRef100_UPI000FD9FE67   49.51%    passed     93.74%
+1570  UniRef100_UPI001AF026CD   48.29%    passed     93.48%
+1571  UniRef100_UPI001BCB31BD   51.10%    passed     98.75%
+1572  UniRef100_UPI0020CF0408   51.22%    passed     99.64%
+1573  UniRef100_UPI0026237F51   48.78%    passed     99.99%
+1574  UniRef100_UPI00333C3135   50.98%    passed     99.99%
+1575  UniRef100_UPI00358EB355   51.10%    passed     98.72%
+1576  UniRef100_UPI0006867D9B   54.27%    passed     92.03%
+1577  UniRef100_UPI001B8C81E0   49.39%    passed     65.45%
+1578  UniRef100_UPI0020CDBE55   50.73%    passed     99.78%
+1579  UniRef100_UPI0028E3773E   51.10%    passed    100.00%
+1580  UniRef100_UPI0031E3B7B1   48.78%    passed     58.08%
+1581  UniRef100_UPI000A47B63D   54.51%    passed     98.23%
+1582  UniRef100_A0A846DTQ6      55.61%    passed     95.89%
+1583  UniRef100_UPI002B20C6AE   50.73%    passed     99.80%
+1584  UniRef100_UPI002E201F44   53.29%    passed     28.82%
+1585  UniRef100_A0A9X2T408      52.80%    passed     99.98%
+1586  UniRef100_UPI0031EFE1C6   53.78%    passed     89.22%
+1587  UniRef100_UPI00332AF43E   59.88%    passed     93.85%
+1588  UniRef100_A0A3Q8XTQ4      51.95%    passed     99.98%
+1589  UniRef100_UPI001B7FBC35   49.15%    passed     41.41%
+1590  UniRef100_UPI001BB02E01   52.44%    passed     99.97%
+1591  UniRef100_UPI001C234D41   50.73%    passed     99.95%
+1592  UniRef100_UPI0021076615   53.05%    passed     97.22%
+1593  UniRef100_UPI0028ED4FE1   51.10%    passed    100.00%
+1594  UniRef100_UPI001C1F703E   53.05%    passed     94.75%
+1595  UniRef100_UPI001D65416B   55.49%    failed      2.05%
+1596  UniRef100_UPI001ADB3D2E   48.41%    passed     85.08%
+1597  UniRef100_UPI0026748AD5   49.63%    passed     96.40%
+1598  UniRef100_UPI0028E504C0   51.10%    passed    100.00%
+1599  UniRef100_UPI002AD373C0   52.44%    passed     68.49%
+1600  UniRef100_UPI00078248FE   49.76%    passed    100.00%
+1601  UniRef100_UPI00088DE3AF   49.51%    passed     64.16%
+1602  UniRef100_UPI0036A08EB9   53.66%    passed     96.26%
+1603  UniRef100_UPI001CD9EA65   53.66%    passed     17.83%
+1604  UniRef100_UPI001FFD8B44   49.76%    passed     99.94%
+1605  UniRef100_UPI0022C901D3   52.20%    passed     99.98%
+1606  UniRef100_UPI00339F9B28   52.07%    passed     91.29%
+1607  UniRef100_UPI0009E3675F   54.02%    passed     49.30%
+1608  UniRef100_UPI0018EF9941   51.10%    passed     99.77%
+1609  UniRef100_UPI002265D9F3   53.41%    passed     85.78%
+1610  UniRef100_UPI0028E1F166   51.59%    passed     99.72%
+1611  UniRef100_UPI00112CD4BA   51.71%    passed     99.95%
+1612  UniRef100_UPI001C20F81E   50.73%    passed     99.51%
+1613  UniRef100_UPI0016286601   55.61%    passed     15.01%
+1614  UniRef100_UPI00168B6C92   51.34%    passed     91.73%
+1615  UniRef100_UPI001781F43D   50.98%    passed     99.99%
+1616  UniRef100_UPI001CCF1490   51.59%    passed     99.97%
+1617  UniRef100_UPI001EF3FFBE   50.85%    passed     68.05%
+1618  UniRef100_UPI0003153506   51.46%    passed     99.94%
+1619  UniRef100_A0A165B107      52.07%    passed     52.32%
+1620  UniRef100_UPI0020C759B8   48.54%    passed     96.09%
+1621  UniRef100_UPI0027E3216F   53.05%    passed     93.76%
+1622  UniRef100_UPI0033BD8B43   52.56%    passed     66.99%
+1623  UniRef100_UPI0031EAA8FE   53.17%    passed     83.79%
+1624  UniRef100_UPI0019A8A7CF   49.39%    passed      7.22%
+1625  UniRef100_UPI001BADCC5E   50.98%    passed    100.00%
+1626  UniRef100_UPI00333D14AF   50.98%    passed     99.97%
+1627  UniRef100_UPI002AD1D388   51.59%    passed     99.77%
+1628  UniRef100_UPI0033365D42   50.98%    passed    100.00%
+1629  UniRef100_UPI003AF167A9   55.49%    failed      2.05%
+1630  UniRef100_UPI001C9B6AE7   48.29%    passed     77.88%
+1631  UniRef100_UPI00312B4531   51.22%    passed     99.52%
+1632  UniRef100_UPI00366F4F51   55.49%    failed      2.71%
+1633  UniRef100_UPI000B2852BE   53.66%    passed     89.14%
+1634  UniRef100_UPI001866B74A   50.85%    passed     98.65%
+1635  UniRef100_UPI0025AB599F   51.59%    passed     98.39%
+1636  UniRef100_UPI0031F8CA6E   54.15%    passed     72.83%
+1637  UniRef100_UPI0018F4BE9C   52.56%    passed     79.39%
+1638  UniRef100_UPI00240F2131   49.51%    passed     76.45%
+1639  UniRef100_UPI0028033BB0   54.76%    passed     78.14%
+1640  UniRef100_UPI002FDE729F   52.68%    passed     99.21%
+1641  UniRef100_UPI003322FC14   52.07%    passed     87.83%
+1642  UniRef100_UPI003458AA9B   49.76%    passed    100.00%
+1643  UniRef100_UPI00138D80DF   52.80%    passed     96.31%
+1644  UniRef100_UPI001AED631A   53.17%    passed     69.06%
+1645  UniRef100_UPI00058B3B15   49.76%    passed    100.00%
+1646  UniRef100_UPI0020CCC299   50.73%    passed     99.93%
+1647  UniRef100_UPI002414D6BF   49.51%    passed     88.03%
+1648  UniRef100_UPI00262CF0DA   49.76%    passed     99.99%
+1649  UniRef100_UPI002B2189CA   53.66%    passed     99.93%
+1650  UniRef100_UPI002F3FA34D   53.05%    passed     86.32%
+1651  UniRef100_UPI0031EF233E   51.10%    passed     93.37%
+1652  UniRef100_UPI0021E7B992   50.98%    passed    100.00%
+1653  UniRef100_UPI0028EDD330   51.10%    passed    100.00%
+1654  UniRef100_UPI00121DC846   50.98%    passed     99.99%
+1655  UniRef100_UPI0031EC2983   49.88%    passed     93.55%
+1656  UniRef100_UPI00224F28C0   53.78%    passed     23.92%
+1657  UniRef100_UPI0024165BD5   50.98%    passed    100.00%
+1658  UniRef100_UPI00260C1BB6   49.51%    passed     88.94%
+1659  UniRef100_UPI0009354382   52.32%    passed     72.87%
+1660  UniRef100_UPI0015547474   51.10%    passed     99.81%
+1661  UniRef100_UPI0029C638D9   49.76%    passed     99.96%
+1662  UniRef100_UPI003336F140   50.98%    passed     99.99%
+1663  UniRef100_UPI0038D36D2D   51.59%    passed     93.35%
+1664  UniRef100_UPI0003F4FE0D   51.10%    passed     98.40%
+1665  UniRef100_UPI00056C66B9   51.95%    passed     99.83%
+1666  UniRef100_UPI001984E030   52.32%    passed    100.00%
+1667  UniRef100_UPI00341451A4   51.95%    passed     92.99%
+1668  UniRef100_UPI003AB7584C   55.24%    failed      2.72%
+WARNING: 1336 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                     51.80%  47 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.971 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -153166.300
+2. Current log-likelihood: -153164.968
+Optimal log-likelihood: -153164.476
+Proportion of invariable sites: 0.038
+Gamma shape alpha: 0.579
+Parameters optimization took 2 rounds (5.679 sec)
+Time for fast ML tree search: 53.020 seconds
+
+NOTE: ModelFinder requires 1982 MB RAM!
+ModelFinder will test up to 468 protein models (sample size: 820) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            170628.891   3333 347923.782   22572367.782 363619.894
+  2  LG+I          169435.047   3334 345538.095   22583318.095 361238.915
+  3  LG+G4         153262.788   3334 313193.576   22550973.576 328894.396
+  4  LG+I+G4       153164.442   3335 312998.884   22564118.884 328704.414
+  5  LG+R2         157967.697   3335 322605.394   22573725.394 338310.924
+  6  LG+R3         155011.843   3337 316697.686   22594509.686 332412.634
+  7  LG+R4         153452.346   3339 313582.691   22618102.691 329307.058
+  8  LG+R5         152944.191   3341 312570.382   22643814.382 328304.168
+  9  LG+R6         152591.754   3343 311869.507   22669853.507 327612.712
+ 10  LG+R7         152411.189   3345 311512.378   22696252.378 327265.001
+ 11  LG+R8         152298.185   3347 311290.370   22722802.370 327052.412
+ 12  LG+R9         152132.885   3349 310963.770   22749263.770 326735.230
+ 13  LG+R10        152072.758   3351 310847.515   22775951.515 326628.394
+ 26  LG+F+R10      151780.104   3370 310300.208   23030840.208 326170.564
+ 39  WAG+R10       152706.667   3351 312115.333   22777219.333 327896.212
+ 52  WAG+F+R10     152434.094   3370 311608.188   23032148.188 327478.543
+ 65  JTT+R10       153240.001   3351 313182.003   22778286.003 328962.881
+ 78  JTT+F+R10     153694.375   3370 314128.751   23034668.751 329999.106
+ 91  JTTDCMut+R10  153219.972   3351 313141.944   22778245.944 328922.823
+104  JTTDCMut+F+R10 153626.213   3370 313992.427   23034532.427 329862.782
+117  DCMut+R10     154439.464   3351 315580.929   22780684.929 331361.808
+130  DCMut+F+R10   154455.289   3370 315650.578   23036190.578 331520.934
+143  VT+R10        153346.090   3351 313394.181   22778498.181 329175.060
+156  VT+F+R10      153390.833   3370 313521.666   23034061.666 329392.022
+169  PMB+R10       154514.670   3351 315731.340   22780835.340 331512.219
+182  PMB+F+R10     154451.169   3370 315642.338   23036182.338 331512.694
+195  Blosum62+R10  154453.474   3351 315608.947   22780712.947 331389.826
+208  Blosum62+F+R10 154186.892   3370 315113.783   23035653.783 330984.139
+221  Dayhoff+R10   154423.971   3351 315549.942   22780653.942 331330.821
+234  Dayhoff+F+R10 154440.050   3370 315620.100   23036160.100 331490.456
+247  mtREV+R10     161691.782   3351 330085.564   22795189.564 345866.443
+260  mtREV+F+R10   156432.969   3370 319605.938   23040145.938 335476.294
+273  mtART+R10     165147.852   3351 336997.704   22802101.704 352778.583
+286  mtART+F+R10   159935.503   3370 326611.006   23047151.006 342481.361
+299  mtZOA+R10     159569.363   3351 325840.726   22790944.726 341621.604
+312  mtZOA+F+R10   156367.651   3370 319475.303   23040015.303 335345.658
+325  mtMAM+R10     167130.691   3351 340963.383   22806067.383 356744.262
+338  mtMAM+F+R10   162133.942   3370 331007.884   23051547.884 346878.239
+351  HIVb+R10      158882.437   3351 324466.874   22789570.874 340247.753
+364  HIVb+F+R10    158870.772   3370 324481.544   23045021.544 340351.899
+377  HIVw+R10      166341.607   3351 339385.213   22804489.213 355166.092
+390  HIVw+F+R10    164542.262   3370 335824.523   23056364.523 351694.879
+403  FLU+R10       157266.214   3351 321234.427   22786338.427 337015.306
+416  FLU+F+R10     156320.621   3370 319381.242   23039921.242 335251.597
+429  rtREV+R10     153738.706   3351 314179.412   22779283.412 329960.291
+442  rtREV+F+R10   152794.841   3370 312329.681   23032869.681 328200.037
+455  cpREV+R10     154059.679   3351 314821.358   22779925.358 330602.237
+468  cpREV+F+R10   153563.645   3370 313867.290   23034407.290 329737.646
+Akaike Information Criterion:           LG+F+R10
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+F+R10
+Best-fit model: LG+F+R10 chosen according to BIC
+
+All model information printed to hits_aligned.fasta.model.gz
+CPU time for ModelFinder: 193676.833 seconds (53h:47m:56s)
+Wall-clock time for ModelFinder: 36176.643 seconds (10h:2m:56s)
+Generating 1000 samples for ultrafast bootstrap (seed: 883539)...
+
+NOTE: 1982 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -151780.104
+2. Current log-likelihood: -151779.645
+3. Current log-likelihood: -151779.395
+4. Current log-likelihood: -151779.236
+5. Current log-likelihood: -151779.000
+6. Current log-likelihood: -151778.848
+7. Current log-likelihood: -151778.691
+8. Current log-likelihood: -151778.536
+9. Current log-likelihood: -151778.303
+10. Current log-likelihood: -151778.158
+11. Current log-likelihood: -151778.009
+12. Current log-likelihood: -151777.868
+13. Current log-likelihood: -151777.722
+14. Current log-likelihood: -151777.581
+15. Current log-likelihood: -151777.440
+16. Current log-likelihood: -151777.305
+17. Current log-likelihood: -151777.171
+18. Current log-likelihood: -151777.036
+19. Current log-likelihood: -151776.906
+20. Current log-likelihood: -151776.776
+21. Current log-likelihood: -151776.640
+22. Current log-likelihood: -151776.511
+23. Current log-likelihood: -151776.385
+24. Current log-likelihood: -151776.257
+25. Current log-likelihood: -151776.135
+26. Current log-likelihood: -151776.015
+27. Current log-likelihood: -151775.896
+28. Current log-likelihood: -151775.778
+29. Current log-likelihood: -151775.662
+30. Current log-likelihood: -151775.547
+31. Current log-likelihood: -151775.433
+32. Current log-likelihood: -151775.319
+33. Current log-likelihood: -151775.207
+34. Current log-likelihood: -151775.097
+35. Current log-likelihood: -151774.987
+36. Current log-likelihood: -151774.880
+37. Current log-likelihood: -151774.769
+38. Current log-likelihood: -151774.663
+39. Current log-likelihood: -151774.560
+40. Current log-likelihood: -151774.456
+41. Current log-likelihood: -151774.352
+Optimal log-likelihood: -151774.184
+Site proportion and rates:  (0.126,0.011) (0.105,0.057) (0.132,0.134) (0.146,0.266) (0.067,0.428) (0.073,0.648) (0.062,0.938) (0.069,1.304) (0.097,2.238) (0.122,4.046)
+Parameters optimization took 41 rounds (656.112 sec)
+Computing ML distances based on estimated model parameters... 429.838 sec
+Computing BIONJ tree...
+4.677 seconds
+Log-likelihood of BIONJ tree: -156169.804
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 171.552 second
+Computing log-likelihood of 98 initial trees ... 158.989 seconds
+Current best score: -151774.184
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -151669.797
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -151535.161
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -151378.223
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -151319.754
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -151297.802
+Iteration 10 / LogL: -151297.802 / Time: 0h:38m:44s
+Iteration 20 / LogL: -151458.760 / Time: 0h:54m:33s
+Finish initializing candidate tree set (20)
+Current best tree score: -151297.802 / CPU time: 2511.858
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -151247.202
+Iteration 30 / LogL: -151417.527 / Time: 1h:5m:53s (3h:38m:8s left)
+Iteration 40 / LogL: -151316.638 / Time: 1h:14m:17s (2h:43m:49s left)
+Iteration 50 / LogL: -151436.706 / Time: 1h:22m:10s (2h:7m:27s left)
+Log-likelihood cutoff on original alignment: -151547.036
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -151240.442
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -151206.862
+Iteration 60 / LogL: -151282.796 / Time: 1h:32m:48s (2h:29m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -151203.824
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -151165.466
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 70: -151154.820
+Iteration 70 / LogL: -151154.820 / Time: 1h:42m:54s (2h:29m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 74: -151145.670
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 75: -151103.629
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 80: -151037.720
+Iteration 80 / LogL: -151037.720 / Time: 1h:52m:23s (2h:22m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 83: -151002.772
+Iteration 90 / LogL: -151190.978 / Time: 2h:1m:10s (2h:6m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 97: -150983.001
+Iteration 100 / LogL: -151029.391 / Time: 2h:10m:4s (2h:7m:27s left)
+Log-likelihood cutoff on original alignment: -151456.078
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.858
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 108: -150977.938
+Iteration 110 / LogL: -151047.802 / Time: 2h:18m:41s (2h:4m:41s left)
+Iteration 120 / LogL: -151123.129 / Time: 2h:26m:18s (1h:48m:11s left)
+Iteration 130 / LogL: -151083.680 / Time: 2h:34m:53s (1h:33m:39s left)
+Iteration 140 / LogL: -151238.425 / Time: 2h:43m:9s (1h:19m:49s left)
+Iteration 150 / LogL: -151202.846 / Time: 2h:51m:27s (1h:6m:44s left)
+Log-likelihood cutoff on original alignment: -151456.078
+Iteration 160 / LogL: -151166.092 / Time: 3h:0m:0s (0h:54m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 168: -150964.962
+Iteration 170 / LogL: -151059.190 / Time: 3h:8m:29s (1h:49m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 171: -150962.547
+Iteration 180 / LogL: -151182.955 / Time: 3h:17m:26s (1h:40m:22s left)
+Iteration 190 / LogL: -151053.311 / Time: 3h:25m:47s (1h:28m:11s left)
+Iteration 200 / LogL: -151049.984 / Time: 3h:34m:5s (1h:16m:23s left)
+Log-likelihood cutoff on original alignment: -151456.078
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.972
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 209: -150947.281
+Iteration 210 / LogL: -151102.962 / Time: 3h:43m:15s (1h:45m:45s left)
+Iteration 220 / LogL: -151140.370 / Time: 3h:51m:18s (1h:34m:0s left)
+Iteration 230 / LogL: -151060.479 / Time: 3h:59m:44s (1h:22m:42s left)
+Iteration 240 / LogL: -151033.867 / Time: 4h:8m:26s (1h:11m:43s left)
+Iteration 250 / LogL: -151077.582 / Time: 4h:16m:35s (1h:0m:47s left)
+Log-likelihood cutoff on original alignment: -151456.078
+Iteration 260 / LogL: -151035.351 / Time: 4h:24m:21s (0h:50m:0s left)
+Iteration 270 / LogL: -151014.284 / Time: 4h:32m:27s (0h:39m:30s left)
+Iteration 280 / LogL: -151004.918 / Time: 4h:40m:30s (0h:29m:9s left)
+Iteration 290 / LogL: -151005.863 / Time: 4h:48m:35s (0h:18m:58s left)
+Iteration 300 / LogL: -151034.881 / Time: 4h:56m:48s (0h:8m:56s left)
+Log-likelihood cutoff on original alignment: -151397.028
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -151097.959 / Time: 5h:4m:52s (1h:28m:47s left)
+Iteration 320 / LogL: -150990.451 / Time: 5h:13m:12s (1h:18m:32s left)
+Iteration 330 / LogL: -150950.901 / Time: 5h:21m:5s (1h:8m:18s left)
+Iteration 340 / LogL: -151052.394 / Time: 5h:29m:29s (0h:58m:18s left)
+Iteration 350 / LogL: -151053.098 / Time: 5h:37m:50s (0h:48m:24s left)
+Log-likelihood cutoff on original alignment: -151397.028
+Iteration 360 / LogL: -151135.695 / Time: 5h:45m:45s (0h:38m:31s left)
+Iteration 370 / LogL: -150984.889 / Time: 5h:53m:37s (0h:28m:45s left)
+Iteration 380 / LogL: -151036.787 / Time: 6h:1m:37s (0h:19m:4s left)
+Iteration 390 / LogL: -151162.976 / Time: 6h:9m:42s (0h:9m:30s left)
+Iteration 400 / LogL: -151067.093 / Time: 6h:17m:59s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151397.028
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -151231.171 / Time: 6h:25m:57s (1h:24m:55s left)
+Iteration 420 / LogL: -151043.633 / Time: 6h:34m:42s (1h:15m:21s left)
+Iteration 430 / LogL: -150991.925 / Time: 6h:43m:50s (1h:5m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 440: -150932.865
+Iteration 440 / LogL: -150932.865 / Time: 6h:53m:4s (1h:34m:5s left)
+Iteration 450 / LogL: -151052.177 / Time: 7h:1m:51s (1h:24m:33s left)
+Log-likelihood cutoff on original alignment: -151397.028
+Iteration 460 / LogL: -151044.471 / Time: 7h:10m:50s (1h:15m:5s left)
+Iteration 470 / LogL: -150970.727 / Time: 7h:19m:28s (1h:5m:35s left)
+Iteration 480 / LogL: -151084.280 / Time: 7h:27m:29s (0h:56m:3s left)
+Iteration 490 / LogL: -151044.883 / Time: 7h:35m:34s (0h:46m:34s left)
+Iteration 500 / LogL: -150994.043 / Time: 7h:44m:9s (0h:37m:12s left)
+Log-likelihood cutoff on original alignment: -151397.028
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 510 / LogL: -151004.729 / Time: 7h:51m:55s (1h:23m:26s left)
+Iteration 520 / LogL: -151616.274 / Time: 8h:0m:23s (1h:14m:2s left)
+Iteration 530 / LogL: -151230.221 / Time: 8h:8m:44s (1h:4m:40s left)
+Iteration 540 / LogL: -151020.608 / Time: 8h:16m:44s (0h:55m:17s left)
+TREE SEARCH COMPLETED AFTER 541 ITERATIONS / Time: 8h:17m:36s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -150932.865
+2. Current log-likelihood: -150932.839
+3. Current log-likelihood: -150932.799
+4. Current log-likelihood: -150932.756
+5. Current log-likelihood: -150932.714
+6. Current log-likelihood: -150932.671
+7. Current log-likelihood: -150932.626
+8. Current log-likelihood: -150932.586
+9. Current log-likelihood: -150932.547
+10. Current log-likelihood: -150932.505
+11. Current log-likelihood: -150932.469
+12. Current log-likelihood: -150932.431
+13. Current log-likelihood: -150932.392
+14. Current log-likelihood: -150932.355
+15. Current log-likelihood: -150932.319
+16. Current log-likelihood: -150932.285
+17. Current log-likelihood: -150932.247
+18. Current log-likelihood: -150932.211
+19. Current log-likelihood: -150932.175
+20. Current log-likelihood: -150932.143
+21. Current log-likelihood: -150932.107
+22. Current log-likelihood: -150932.071
+23. Current log-likelihood: -150932.037
+24. Current log-likelihood: -150932.006
+25. Current log-likelihood: -150931.973
+26. Current log-likelihood: -150931.943
+27. Current log-likelihood: -150931.912
+28. Current log-likelihood: -150931.879
+29. Current log-likelihood: -150931.847
+30. Current log-likelihood: -150931.814
+31. Current log-likelihood: -150931.781
+32. Current log-likelihood: -150931.749
+33. Current log-likelihood: -150931.721
+34. Current log-likelihood: -150931.691
+35. Current log-likelihood: -150931.663
+36. Current log-likelihood: -150931.642
+37. Current log-likelihood: -150931.614
+38. Current log-likelihood: -150931.584
+39. Current log-likelihood: -150931.555
+40. Current log-likelihood: -150931.529
+41. Current log-likelihood: -150931.502
+42. Current log-likelihood: -150931.482
+43. Current log-likelihood: -150931.455
+44. Current log-likelihood: -150931.435
+45. Current log-likelihood: -150931.409
+46. Current log-likelihood: -150931.383
+47. Current log-likelihood: -150931.363
+48. Current log-likelihood: -150931.338
+49. Current log-likelihood: -150931.319
+50. Current log-likelihood: -150931.294
+51. Current log-likelihood: -150931.276
+52. Current log-likelihood: -150931.250
+53. Current log-likelihood: -150931.226
+54. Current log-likelihood: -150931.208
+55. Current log-likelihood: -150931.183
+56. Current log-likelihood: -150931.166
+57. Current log-likelihood: -150931.142
+58. Current log-likelihood: -150931.125
+59. Current log-likelihood: -150931.107
+60. Current log-likelihood: -150931.084
+61. Current log-likelihood: -150931.068
+62. Current log-likelihood: -150931.050
+63. Current log-likelihood: -150931.032
+64. Current log-likelihood: -150931.016
+65. Current log-likelihood: -150930.998
+66. Current log-likelihood: -150930.975
+67. Current log-likelihood: -150930.960
+68. Current log-likelihood: -150930.942
+69. Current log-likelihood: -150930.925
+70. Current log-likelihood: -150930.903
+71. Current log-likelihood: -150930.888
+72. Current log-likelihood: -150930.871
+73. Current log-likelihood: -150930.855
+74. Current log-likelihood: -150930.839
+75. Current log-likelihood: -150930.817
+76. Current log-likelihood: -150930.802
+77. Current log-likelihood: -150930.785
+78. Current log-likelihood: -150930.768
+79. Current log-likelihood: -150930.747
+80. Current log-likelihood: -150930.733
+81. Current log-likelihood: -150930.717
+82. Current log-likelihood: -150930.702
+83. Current log-likelihood: -150930.689
+84. Current log-likelihood: -150930.676
+85. Current log-likelihood: -150930.663
+86. Current log-likelihood: -150930.650
+87. Current log-likelihood: -150930.638
+88. Current log-likelihood: -150930.625
+89. Current log-likelihood: -150930.614
+90. Current log-likelihood: -150930.600
+91. Current log-likelihood: -150930.585
+92. Current log-likelihood: -150930.573
+93. Current log-likelihood: -150930.563
+94. Current log-likelihood: -150930.549
+95. Current log-likelihood: -150930.537
+96. Current log-likelihood: -150930.527
+97. Current log-likelihood: -150930.515
+98. Current log-likelihood: -150930.503
+99. Current log-likelihood: -150930.493
+Optimal log-likelihood: -150930.493
+Site proportion and rates:  (0.121,0.008) (0.112,0.056) (0.134,0.132) (0.146,0.262) (0.059,0.423) (0.075,0.621) (0.062,0.921) (0.071,1.274) (0.096,2.215) (0.124,4.075)
+Parameters optimization took 99 rounds (1154.380 sec)
+BEST SCORE FOUND : -150930.493
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -150930.071 > -150930.493
+Alternative NNI shows better log-likelihood -150929.675 > -150930.493
+Alternative NNI shows better log-likelihood -150930.231 > -150930.493
+Alternative NNI shows better log-likelihood -150930.435 > -150930.493
+Alternative NNI shows better log-likelihood -150930.440 > -150930.493
+Alternative NNI shows better log-likelihood -150930.310 > -150930.493
+Alternative NNI shows better log-likelihood -150929.842 > -150930.493
+Alternative NNI shows better log-likelihood -150930.260 > -150930.493
+Alternative NNI shows better log-likelihood -150930.393 > -150930.493
+7.896 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file hits_aligned.fasta.splits.nex
+Total tree length: 238.524
+
+Total number of iterations: 541
+CPU time used for tree search: 170850.185 sec (47h:27m:30s)
+Wall-clock time used for tree search: 29094.841 sec (8h:4m:54s)
+Total CPU time used: 181163.097 sec (50h:19m:23s)
+Total wall-clock time used: 31024.101 sec (8h:37m:4s)
+
+Computing bootstrap consensus tree...
+Reading input file hits_aligned.fasta.splits.nex...
+1668 taxa and 11475 splits.
+Consensus tree written to hits_aligned.fasta.contree
+Reading input trees file hits_aligned.fasta.contree
+Log-likelihood of consensus tree: -150893.423
+
+Analysis results written to: 
+  IQ-TREE report:                hits_aligned.fasta.iqtree
+  Maximum-likelihood tree:       hits_aligned.fasta.treefile
+  Likelihood distances:          hits_aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          hits_aligned.fasta.splits.nex
+  Consensus tree:                hits_aligned.fasta.contree
+  Screen log file:               hits_aligned.fasta.log
+
+Date and Time: Thu Jun 11 12:01:18 2026
